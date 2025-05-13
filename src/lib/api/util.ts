@@ -10,6 +10,11 @@ export class AIServiceError extends Error {
   }
 }
 
+// Define ContentItem type used for multimodal prompts
+type ContentItem = 
+  | { type: 'text'; text: string }
+  | { type: 'image_url'; image_url: { url: string } };
+
 export type TextGenerationResult = {
   text: string;
   usage: {
