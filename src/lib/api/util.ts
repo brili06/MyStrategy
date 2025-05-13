@@ -20,29 +20,18 @@ export type TextGenerationResult = {
   finishReason?: 'stop' | 'length' | 'content_filter';
 };
 
-// Define ContentItem type for vision-related functions
-type ContentItem = {
-  type: 'text' | 'image_url';
-  text?: string;
-  image_url?: {
-    url: string;
-  };
-};
-
 const CONFIG: {
     webId: string;
     availableProviders: {
       text: string[];
-      visionEnabled: string[];
     };
   } = {
     webId: "682352f08354ed001300317d",
     availableProviders: {
-      "text": [
-        "azure-gpt-4o-o3-mini"
-      ],
-      "visionEnabled": []
-    }
+  "text": [
+    "azure-gpt-4o-o3-mini"
+  ]
+}
   };
 
 const API_KEYS = {};
@@ -139,7 +128,7 @@ export function getTextProviders(): string[] {
  * @returns An array of all available vision-enabled providers
  */
 export function getVisionEnabledProviders(): string[] {
-  return CONFIG.availableProviders.visionEnabled || [];
+  return CONFIG.availableProviders.visionEnabled;
 }
 
 /**
