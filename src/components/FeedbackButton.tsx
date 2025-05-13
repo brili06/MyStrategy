@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageSquare, X, Send, Loader2 } from 'lucide-react';
-import emailjs from '@emailjs/browser';
+import { send } from '@emailjs/browser';
 
 interface FeedbackFormData {
   name: string;
@@ -81,7 +81,7 @@ export default function FeedbackButton() {
         message: formData.message,
       };
       
-      await emailjs.send(serviceId, templateId, templateParams, publicKey);
+      await send(serviceId, templateId, templateParams, publicKey);
       
       setSubmitStatus('success');
       

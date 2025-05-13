@@ -128,7 +128,7 @@ export function getTextProviders(): string[] {
  * @returns An array of all available vision-enabled providers
  */
 export function getVisionEnabledProviders(): string[] {
-  return CONFIG.availableProviders.visionEnabled;
+  return []; // No vision-enabled providers available yet
 }
 
 /**
@@ -147,9 +147,8 @@ export async function generateTextWithImages(
   if (!imageUrls || !Array.isArray(imageUrls)) throw new Error('Image URLs must be an array');
   if (!provider) throw new Error('Provider is required');
   
-  if (!CONFIG.availableProviders.visionEnabled.includes(provider)) {
-    throw new Error(`Provider ${provider} does not support image inputs`);
-  }
+  // Check if provider supports vision
+  throw new Error(`No vision-enabled providers are currently available`);
   
   try {
     const implementation = textProviderImplementations[provider] as VisionTextProviderImplementation;
@@ -186,9 +185,8 @@ export async function generateTextWithImagesStream(
   if (!onChunk) throw new Error('onChunk callback is required');
   if (!provider) throw new Error('Provider is required');
   
-  if (!CONFIG.availableProviders.visionEnabled.includes(provider)) {
-    throw new Error(`Provider ${provider} does not support image inputs`);
-  }
+  // Check if provider supports vision
+  throw new Error(`No vision-enabled providers are currently available`);
   
   try {
     const implementation = textProviderImplementations[provider] as VisionTextProviderImplementation;
