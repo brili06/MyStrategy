@@ -113,7 +113,7 @@ export default function HomePage() {
       
       <footer className="bg-white border-t border-slate-200 py-6 mt-12">
         <div className="container mx-auto px-6 text-center text-slate-500">
-          &copy; {new Date().getFullYear()} Strategic Management Assistant | All Rights Reserved
+          &copy; 2025 – This system is owned by Brilian Setia | All rights reserved.
         </div>
       </footer>
     </div>
