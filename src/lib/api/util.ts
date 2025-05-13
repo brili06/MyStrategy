@@ -163,7 +163,7 @@ export async function generateTextWithImages(
       throw error;
     } else {
       throw new AIServiceError(
-        `Error generating text with images: ${error instanceof Error ? error.message : String(error)}`,
+        `Error generating text with images: ${error instanceof Error ? (error as Error).message : String(error)}`,
         500,
         provider
       );
@@ -201,7 +201,7 @@ export async function generateTextWithImagesStream(
       throw error;
     } else {
       throw new AIServiceError(
-        `Error streaming text with images: ${error instanceof Error ? error.message : String(error)}`,
+        `Error streaming text with images: ${error instanceof Error ? (error as Error).message : String(error)}`,
         500,
         provider
       );
