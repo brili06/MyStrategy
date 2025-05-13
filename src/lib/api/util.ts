@@ -20,28 +20,17 @@ export type TextGenerationResult = {
   finishReason?: 'stop' | 'length' | 'content_filter';
 };
 
-// Define ContentItem type for vision models
-type ContentItem = {
-  type: string;
-  text?: string;
-  image_url?: {
-    url: string;
-  };
-};
-
 const CONFIG: {
     webId: string;
     availableProviders: {
       text: string[];
-      visionEnabled?: string[];
     };
   } = {
-    webId: "681b35ea273bed00135a83b6",
+    webId: "682352f08354ed001300317d",
     availableProviders: {
   "text": [
     "azure-gpt-4o-o3-mini"
-  ],
-  "visionEnabled": []
+  ]
 }
   };
 
