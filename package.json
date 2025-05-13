@@ -20,6 +20,7 @@
         "db:generate": "npx drizzle-kit generate && npx drizzle-kit migrate && git add . && git commit -m 'chore: update migration'"
     },
     "dependencies": {
+        "@emailjs/browser": "^4.4.1",
         "@hookform/resolvers": "^5.0.1",
         "@jest/globals": "^29.7.0",
         "@neondatabase/serverless": "^1.0.0",

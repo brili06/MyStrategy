@@ -3,6 +3,7 @@ import React from "react";
 
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
+import FeedbackButton from "@/components/FeedbackButton";
 
 export const viewport = {
   width: "device-width",
@@ -54,7 +55,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <body className="min-h-screen bg-[#f8fafc]">{children}</body>
+      <body className="min-h-screen bg-[#f8fafc]">
+        {children}
+        <FeedbackButton />
+      </body>
     </html>
   );
 }
