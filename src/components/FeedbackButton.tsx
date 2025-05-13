@@ -67,11 +67,10 @@ export default function FeedbackButton() {
     setIsSubmitting(true);
     setSubmitStatus('idle');
     
-    // Configure EmailJS with your service ID, template ID, and public key
-    // You'll need to sign up at https://www.emailjs.com/
-    const serviceId = 'YOUR_EMAILJS_SERVICE_ID';  // Replace with your Service ID
-    const templateId = 'YOUR_EMAILJS_TEMPLATE_ID';  // Replace with your Template ID
-    const publicKey = 'YOUR_EMAILJS_PUBLIC_KEY';  // Replace with your Public Key
+    // EmailJS configuration with provided credentials
+    const serviceId = 'service_33f1gm3';
+    const templateId = 'template_umd1op3';
+    const publicKey = 'ECikutdcmOAlazMQT';
     
     try {
       const templateParams = {
@@ -102,7 +101,7 @@ export default function FeedbackButton() {
       {/* Feedback Button */}
       <motion.button
         onClick={openModal}
-        className="fixed z-40 bottom-8 right-8 flex items-center gap-2 px-4 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700"
+        className="fixed z-40 bottom-8 left-8 flex items-center gap-2 px-4 py-3 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >
