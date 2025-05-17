@@ -5,6 +5,7 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import FeedbackButton from "@/components/FeedbackButton";
 
+import { DevtoolsProvider } from 'creatr-devtools'
 export const viewport = {
   width: "device-width",
   initialScale: 1,
@@ -55,10 +56,12 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <body className="min-h-screen bg-[#f8fafc]">
+      <DevtoolsProvider>
+  <body className="min-h-screen bg-[#f8fafc]">
         {children}
         <FeedbackButton />
       </body>
+</DevtoolsProvider>
     </html>
   );
 }
