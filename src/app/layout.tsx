@@ -56,12 +56,12 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <DevtoolsProvider>
+      
   <body className="min-h-screen bg-[#f8fafc]">
-        {children}
+        <DevtoolsProvider>{children}</DevtoolsProvider>
         <FeedbackButton />
       </body>
-</DevtoolsProvider>
+
     </html>
   );
 }
