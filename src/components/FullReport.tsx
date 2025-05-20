@@ -854,112 +854,112 @@ export default function FullReport({
     y: 0
   }} transition={{
     duration: 0.5
-  }} className="bg-white border border-slate-200 rounded-xl shadow-sm p-6" data-unique-id="4caed33e-d96b-4840-a5ce-2129a4a542e2" data-loc="920:4-925:5" data-file-name="components/FullReport.tsx">
-      <h3 className="text-xl font-semibold text-slate-800 mb-4" data-unique-id="3bd480a3-90f0-4dd6-844e-c762009c0d9f" data-loc="926:6-926:64" data-file-name="components/FullReport.tsx">Full Strategic Analysis Report</h3>
-      <p className="text-slate-500 mb-6" data-unique-id="d1916648-e590-4679-a8fe-6f63cef5a355" data-loc="927:6-927:41" data-file-name="components/FullReport.tsx">
+  }} className="bg-white border border-slate-200 rounded-xl shadow-sm p-6" data-unique-id="1734434a-4a13-4595-b0a3-a20775cec7fd" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+      <h3 className="text-xl font-semibold text-slate-800 mb-4" data-unique-id="0a20c7ee-20b7-4840-8fc5-36a1f0089ef6" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="14bff8bd-1024-42ff-a98c-b065c787e565" data-file-name="components/FullReport.tsx">Full Strategic Analysis Report</span></h3>
+      <p className="text-slate-500 mb-6" data-unique-id="1e7dad10-c389-4dd8-a2c6-96ba42e6c58c" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="ad49ac5a-1331-4486-9f88-145dc5c71b69" data-file-name="components/FullReport.tsx">
         Generate a comprehensive report with all analysis sections including Company Profile, SWOT Analysis, 
         IFE Matrix, EFE Matrix, and IE Matrix positioning.
-      </p>
+      </span></p>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4" data-unique-id="46a91f59-2f91-48e8-a363-31cda22666c5" data-loc="932:6-932:61" data-file-name="components/FullReport.tsx">
-        <button onClick={exportToPDF} disabled={isExporting} className="flex items-center justify-center gap-3 p-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" data-unique-id="f5f61fe3-525a-475a-80bf-1e96c0c412d4" data-loc="933:8-937:9" data-file-name="components/FullReport.tsx">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4" data-unique-id="21b45da0-de4f-4c0a-ac48-c480ed27746c" data-file-name="components/FullReport.tsx">
+        <button onClick={exportToPDF} disabled={isExporting} className="flex items-center justify-center gap-3 p-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors" data-unique-id="5fe1026e-db28-457c-afc5-f3a4b1434bc5" data-file-name="components/FullReport.tsx">
           <FileText className="h-6 w-6" />
-          <div className="text-left" data-unique-id="bc19bf7b-5ea8-45be-bcd1-b0306ece3b7f" data-loc="939:10-939:37" data-file-name="components/FullReport.tsx">
-            <span className="font-medium block" data-unique-id="1e64e1a1-c6a5-4838-b49f-910ed6857cb6" data-loc="940:12-940:48" data-file-name="components/FullReport.tsx">Download as PDF</span>
-            <span className="text-xs text-blue-100" data-unique-id="d5247ebf-fa51-452d-a128-c00fcef01d42" data-loc="941:12-941:52" data-file-name="components/FullReport.tsx">Complete report in A4 format</span>
+          <div className="text-left" data-unique-id="492dbd47-e0ab-411a-9e99-0692c6477ea6" data-file-name="components/FullReport.tsx">
+            <span className="font-medium block" data-unique-id="d10aa22b-872b-47a3-b804-19879e21818c" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="899ea833-16c8-478b-bf5b-dff847b01fd1" data-file-name="components/FullReport.tsx">Download as PDF</span></span>
+            <span className="text-xs text-blue-100" data-unique-id="295dd4fa-3c5b-4ccd-bd29-ff9dafb614b9" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="0f89444f-8d4d-4461-a596-1a28330c2e6b" data-file-name="components/FullReport.tsx">Complete report in A4 format</span></span>
           </div>
         </button>
         
-        <button onClick={printReport} disabled={isExporting} className="flex items-center justify-center gap-3 p-4 bg-slate-700 text-white rounded-lg hover:bg-slate-800 transition-colors" data-unique-id="366b19a5-7ca7-4ccd-ac54-165ae427dc22" data-loc="945:8-949:9" data-file-name="components/FullReport.tsx">
+        <button onClick={printReport} disabled={isExporting} className="flex items-center justify-center gap-3 p-4 bg-slate-700 text-white rounded-lg hover:bg-slate-800 transition-colors" data-unique-id="7f51a71c-fd8e-41f0-b34e-bb3d6df41bb9" data-file-name="components/FullReport.tsx">
           <Printer className="h-6 w-6" />
-          <div className="text-left" data-unique-id="35b3ce6a-7247-42c5-b466-3f0244e5af8b" data-loc="951:10-951:37" data-file-name="components/FullReport.tsx">
-            <span className="font-medium block" data-unique-id="c948aef9-a83c-4ade-9b3b-b52e98484722" data-loc="952:12-952:48" data-file-name="components/FullReport.tsx">Print Report</span>
-            <span className="text-xs text-slate-300" data-unique-id="8e6ed7aa-2470-4a60-b621-b84ae5b69a2b" data-loc="953:12-953:53" data-file-name="components/FullReport.tsx">Open browser print dialog</span>
+          <div className="text-left" data-unique-id="18b4f2d5-ebec-4499-957a-0714309993a9" data-file-name="components/FullReport.tsx">
+            <span className="font-medium block" data-unique-id="96642c7d-99de-42bb-b228-a257c4c2cf1b" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="282db65e-cb28-4b22-9531-7b405abb88f7" data-file-name="components/FullReport.tsx">Print Report</span></span>
+            <span className="text-xs text-slate-300" data-unique-id="5ff68961-4443-4ef4-93fc-b535abcfbbe0" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="dc9ed4aa-3bf8-409a-9076-14c2f6889995" data-file-name="components/FullReport.tsx">Open browser print dialog</span></span>
           </div>
         </button>
       </div>
       
-      {isExporting && <div className="mt-4 flex items-center justify-center py-3 bg-blue-50 text-blue-700 rounded-lg" data-unique-id="642bfc91-2119-486a-9870-6ffc5075aabf" data-loc="959:8-959:104" data-file-name="components/FullReport.tsx">
-          <div className="animate-pulse mr-2 h-2 w-2 bg-blue-600 rounded-full" data-unique-id="00de4ff8-69e1-4e81-aeee-6bcec92e8562" data-loc="960:10-960:79" data-file-name="components/FullReport.tsx"></div>
+      {isExporting && <div className="mt-4 flex items-center justify-center py-3 bg-blue-50 text-blue-700 rounded-lg" data-unique-id="ca768809-1d1f-484c-99fa-e3e9d7b043cd" data-file-name="components/FullReport.tsx">
+          <div className="animate-pulse mr-2 h-2 w-2 bg-blue-600 rounded-full" data-unique-id="906c7206-c2d7-46ca-983e-07b0084d829e" data-file-name="components/FullReport.tsx"></div>
           <div className="animate-pulse mr-2 h-2 w-2 bg-blue-600 rounded-full" style={{
         animationDelay: "0.2s"
-      }} data-unique-id="77169d33-e063-434a-88fa-5e65c94dbf07" data-loc="961:10-961:114" data-file-name="components/FullReport.tsx"></div>
+      }} data-unique-id="b19c2488-395d-4511-8072-1fc3d9fadf33" data-file-name="components/FullReport.tsx"></div>
           <div className="animate-pulse mr-2 h-2 w-2 bg-blue-600 rounded-full" style={{
         animationDelay: "0.4s"
-      }} data-unique-id="d58c97fd-66ab-4122-a338-2a6f778dfe5f" data-loc="962:10-962:114" data-file-name="components/FullReport.tsx"></div>
-          <span data-unique-id="5a32201c-a417-43b7-8413-af8df8eb1f33" data-loc="963:10-963:16" data-file-name="components/FullReport.tsx">Processing report...</span>
+      }} data-unique-id="aaa1713a-c73a-44b7-b97c-b70ba4e870c4" data-file-name="components/FullReport.tsx"></div>
+          <span data-unique-id="2a1d2263-e54f-4036-8dfc-05de05fd9699" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="34ab7fe1-a53d-4e62-b3e2-c017691aba77" data-file-name="components/FullReport.tsx">Processing report...</span></span>
         </div>}
       
       {/* Hidden print-only section that will be visible when printing */}
-      <div className="hidden print:block" data-unique-id="40e84e5c-b443-40c5-a1b9-4d263e313673" data-loc="968:6-968:42" data-file-name="components/FullReport.tsx">
-        <div className="p-8" data-unique-id="5d67c514-20a5-405e-b70e-d65a47b523df" data-loc="969:8-969:29" data-file-name="components/FullReport.tsx">
-          <h1 className="text-3xl font-bold text-center mb-6" data-unique-id="e9081eb5-b48c-4720-b818-f288c3684a93" data-loc="970:10-970:62" data-file-name="components/FullReport.tsx">Strategic Analysis Report</h1>
-          <p className="text-center text-slate-500 mb-8" data-unique-id="9969144b-4773-40af-b98a-dfa35ec147b5" data-loc="971:10-971:57" data-file-name="components/FullReport.tsx">Generated: {new Date().toLocaleDateString()}</p>
+      <div className="hidden print:block" data-unique-id="b847fbd3-fcd6-4ac3-b1cd-80715406933f" data-file-name="components/FullReport.tsx">
+        <div className="p-8" data-unique-id="8e250726-ef17-415a-99b9-46f31ff2062b" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+          <h1 className="text-3xl font-bold text-center mb-6" data-unique-id="ca64cfc1-e81a-4fb6-9570-4779944622ab" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="783809dd-d105-46e4-a70a-c3df2596d025" data-file-name="components/FullReport.tsx">Strategic Analysis Report</span></h1>
+          <p className="text-center text-slate-500 mb-8" data-unique-id="a8ecbc9d-db8e-42d1-ac2d-6bcb5cc7561c" data-file-name="components/FullReport.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="150743d0-a298-408a-9d88-792ba9c40add" data-file-name="components/FullReport.tsx">Generated: </span>{new Date().toLocaleDateString()}</p>
           
           {/* Company Profile Section */}
-          {companyProfile && <div className="mb-10" data-unique-id="ab98f004-82e3-4e85-bd8b-1ca77d54e9f3" data-loc="975:12-975:35" data-file-name="components/FullReport.tsx">
-              <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="056abae0-29cd-474f-8460-ce2ce726d2f8" data-loc="976:14-976:87" data-file-name="components/FullReport.tsx">Company Profile</h2>
-              <div className="grid grid-cols-2 gap-4 mb-4" data-unique-id="f17ec228-53e2-43cc-b9f5-fca9e56cc66e" data-loc="977:14-977:59" data-file-name="components/FullReport.tsx">
-                <div data-unique-id="49474b56-8dfd-4c4f-a78d-28b592516b87" data-loc="978:16-978:21" data-file-name="components/FullReport.tsx">
-                  <p className="font-semibold" data-unique-id="d634ffe0-aee8-43c0-967a-99c057b0297f" data-loc="979:18-979:47" data-file-name="components/FullReport.tsx">Company Name</p>
-                  <p data-unique-id="d2adb4aa-eb30-48f9-af42-2b2a7c4d963d" data-loc="980:18-980:21" data-file-name="components/FullReport.tsx">{companyProfile.name}</p>
+          {companyProfile && <div className="mb-10" data-unique-id="aa40e11b-0688-42e7-b2b8-c88a2b19f939" data-file-name="components/FullReport.tsx">
+              <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="9a9e575d-c4c7-4317-8116-2d396052e8fe" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="55dc7cef-d9e5-4014-b4db-a03bd53dfc93" data-file-name="components/FullReport.tsx">Company Profile</span></h2>
+              <div className="grid grid-cols-2 gap-4 mb-4" data-unique-id="cfbcc3b9-a5aa-4a2c-ad05-232c8314182b" data-file-name="components/FullReport.tsx">
+                <div data-unique-id="5def469a-019a-4c7d-bff8-ab0068be856d" data-file-name="components/FullReport.tsx">
+                  <p className="font-semibold" data-unique-id="e4e989ab-522b-4f90-8d0e-b9b642f3e4cb" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="1be04fd5-7817-4037-be96-4b320cfabf4f" data-file-name="components/FullReport.tsx">Company Name</span></p>
+                  <p data-unique-id="0c82738f-9288-4d93-a524-15d0db8d7aa3" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{companyProfile.name}</p>
                 </div>
-                <div data-unique-id="cc84ab82-de51-43fa-b5c9-ee6bd79f5079" data-loc="982:16-982:21" data-file-name="components/FullReport.tsx">
-                  <p className="font-semibold" data-unique-id="ef219064-b977-4064-bb91-6fb2dc2f959d" data-loc="983:18-983:47" data-file-name="components/FullReport.tsx">Industry Sector</p>
-                  <p data-unique-id="defd1459-5a59-45b0-ae00-92f82fcaf388" data-loc="984:18-984:21" data-file-name="components/FullReport.tsx">{companyProfile.industry}</p>
+                <div data-unique-id="e2d10451-b200-47b2-b5dd-11579fc78f5c" data-file-name="components/FullReport.tsx">
+                  <p className="font-semibold" data-unique-id="9bc98e08-9bcf-4a54-bc5a-bd4da0a06474" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="0dcc121b-c1f5-4b5b-b799-91b6070efb39" data-file-name="components/FullReport.tsx">Industry Sector</span></p>
+                  <p data-unique-id="101c7978-4d8d-45c3-b121-055f7bd2c414" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{companyProfile.industry}</p>
                 </div>
               </div>
-              <div className="mb-4" data-unique-id="7a649383-e4d4-4707-8f25-79da8dff1fa2" data-loc="987:14-987:36" data-file-name="components/FullReport.tsx">
-                <p className="font-semibold" data-unique-id="22eef04a-fa02-48d7-bdd2-5a352830d872" data-loc="988:16-988:45" data-file-name="components/FullReport.tsx">Company Description</p>
-                <p data-unique-id="1b2287e0-ef2e-43d6-a0fc-16b68e959e2e" data-loc="989:16-989:19" data-file-name="components/FullReport.tsx">{companyProfile.description}</p>
+              <div className="mb-4" data-unique-id="254cb1b9-6090-4924-9201-86eb3038b1fe" data-file-name="components/FullReport.tsx">
+                <p className="font-semibold" data-unique-id="e7f04e80-6a83-4290-93b6-5543b8fe9f6f" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="7c03905a-b25c-433d-893c-c30e82d911d1" data-file-name="components/FullReport.tsx">Company Description</span></p>
+                <p data-unique-id="a853e192-171f-4e5a-9b9e-59a9800b343a" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{companyProfile.description}</p>
               </div>
-              <div className="mb-4" data-unique-id="50904960-9ae2-492b-b8f2-5d7215825f9f" data-loc="991:14-991:36" data-file-name="components/FullReport.tsx">
-                <p className="font-semibold" data-unique-id="2232dea1-aeeb-4afa-be6e-415985cf331b" data-loc="992:16-992:45" data-file-name="components/FullReport.tsx">Vision</p>
-                <p data-unique-id="dd4542c2-0ebc-4afa-9862-8ef38f914373" data-loc="993:16-993:19" data-file-name="components/FullReport.tsx">{companyProfile.vision}</p>
+              <div className="mb-4" data-unique-id="b6ecd544-9d0f-4f16-b697-53e60de0fe99" data-file-name="components/FullReport.tsx">
+                <p className="font-semibold" data-unique-id="e840e035-b070-405b-a35e-663e643662df" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="007328bc-092b-49c3-a02d-7ff9899a556b" data-file-name="components/FullReport.tsx">Vision</span></p>
+                <p data-unique-id="1634ec6a-99bb-4ce9-9521-d9923260ac58" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{companyProfile.vision}</p>
               </div>
-              <div data-unique-id="9a792001-2ed4-4771-8032-2ddc8e003cc7" data-loc="995:14-995:19" data-file-name="components/FullReport.tsx">
-                <p className="font-semibold" data-unique-id="06d7ab54-badb-4e10-97fb-06faf35e0917" data-loc="996:16-996:45" data-file-name="components/FullReport.tsx">Mission</p>
-                <p data-unique-id="2ecd46dc-8f45-41c6-8e05-48a24dee8162" data-loc="997:16-997:19" data-file-name="components/FullReport.tsx">{companyProfile.mission}</p>
+              <div data-unique-id="bd949463-ceb8-49bf-97f4-7e7bedf03071" data-file-name="components/FullReport.tsx">
+                <p className="font-semibold" data-unique-id="8a26fd1d-afab-4e53-a625-503173ee7a83" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="622116ae-86c1-468a-8de5-24e10235b076" data-file-name="components/FullReport.tsx">Mission</span></p>
+                <p data-unique-id="e07989f3-883a-4d39-8c64-f1d07b107393" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{companyProfile.mission}</p>
               </div>
             </div>}
           
           {/* SWOT Analysis Section */}
-          <div className="mb-10" data-unique-id="b978fcea-9381-4d97-b063-baab2a384163" data-loc="1003:10-1003:33" data-file-name="components/FullReport.tsx">
-            <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="166823da-7df0-4944-a996-869516186382" data-loc="1004:12-1004:85" data-file-name="components/FullReport.tsx">SWOT Analysis</h2>
-            <div className="grid grid-cols-2 gap-6" data-unique-id="a935cf2d-8e38-4cc3-a738-cf4ee770139e" data-loc="1005:12-1005:52" data-file-name="components/FullReport.tsx">
-              <div data-unique-id="558e3a1a-dd2c-4bc8-9030-31340bc09f87" data-loc="1006:14-1006:19" data-file-name="components/FullReport.tsx">
-                <h3 className="text-lg font-semibold text-green-700 mb-2" data-unique-id="283ea6c7-217a-4717-99cc-3bd884f38f7c" data-loc="1007:16-1007:74" data-file-name="components/FullReport.tsx">Strengths</h3>
-                <ul className="list-disc pl-5" data-unique-id="c3b50e15-19c5-4729-aa91-52a1fa231097" data-loc="1008:16-1008:47" data-file-name="components/FullReport.tsx">
-                  {swotItems.filter(item => item.category === "strength").map((item, index) => <li key={index} className="mb-2" data-unique-id="map_ef8dbc5d-9843-4b74-944b-3f71fbd54e61" data-loc="1012:22-1012:55" data-file-name="components/FullReport.tsx" data-is-mapped="true">
+          <div className="mb-10" data-unique-id="ddc23884-1531-4b81-b883-373d4ec4d6c6" data-file-name="components/FullReport.tsx">
+            <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="29f5b815-a02a-40cb-b4e3-02f8d73fcb93" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="76301bbe-bc87-4576-926a-4f47becc7b3c" data-file-name="components/FullReport.tsx">SWOT Analysis</span></h2>
+            <div className="grid grid-cols-2 gap-6" data-unique-id="b055b201-9252-445f-adb9-4ce8f5459678" data-file-name="components/FullReport.tsx">
+              <div data-unique-id="16a11f1f-0d31-4fc1-9ba9-2dbe7a1d4e53" data-file-name="components/FullReport.tsx">
+                <h3 className="text-lg font-semibold text-green-700 mb-2" data-unique-id="5ddba0b4-6cb9-451e-a5c3-be648e57a523" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="56c0d9ff-512c-4bcd-ad7f-ff72da30706b" data-file-name="components/FullReport.tsx">Strengths</span></h3>
+                <ul className="list-disc pl-5" data-unique-id="0529f210-21df-409b-809c-925710bd132a" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                  {swotItems.filter(item => item.category === "strength").map((item, index) => <li key={index} className="mb-2" data-is-mapped="true" data-unique-id="4104d739-a427-4d35-9874-c9b266f20add" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
                         {item.description}
-                        {item.significance && <p className="text-sm text-slate-500 mt-1" data-unique-id="map_2c388d40-e58e-4398-b023-95a481ed51c7" data-loc="1015:26-1015:69" data-file-name="components/FullReport.tsx" data-is-mapped="true">Significance: {item.significance}</p>}
+                        {item.significance && <p className="text-sm text-slate-500 mt-1" data-is-mapped="true" data-unique-id="1eab3047-5155-4628-a8db-fbadba601c95" data-file-name="components/FullReport.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="442f9d8b-2fe4-4a77-a7cb-f34c72496609" data-file-name="components/FullReport.tsx">Significance: </span>{item.significance}</p>}
                       </li>)}
                 </ul>
               </div>
-              <div data-unique-id="696637d7-ff88-4ea5-80d7-05119a50b382" data-loc="1021:14-1021:19" data-file-name="components/FullReport.tsx">
-                <h3 className="text-lg font-semibold text-red-700 mb-2" data-unique-id="cf9a4668-21d6-44e8-b3a5-d9743f72ba83" data-loc="1022:16-1022:72" data-file-name="components/FullReport.tsx">Weaknesses</h3>
-                <ul className="list-disc pl-5" data-unique-id="3617d319-1de6-4771-8436-0767f4dea9fa" data-loc="1023:16-1023:47" data-file-name="components/FullReport.tsx">
-                  {swotItems.filter(item => item.category === "weakness").map((item, index) => <li key={index} className="mb-2" data-unique-id="map_db6147df-449f-4ea9-a088-e5075313420a" data-loc="1027:22-1027:55" data-file-name="components/FullReport.tsx" data-is-mapped="true">
+              <div data-unique-id="87071847-b7d4-41fc-99c7-5a757088b2ff" data-file-name="components/FullReport.tsx">
+                <h3 className="text-lg font-semibold text-red-700 mb-2" data-unique-id="f35dfe22-7312-4cd1-93e8-b79ad9374bc1" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="6b877097-bde1-4353-ba87-4bfc94e961cb" data-file-name="components/FullReport.tsx">Weaknesses</span></h3>
+                <ul className="list-disc pl-5" data-unique-id="ef7997c6-c575-4587-b0df-66d01edfac13" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                  {swotItems.filter(item => item.category === "weakness").map((item, index) => <li key={index} className="mb-2" data-is-mapped="true" data-unique-id="87ba4e4b-890f-4014-a93c-7188388d6d22" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
                         {item.description}
-                        {item.significance && <p className="text-sm text-slate-500 mt-1" data-unique-id="map_cd4bb9fe-066d-4259-9e2c-8feb8cb236f4" data-loc="1030:26-1030:69" data-file-name="components/FullReport.tsx" data-is-mapped="true">Significance: {item.significance}</p>}
+                        {item.significance && <p className="text-sm text-slate-500 mt-1" data-is-mapped="true" data-unique-id="2bdd4772-5b91-4569-8757-4867d276c31c" data-file-name="components/FullReport.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="041ba231-d986-4bc1-8ac2-6bab495d8f80" data-file-name="components/FullReport.tsx">Significance: </span>{item.significance}</p>}
                       </li>)}
                 </ul>
               </div>
-              <div data-unique-id="f67dd585-cfc6-4e0f-a234-99a858cd408b" data-loc="1036:14-1036:19" data-file-name="components/FullReport.tsx">
-                <h3 className="text-lg font-semibold text-blue-700 mb-2" data-unique-id="7310ba6c-f4e9-4024-bbaa-9f9eede3fea5" data-loc="1037:16-1037:73" data-file-name="components/FullReport.tsx">Opportunities</h3>
-                <ul className="list-disc pl-5" data-unique-id="6c159bb0-6763-475f-bf5d-205d3384c762" data-loc="1038:16-1038:47" data-file-name="components/FullReport.tsx">
-                  {swotItems.filter(item => item.category === "opportunity").map((item, index) => <li key={index} className="mb-2" data-unique-id="map_2928f5ef-b3ee-4326-ab6d-233925f2ac22" data-loc="1042:22-1042:55" data-file-name="components/FullReport.tsx" data-is-mapped="true">
+              <div data-unique-id="fa8a0a8a-8c56-4f74-9bab-de2b239bac55" data-file-name="components/FullReport.tsx">
+                <h3 className="text-lg font-semibold text-blue-700 mb-2" data-unique-id="24a2bc0a-eb9e-4c82-9a4c-dbe8c0f1bdc2" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="97117392-f159-48e3-8bac-59446580cb76" data-file-name="components/FullReport.tsx">Opportunities</span></h3>
+                <ul className="list-disc pl-5" data-unique-id="62cc2df9-7755-4c6b-bb78-d1ed6b2c17f9" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                  {swotItems.filter(item => item.category === "opportunity").map((item, index) => <li key={index} className="mb-2" data-is-mapped="true" data-unique-id="34dced65-d9c5-4934-8b41-a18dd29b2bf3" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
                         {item.description}
-                        {item.significance && <p className="text-sm text-slate-500 mt-1" data-unique-id="map_af95ed3c-d3b7-4503-ab4f-d5c1f8201254" data-loc="1045:26-1045:69" data-file-name="components/FullReport.tsx" data-is-mapped="true">Significance: {item.significance}</p>}
+                        {item.significance && <p className="text-sm text-slate-500 mt-1" data-is-mapped="true" data-unique-id="82d6685a-57ab-4b1a-bc84-107b3d0d7126" data-file-name="components/FullReport.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="92eeecc8-5522-4bc7-9011-2a11d4e595e4" data-file-name="components/FullReport.tsx">Significance: </span>{item.significance}</p>}
                       </li>)}
                 </ul>
               </div>
-              <div data-unique-id="d256464e-e84c-4ca3-bb4f-92d088b527fc" data-loc="1051:14-1051:19" data-file-name="components/FullReport.tsx">
-                <h3 className="text-lg font-semibold text-orange-700 mb-2" data-unique-id="59884a80-a987-497f-9f1e-7942b6378d0a" data-loc="1052:16-1052:75" data-file-name="components/FullReport.tsx">Threats</h3>
-                <ul className="list-disc pl-5" data-unique-id="3a08c2bb-63d9-4ab8-936b-a86f6808dd0d" data-loc="1053:16-1053:47" data-file-name="components/FullReport.tsx">
-                  {swotItems.filter(item => item.category === "threat").map((item, index) => <li key={index} className="mb-2" data-unique-id="map_f034bce6-9150-4314-989b-a64f5957e6cb" data-loc="1057:22-1057:55" data-file-name="components/FullReport.tsx" data-is-mapped="true">
+              <div data-unique-id="6e588134-4a70-4717-a3b8-74a7a394f008" data-file-name="components/FullReport.tsx">
+                <h3 className="text-lg font-semibold text-orange-700 mb-2" data-unique-id="eb1dbfab-215b-4516-9894-2fabcc75ae53" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="f01bcd12-df9c-42d4-86b3-6dff609b2180" data-file-name="components/FullReport.tsx">Threats</span></h3>
+                <ul className="list-disc pl-5" data-unique-id="52e9ea26-2a81-47df-9e5d-f6a80b9ef9b9" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                  {swotItems.filter(item => item.category === "threat").map((item, index) => <li key={index} className="mb-2" data-is-mapped="true" data-unique-id="bd42fc17-fde7-4011-9021-a792359aef4e" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
                         {item.description}
-                        {item.significance && <p className="text-sm text-slate-500 mt-1" data-unique-id="map_8d03a86f-6cdf-4fb1-9821-af5dde3b4e42" data-loc="1060:26-1060:69" data-file-name="components/FullReport.tsx" data-is-mapped="true">Significance: {item.significance}</p>}
+                        {item.significance && <p className="text-sm text-slate-500 mt-1" data-is-mapped="true" data-unique-id="8c785901-c260-4a14-89ee-142407e40f2e" data-file-name="components/FullReport.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="68abb2cd-b51e-4825-aff5-7cc985610592" data-file-name="components/FullReport.tsx">Significance: </span>{item.significance}</p>}
                       </li>)}
                 </ul>
               </div>
@@ -967,148 +967,148 @@ export default function FullReport({
           </div>
           
           {/* IFE Matrix Section */}
-          <div className="mb-10" data-unique-id="286f24fc-5db3-4920-8e76-83fb67af516e" data-loc="1070:10-1070:33" data-file-name="components/FullReport.tsx">
-            <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="b1246726-bd99-4ac1-b422-16a6fb21836c" data-loc="1071:12-1071:85" data-file-name="components/FullReport.tsx">IFE Matrix</h2>
-            <table className="w-full border-collapse mb-4" data-unique-id="ca638a4b-5bd6-4af4-89ad-0a5b93b6dcd1" data-loc="1072:12-1072:59" data-file-name="components/FullReport.tsx">
-              <thead data-unique-id="4438df0a-c9cc-4c11-825f-1345c2cf7ed9" data-loc="1073:14-1073:21" data-file-name="components/FullReport.tsx">
-                <tr className="bg-slate-100" data-unique-id="1cf864fe-ab7f-4f51-a6e7-db3a9c51d3e9" data-loc="1074:16-1074:45" data-file-name="components/FullReport.tsx">
-                  <th className="border border-slate-300 p-2 text-left" data-unique-id="b55ca169-ffae-40b6-9dfd-1518c98ef22c" data-loc="1075:18-1075:72" data-file-name="components/FullReport.tsx">Factor</th>
-                  <th className="border border-slate-300 p-2 text-left" data-unique-id="d816bb97-b3ed-46ee-ade3-a32d88a4d050" data-loc="1076:18-1076:72" data-file-name="components/FullReport.tsx">Type</th>
-                  <th className="border border-slate-300 p-2 text-center" data-unique-id="321949b7-0ffa-493e-a03a-d41c9a23a8b1" data-loc="1077:18-1077:74" data-file-name="components/FullReport.tsx">Weight</th>
-                  <th className="border border-slate-300 p-2 text-center" data-unique-id="eb01adb7-29bc-4bdb-a82a-b4337d3b7500" data-loc="1078:18-1078:74" data-file-name="components/FullReport.tsx">Rating</th>
-                  <th className="border border-slate-300 p-2 text-center" data-unique-id="d6e7c0f8-c0ad-461f-bd37-29c20c7b7110" data-loc="1079:18-1079:74" data-file-name="components/FullReport.tsx">Weighted Score</th>
+          <div className="mb-10" data-unique-id="6a7bc793-37f2-45fd-94b6-8f9cfa18e6f1" data-file-name="components/FullReport.tsx">
+            <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="b2a2b878-93b0-42bf-bf37-0f493e117e01" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="422bfc6d-4f6a-46af-a378-a1901172fca3" data-file-name="components/FullReport.tsx">IFE Matrix</span></h2>
+            <table className="w-full border-collapse mb-4" data-unique-id="46d39e88-8b36-46de-a99c-79129bf9fcc8" data-file-name="components/FullReport.tsx">
+              <thead data-unique-id="8d964a22-9ce8-4893-96db-691ca3ee37d7" data-file-name="components/FullReport.tsx">
+                <tr className="bg-slate-100" data-unique-id="db308e90-cd14-4ccc-ab22-59950f831280" data-file-name="components/FullReport.tsx">
+                  <th className="border border-slate-300 p-2 text-left" data-unique-id="cabd8735-ee57-41c8-a4f5-724328f14e5e" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="90e1f125-cf72-423f-aaff-df5139a59740" data-file-name="components/FullReport.tsx">Factor</span></th>
+                  <th className="border border-slate-300 p-2 text-left" data-unique-id="62174d0a-5b71-4f6c-bb53-fa1380a9cdeb" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="6f1edb4c-a1f5-4d99-9beb-125a6a23a024" data-file-name="components/FullReport.tsx">Type</span></th>
+                  <th className="border border-slate-300 p-2 text-center" data-unique-id="a149a470-4e0e-477b-90c1-12efe70ab6ef" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="4b45758e-912f-46c1-b7de-03ce4d79434f" data-file-name="components/FullReport.tsx">Weight</span></th>
+                  <th className="border border-slate-300 p-2 text-center" data-unique-id="93d97891-4ae5-4d25-8bcf-42a8aa5aff9c" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="0a20f42e-1e00-42cb-9618-ac37cd0513ee" data-file-name="components/FullReport.tsx">Rating</span></th>
+                  <th className="border border-slate-300 p-2 text-center" data-unique-id="cf4c2d5c-95e2-426d-a7ce-8729f10058b5" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="e46949db-7681-4fdb-bb68-5930df6df7c3" data-file-name="components/FullReport.tsx">Weighted Score</span></th>
                 </tr>
               </thead>
-              <tbody data-unique-id="4f4e6e82-63b7-4cdd-93c9-2af732062321" data-loc="1082:14-1082:21" data-file-name="components/FullReport.tsx">
-                {ifeFactors.filter(factor => factor.category === "strength").map((factor, index) => <tr key={index} className="bg-green-50" data-unique-id="map_7775024c-6b2f-4deb-a075-ef8fb28c6412" data-loc="1086:20-1086:60" data-file-name="components/FullReport.tsx" data-is-mapped="true">
-                      <td className="border border-slate-300 p-2" data-unique-id="map_ae42da3e-0b7e-4ba2-b6ad-0fdf7c4531a4" data-loc="1087:22-1087:66" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.description}</td>
-                      <td className="border border-slate-300 p-2" data-unique-id="map_c729d387-4d8f-4b2a-aeee-26c6b8fbf67a" data-loc="1088:22-1088:66" data-file-name="components/FullReport.tsx" data-is-mapped="true">Strength</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_250af9ac-f318-4fc9-8254-a453e67f4f1f" data-loc="1089:22-1089:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.weight.toFixed(2)}</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_61f508b2-dd41-4cc1-a827-59f0051b80ea" data-loc="1090:22-1090:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.rating}</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_2eeee934-ca61-4f5a-983b-c6c416386b8a" data-loc="1091:22-1091:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{(factor.weight * factor.rating).toFixed(2)}</td>
+              <tbody data-unique-id="b80a483e-1156-45ab-85b4-cb3b1bedd650" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                {ifeFactors.filter(factor => factor.category === "strength").map((factor, index) => <tr key={index} className="bg-green-50" data-is-mapped="true" data-unique-id="f9aab18a-3f88-4417-8431-b497b304a761" data-file-name="components/FullReport.tsx">
+                      <td className="border border-slate-300 p-2" data-is-mapped="true" data-unique-id="c7b14c5c-5869-4993-8b42-4c3a80b94dbb" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.description}</td>
+                      <td className="border border-slate-300 p-2" data-is-mapped="true" data-unique-id="752b23ca-eaca-4e46-9974-ac6d1b076565" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="3be415ba-b35a-4151-b117-1247016a11ef" data-file-name="components/FullReport.tsx">Strength</span></td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="0e9d96f3-b69d-4a5e-aa35-6abc662f93ec" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.weight.toFixed(2)}</td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="f293c422-dce1-4f82-ae91-1ca2977ed761" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.rating}</td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="a7606694-09f7-45bf-82ba-bb46ac64c090" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{(factor.weight * factor.rating).toFixed(2)}</td>
                     </tr>)}
-                {ifeFactors.filter(factor => factor.category === "weakness").map((factor, index) => <tr key={index} className="bg-red-50" data-unique-id="map_12e187b2-ad2c-4567-917e-5caff8afabdc" data-loc="1097:20-1097:58" data-file-name="components/FullReport.tsx" data-is-mapped="true">
-                      <td className="border border-slate-300 p-2" data-unique-id="map_0c6c5268-ccbe-49cc-9720-c4897e14740e" data-loc="1098:22-1098:66" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.description}</td>
-                      <td className="border border-slate-300 p-2" data-unique-id="map_16431c39-0981-473b-96be-6d6ee29b60c5" data-loc="1099:22-1099:66" data-file-name="components/FullReport.tsx" data-is-mapped="true">Weakness</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_de72603d-0953-458a-8397-2dd2d4df33b0" data-loc="1100:22-1100:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.weight.toFixed(2)}</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_d6c41a6a-349b-4c1e-b2bc-e50945e307b5" data-loc="1101:22-1101:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.rating}</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_92c1acba-b612-43b9-ba7c-76756508634f" data-loc="1102:22-1102:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{(factor.weight * factor.rating).toFixed(2)}</td>
+                {ifeFactors.filter(factor => factor.category === "weakness").map((factor, index) => <tr key={index} className="bg-red-50" data-is-mapped="true" data-unique-id="23a505d1-a907-4e23-bdcd-f3b64a6b6d02" data-file-name="components/FullReport.tsx">
+                      <td className="border border-slate-300 p-2" data-is-mapped="true" data-unique-id="0454e33d-6272-458d-b36d-5ac5fd264a49" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.description}</td>
+                      <td className="border border-slate-300 p-2" data-is-mapped="true" data-unique-id="710d3901-743a-40de-a5ae-43452ac79939" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="f51e0845-c37b-4362-aaad-d9537be4cdd1" data-file-name="components/FullReport.tsx">Weakness</span></td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="de185c09-0f28-4a36-bfad-115a197dae1f" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.weight.toFixed(2)}</td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="a07ba072-0fad-4c3b-91a2-2cdcd177cbdd" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.rating}</td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="782840fd-eb45-4305-866d-26a9281e3cb6" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{(factor.weight * factor.rating).toFixed(2)}</td>
                     </tr>)}
-                <tr className="bg-slate-100 font-bold" data-unique-id="bef03d45-7430-4aa0-99c5-21ac33d71be8" data-loc="1105:16-1105:55" data-file-name="components/FullReport.tsx">
-                  <td className="border border-slate-300 p-2" colSpan={2} data-unique-id="878de71f-e331-48c4-b808-a06200856055" data-loc="1106:18-1106:74" data-file-name="components/FullReport.tsx">Total</td>
-                  <td className="border border-slate-300 p-2 text-center" data-unique-id="2ffe4cfe-9641-4e1a-a13d-3d90c193e17b" data-loc="1107:18-1107:74" data-file-name="components/FullReport.tsx">
+                <tr className="bg-slate-100 font-bold" data-unique-id="2fd14f9b-dd9c-4644-b0dd-4d045f8c9366" data-file-name="components/FullReport.tsx">
+                  <td className="border border-slate-300 p-2" colSpan={2} data-unique-id="ad47fdc7-4159-42f8-b197-aaf9ae8a4468" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="1c629970-7200-4a27-9f6f-4478f087f6ea" data-file-name="components/FullReport.tsx">Total</span></td>
+                  <td className="border border-slate-300 p-2 text-center" data-unique-id="64c398c9-de87-413e-bb70-6d3a9f4020b5" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
                     {ifeFactors.reduce((sum, factor) => sum + factor.weight, 0).toFixed(2)}
                   </td>
-                  <td className="border border-slate-300 p-2" data-unique-id="ba75d253-0879-4f3d-a774-ac8b3275589f" data-loc="1110:18-1110:62" data-file-name="components/FullReport.tsx"></td>
-                  <td className="border border-slate-300 p-2 text-center" data-unique-id="ef296409-2366-405e-8cc9-6a88ed76f19c" data-loc="1111:18-1111:74" data-file-name="components/FullReport.tsx">{ifeScore.toFixed(2)}</td>
+                  <td className="border border-slate-300 p-2" data-unique-id="ed2fb74d-f6d1-4cd2-95f5-61692e4028ec" data-file-name="components/FullReport.tsx"></td>
+                  <td className="border border-slate-300 p-2 text-center" data-unique-id="8e4f5944-b12e-4fff-9161-90e584bf4d0c" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{ifeScore.toFixed(2)}</td>
                 </tr>
               </tbody>
             </table>
-            <div className="mb-4" data-unique-id="37e71a1b-d968-4c63-8227-3141d1cd36d8" data-loc="1115:12-1115:34" data-file-name="components/FullReport.tsx">
-              <p className="font-semibold" data-unique-id="383e4bf5-fd58-472e-99c2-454ebb687024" data-loc="1116:14-1116:43" data-file-name="components/FullReport.tsx">Rating Scale:</p>
-              <p data-unique-id="37628252-37e0-4a52-8bf7-955c5b8d26ac" data-loc="1117:14-1117:17" data-file-name="components/FullReport.tsx">1 = Major Weakness, 2 = Minor Weakness, 3 = Minor Strength, 4 = Major Strength</p>
+            <div className="mb-4" data-unique-id="c7381750-bef5-467b-ab84-af18da6eaa1c" data-file-name="components/FullReport.tsx">
+              <p className="font-semibold" data-unique-id="0478d071-153e-4149-b765-22fb62752eec" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="75f4f1ba-0458-4001-b734-999b1ba89933" data-file-name="components/FullReport.tsx">Rating Scale:</span></p>
+              <p data-unique-id="78f1a397-f08b-4855-ab19-922b3d1b98ee" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="d08419b2-2e9e-4afa-b3ae-c10a19f8b19b" data-file-name="components/FullReport.tsx">1 = Major Weakness, 2 = Minor Weakness, 3 = Minor Strength, 4 = Major Strength</span></p>
             </div>
           </div>
           
           {/* EFE Matrix Section */}
-          <div className="mb-10" data-unique-id="64bbf5ef-4f2d-47a3-a492-50ee13682e75" data-loc="1122:10-1122:33" data-file-name="components/FullReport.tsx">
-            <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="0d453f47-decf-4d4e-bc6d-42a49aa75076" data-loc="1123:12-1123:85" data-file-name="components/FullReport.tsx">EFE Matrix</h2>
-            <table className="w-full border-collapse mb-4" data-unique-id="3df9c4da-3501-4a2b-bbe5-1631ba2487ca" data-loc="1124:12-1124:59" data-file-name="components/FullReport.tsx">
-              <thead data-unique-id="0c1bd70c-6413-443d-8040-28cfda0921d2" data-loc="1125:14-1125:21" data-file-name="components/FullReport.tsx">
-                <tr className="bg-slate-100" data-unique-id="6675dcb5-d943-4e4a-ba37-c54f8a8d0397" data-loc="1126:16-1126:45" data-file-name="components/FullReport.tsx">
-                  <th className="border border-slate-300 p-2 text-left" data-unique-id="f2f2df80-3d5e-473e-8f45-bee695f430ff" data-loc="1127:18-1127:72" data-file-name="components/FullReport.tsx">Factor</th>
-                  <th className="border border-slate-300 p-2 text-left" data-unique-id="159158ff-731b-413c-a35d-88dfddefd3fd" data-loc="1128:18-1128:72" data-file-name="components/FullReport.tsx">Type</th>
-                  <th className="border border-slate-300 p-2 text-center" data-unique-id="39670d05-9027-4268-9ab4-c7b302df4628" data-loc="1129:18-1129:74" data-file-name="components/FullReport.tsx">Weight</th>
-                  <th className="border border-slate-300 p-2 text-center" data-unique-id="7b7b3820-ceaa-4018-ae9e-5e827d222038" data-loc="1130:18-1130:74" data-file-name="components/FullReport.tsx">Rating</th>
-                  <th className="border border-slate-300 p-2 text-center" data-unique-id="f65a5c25-6431-4d64-828a-095069dfba03" data-loc="1131:18-1131:74" data-file-name="components/FullReport.tsx">Weighted Score</th>
+          <div className="mb-10" data-unique-id="d15d18d5-c33f-4911-a643-f3314960784f" data-file-name="components/FullReport.tsx">
+            <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="d5593c47-f8fb-476a-b2d8-3cac1c0927ba" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="b58d8b35-449a-47f4-bddb-902fbd9b9422" data-file-name="components/FullReport.tsx">EFE Matrix</span></h2>
+            <table className="w-full border-collapse mb-4" data-unique-id="0c77c72d-2fc3-4432-8c5b-1514362dee1a" data-file-name="components/FullReport.tsx">
+              <thead data-unique-id="0896d38c-7083-41ae-90be-ac2255cd3611" data-file-name="components/FullReport.tsx">
+                <tr className="bg-slate-100" data-unique-id="be8c7281-d59f-463a-8ab1-87442803912e" data-file-name="components/FullReport.tsx">
+                  <th className="border border-slate-300 p-2 text-left" data-unique-id="f2a7440c-fbb8-4331-9b67-4d71c2862709" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="c97276cc-16d9-477b-b16b-ce8870fb496f" data-file-name="components/FullReport.tsx">Factor</span></th>
+                  <th className="border border-slate-300 p-2 text-left" data-unique-id="76ac267d-7bb1-4a43-b684-a98a3b15d526" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="29c7e3cf-ae9a-4d75-b4f5-f099c0b9db8c" data-file-name="components/FullReport.tsx">Type</span></th>
+                  <th className="border border-slate-300 p-2 text-center" data-unique-id="af89b677-3309-4576-9223-804b40432feb" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="ceb40163-251e-46ab-99eb-aa9cf3b77ffc" data-file-name="components/FullReport.tsx">Weight</span></th>
+                  <th className="border border-slate-300 p-2 text-center" data-unique-id="c7bb22a4-160f-4094-baf0-7e866d6f5c61" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="07ef971c-0eb2-43c7-8f12-66324b8c029a" data-file-name="components/FullReport.tsx">Rating</span></th>
+                  <th className="border border-slate-300 p-2 text-center" data-unique-id="4544da86-6929-4858-8d72-5096afdecc1a" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="385ee2d8-379c-4fc6-a24d-0b8d35fd02c5" data-file-name="components/FullReport.tsx">Weighted Score</span></th>
                 </tr>
               </thead>
-              <tbody data-unique-id="ee35b2b3-a1be-45a8-b381-35ca0b133ff3" data-loc="1134:14-1134:21" data-file-name="components/FullReport.tsx">
-                {efeFactors.filter(factor => factor.category === "opportunity").map((factor, index) => <tr key={index} className="bg-blue-50" data-unique-id="map_4efc1235-391c-4cbd-99fb-702e8acfb995" data-loc="1138:20-1138:59" data-file-name="components/FullReport.tsx" data-is-mapped="true">
-                      <td className="border border-slate-300 p-2" data-unique-id="map_1b7bc900-1a08-4819-b5ee-303102692452" data-loc="1139:22-1139:66" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.description}</td>
-                      <td className="border border-slate-300 p-2" data-unique-id="map_28db4af5-b7aa-4218-996e-abfd39f796bc" data-loc="1140:22-1140:66" data-file-name="components/FullReport.tsx" data-is-mapped="true">Opportunity</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_aad6de84-bf2a-4a33-85fe-ca3278ae81fc" data-loc="1141:22-1141:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.weight.toFixed(2)}</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_02441d6d-7dec-4e82-9112-868258556841" data-loc="1142:22-1142:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.rating}</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_87db7f87-c624-4faf-a0d3-5babd7defa99" data-loc="1143:22-1143:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{(factor.weight * factor.rating).toFixed(2)}</td>
+              <tbody data-unique-id="149aa53a-246c-4f6e-9553-e0a80ab62f8b" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                {efeFactors.filter(factor => factor.category === "opportunity").map((factor, index) => <tr key={index} className="bg-blue-50" data-is-mapped="true" data-unique-id="0e9f737a-6550-4042-841c-96f2d7a3034b" data-file-name="components/FullReport.tsx">
+                      <td className="border border-slate-300 p-2" data-is-mapped="true" data-unique-id="25e10a59-e8f0-45e0-9cfb-8c6c05d42979" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.description}</td>
+                      <td className="border border-slate-300 p-2" data-is-mapped="true" data-unique-id="d0010a57-3ec6-474c-b5c0-b043b11a15f8" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="28002285-a696-4276-b96f-a987bd4f5a37" data-file-name="components/FullReport.tsx">Opportunity</span></td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="dedc42cf-10e2-4ac6-a1ac-fd16d2020173" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.weight.toFixed(2)}</td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="6088d38c-f509-4e97-85ab-368a84ea2ebd" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.rating}</td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="ca03424a-7f00-4264-a92c-1f3914d0ee75" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{(factor.weight * factor.rating).toFixed(2)}</td>
                     </tr>)}
-                {efeFactors.filter(factor => factor.category === "threat").map((factor, index) => <tr key={index} className="bg-orange-50" data-unique-id="map_1a9d29c3-3f53-4c3b-ac94-bc36fdab95e4" data-loc="1149:20-1149:61" data-file-name="components/FullReport.tsx" data-is-mapped="true">
-                      <td className="border border-slate-300 p-2" data-unique-id="map_b639dfb1-897a-47f4-910c-fadcde592460" data-loc="1150:22-1150:66" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.description}</td>
-                      <td className="border border-slate-300 p-2" data-unique-id="map_b91a668a-1ac6-4332-bec7-f7daaeb2d846" data-loc="1151:22-1151:66" data-file-name="components/FullReport.tsx" data-is-mapped="true">Threat</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_85c73667-1981-4db7-b9b5-4fdf28e47612" data-loc="1152:22-1152:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.weight.toFixed(2)}</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_03bf78ff-c63e-407f-88a1-7e6e67b50042" data-loc="1153:22-1153:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{factor.rating}</td>
-                      <td className="border border-slate-300 p-2 text-center" data-unique-id="map_5e1e0924-3937-483b-b62b-ed162fc9d172" data-loc="1154:22-1154:78" data-file-name="components/FullReport.tsx" data-is-mapped="true">{(factor.weight * factor.rating).toFixed(2)}</td>
+                {efeFactors.filter(factor => factor.category === "threat").map((factor, index) => <tr key={index} className="bg-orange-50" data-is-mapped="true" data-unique-id="7f02870d-f682-4a00-9905-2428ff58a9a4" data-file-name="components/FullReport.tsx">
+                      <td className="border border-slate-300 p-2" data-is-mapped="true" data-unique-id="831ba09b-1096-4254-b004-547997d28b42" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.description}</td>
+                      <td className="border border-slate-300 p-2" data-is-mapped="true" data-unique-id="f4a8b46f-dcf9-4c45-9e92-e1152ec772e7" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="908b8036-0c4e-4035-b53d-eb1693ead12b" data-file-name="components/FullReport.tsx">Threat</span></td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="5bda4f0a-43cd-4a0d-84a9-961fece32c74" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.weight.toFixed(2)}</td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="6a2cc86b-eaf7-4f20-97f0-6c0cdb87830e" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{factor.rating}</td>
+                      <td className="border border-slate-300 p-2 text-center" data-is-mapped="true" data-unique-id="8b177263-e8d1-4489-a8a3-fa4a09e86977" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{(factor.weight * factor.rating).toFixed(2)}</td>
                     </tr>)}
-                <tr className="bg-slate-100 font-bold" data-unique-id="e4cbfa5e-d790-4ef1-b7ef-58d5b537b677" data-loc="1157:16-1157:55" data-file-name="components/FullReport.tsx">
-                  <td className="border border-slate-300 p-2" colSpan={2} data-unique-id="f55574b3-ed78-4f2f-8dfc-dc96d8ad404c" data-loc="1158:18-1158:74" data-file-name="components/FullReport.tsx">Total</td>
-                  <td className="border border-slate-300 p-2 text-center" data-unique-id="1c914a54-a5b3-40c8-833d-17f0eecde1b5" data-loc="1159:18-1159:74" data-file-name="components/FullReport.tsx">
+                <tr className="bg-slate-100 font-bold" data-unique-id="cff548cc-264f-444c-b511-c8e1163ecfd0" data-file-name="components/FullReport.tsx">
+                  <td className="border border-slate-300 p-2" colSpan={2} data-unique-id="afc13ea2-b4bb-41dd-98c8-42a6887bfabc" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="5acad6a9-c1c7-4003-9952-d07e9df9c4b1" data-file-name="components/FullReport.tsx">Total</span></td>
+                  <td className="border border-slate-300 p-2 text-center" data-unique-id="2d4d3931-8384-46c8-bab4-f3cd3517dc25" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
                     {efeFactors.reduce((sum, factor) => sum + factor.weight, 0).toFixed(2)}
                   </td>
-                  <td className="border border-slate-300 p-2" data-unique-id="9818ba90-4aed-4bb6-9ddb-f213ce362e55" data-loc="1162:18-1162:62" data-file-name="components/FullReport.tsx"></td>
-                  <td className="border border-slate-300 p-2 text-center" data-unique-id="47a62297-12b8-431d-84cc-d8f987c71b5f" data-loc="1163:18-1163:74" data-file-name="components/FullReport.tsx">{efeScore.toFixed(2)}</td>
+                  <td className="border border-slate-300 p-2" data-unique-id="29897d04-3831-4039-9c92-b6c68ebcc8b2" data-file-name="components/FullReport.tsx"></td>
+                  <td className="border border-slate-300 p-2 text-center" data-unique-id="a974775c-f033-4715-ab51-a7d43f1392fd" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{efeScore.toFixed(2)}</td>
                 </tr>
               </tbody>
             </table>
-            <div className="mb-4" data-unique-id="f89f216f-f5fa-4dbc-8b34-8b8fcfe25ffd" data-loc="1167:12-1167:34" data-file-name="components/FullReport.tsx">
-              <p className="font-semibold" data-unique-id="b5f273cd-a471-4223-9f55-5620e2aaa62e" data-loc="1168:14-1168:43" data-file-name="components/FullReport.tsx">Rating Scale:</p>
-              <p data-unique-id="d16a6725-b2ea-4b08-bbb8-c8f678fd7919" data-loc="1169:14-1169:17" data-file-name="components/FullReport.tsx">1 = Poor Response, 2 = Average Response, 3 = Above Average Response, 4 = Superior Response</p>
+            <div className="mb-4" data-unique-id="33325efb-2404-4cae-8483-39109f1a5ce2" data-file-name="components/FullReport.tsx">
+              <p className="font-semibold" data-unique-id="bb335ab5-3419-4a99-aafa-e8a6b75a3601" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="f7e9d7cd-3f6a-491f-93c3-a7c7d7e26aa7" data-file-name="components/FullReport.tsx">Rating Scale:</span></p>
+              <p data-unique-id="66f2f7e4-0ac6-4f52-be2b-66f332695598" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="3c21bf85-2c92-43c5-a50c-cedd8af14f47" data-file-name="components/FullReport.tsx">1 = Poor Response, 2 = Average Response, 3 = Above Average Response, 4 = Superior Response</span></p>
             </div>
           </div>
           
           {/* IE Matrix Section */}
-          <div data-unique-id="49d78b65-8448-4781-9d1f-1abf26e15019" data-loc="1174:10-1174:15" data-file-name="components/FullReport.tsx">
-            <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="8edb4e1d-88d1-4aec-9574-149b5e4ef118" data-loc="1175:12-1175:85" data-file-name="components/FullReport.tsx">IE Matrix Positioning</h2>
-            <div className="mb-4" data-unique-id="7b1f0204-b509-423f-ad01-f383693ecdc0" data-loc="1176:12-1176:34" data-file-name="components/FullReport.tsx">
-              <p data-unique-id="67d2d7f4-74d5-47d1-bb38-b4cf2f8022dd" data-loc="1177:14-1177:17" data-file-name="components/FullReport.tsx"><span className="font-semibold" data-unique-id="824276cf-d2ae-479c-b3d5-9fad2e0271c9" data-loc="1177:17-1177:49" data-file-name="components/FullReport.tsx">IFE Score:</span> {ifeScore.toFixed(2)}</p>
-              <p data-unique-id="57204fba-3300-4a64-9b28-2b6cf57b6490" data-loc="1178:14-1178:17" data-file-name="components/FullReport.tsx"><span className="font-semibold" data-unique-id="349d790c-e1ea-4cfb-9768-5640fa73229a" data-loc="1178:17-1178:49" data-file-name="components/FullReport.tsx">EFE Score:</span> {efeScore.toFixed(2)}</p>
-              <p data-unique-id="2b747140-bc56-4ca6-864d-df84900e2a4e" data-loc="1179:14-1179:17" data-file-name="components/FullReport.tsx"><span className="font-semibold" data-unique-id="c81b46b0-59dc-4ec7-b5b1-a7d1af7b53bd" data-loc="1179:17-1179:49" data-file-name="components/FullReport.tsx">Position:</span> Cell {getStrategyRecommendation().cellId}</p>
+          <div data-unique-id="11b3fa0c-bbe9-4cde-a2d3-e35fbb9369f0" data-file-name="components/FullReport.tsx">
+            <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="bd6d870e-3e0c-4911-834d-d71a1f73c6fa" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="34acc56e-103f-4105-b1db-0366b4971d99" data-file-name="components/FullReport.tsx">IE Matrix Positioning</span></h2>
+            <div className="mb-4" data-unique-id="b3b7038d-a1e9-48ec-91dc-fbd595a9cbfd" data-file-name="components/FullReport.tsx">
+              <p data-unique-id="e3e2e79c-2222-42f9-94f6-16e5b64cfefc" data-file-name="components/FullReport.tsx" data-dynamic-text="true"><span className="font-semibold" data-unique-id="3edf1a5a-d4a1-414e-935f-0158a9657b03" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="2217ba2a-9056-45d8-9d31-9308577be7e5" data-file-name="components/FullReport.tsx">IFE Score:</span></span> {ifeScore.toFixed(2)}</p>
+              <p data-unique-id="651efb0d-97d1-4f52-8f08-2c8adf6a5c7a" data-file-name="components/FullReport.tsx" data-dynamic-text="true"><span className="font-semibold" data-unique-id="142ed20c-c7e1-4695-96f2-6dbed9f1411d" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="b28f30ae-a57a-498c-be3a-1a4ad94b4259" data-file-name="components/FullReport.tsx">EFE Score:</span></span> {efeScore.toFixed(2)}</p>
+              <p data-unique-id="78c181a1-a946-4318-9f0d-12d1770ae659" data-file-name="components/FullReport.tsx" data-dynamic-text="true"><span className="font-semibold" data-unique-id="ddd1dd91-fb9d-4cf5-98a0-2f9f1eb3ae3b" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="4120fd95-d89b-4723-a103-c7eb2177c292" data-file-name="components/FullReport.tsx">Position:</span></span><span className="editable-text" data-unique-id="5ccfa4c4-79bc-42bb-8f28-7c4f7c461360" data-file-name="components/FullReport.tsx"> Cell </span>{getStrategyRecommendation().cellId}</p>
             </div>
-            <div data-unique-id="868404d7-960c-469b-b8d7-60bee5b97e0b" data-loc="1181:12-1181:17" data-file-name="components/FullReport.tsx">
-              <p className="font-semibold" data-unique-id="d5dfee38-3e5a-4108-8208-4ab45c83c020" data-loc="1182:14-1182:43" data-file-name="components/FullReport.tsx">Strategy Recommendation:</p>
-              <p data-unique-id="3d7ebcc0-cf98-48ec-a0bb-0930616d517e" data-loc="1183:14-1183:17" data-file-name="components/FullReport.tsx">{getStrategyRecommendation().strategy}</p>
+            <div data-unique-id="2ee21367-d038-421a-ac7f-cc38c156a465" data-file-name="components/FullReport.tsx">
+              <p className="font-semibold" data-unique-id="d68e3996-2d06-44c2-82da-d4febe97bdfb" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="686a562f-9fe4-4f6e-824f-ae308980ee8f" data-file-name="components/FullReport.tsx">Strategy Recommendation:</span></p>
+              <p data-unique-id="6201fb0b-b25d-46a5-99a9-a27b677888cf" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{getStrategyRecommendation().strategy}</p>
             </div>
           </div>
           
           {/* AI-Generated Strategies Section */}
-          {(soStrategies.length > 0 || stStrategies.length > 0 || woStrategies.length > 0 || wtStrategies.length > 0) && <div className="page-break-before" data-unique-id="413af9da-99b2-4ed6-85e7-82768c4d21c1" data-loc="1189:12-1189:47" data-file-name="components/FullReport.tsx">
-              <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="80e03850-f7f0-49e5-b3dd-7be0eca92d71" data-loc="1190:14-1190:87" data-file-name="components/FullReport.tsx">AI-Generated Strategic Recommendations</h2>
+          {(soStrategies.length > 0 || stStrategies.length > 0 || woStrategies.length > 0 || wtStrategies.length > 0) && <div className="page-break-before" data-unique-id="ed72f4ec-3a51-4494-b222-eb5acbb795b0" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+              <h2 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4" data-unique-id="a421bb8b-3edf-4793-8a49-bd59032d91b8" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="7833ec7a-fd49-4d12-b348-2ff4b21f9f08" data-file-name="components/FullReport.tsx">AI-Generated Strategic Recommendations</span></h2>
               
-              {soStrategies.length > 0 && <div className="mb-6" data-unique-id="5a7e7a07-f4f4-4d96-8834-8929db9da75e" data-loc="1193:16-1193:38" data-file-name="components/FullReport.tsx">
-                  <h3 className="text-lg font-semibold text-green-700 mb-2" data-unique-id="b738a621-ed23-4fd9-9519-dd2a2be8f1c9" data-loc="1194:18-1194:76" data-file-name="components/FullReport.tsx">SO Strategies (Strengths-Opportunities)</h3>
-                  <p className="text-sm text-slate-600 mb-3" data-unique-id="0058284d-483b-4bbe-8c61-f983bc3ef6b3" data-loc="1195:18-1195:61" data-file-name="components/FullReport.tsx">Strategies that use internal strengths to take advantage of external opportunities</p>
-                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="099d2a2e-c7eb-4222-9f64-3b66de0fb9e6" data-loc="1196:18-1196:62" data-file-name="components/FullReport.tsx">
-                    {soStrategies.map((strategy, index) => <li key={index} className="mb-2" data-unique-id="map_39132097-c3a2-4aa1-8eb1-a4882db2e47d" data-loc="1198:22-1198:55" data-file-name="components/FullReport.tsx" data-is-mapped="true">{strategy.content}</li>)}
+              {soStrategies.length > 0 && <div className="mb-6" data-unique-id="ef53e25f-4570-43ab-b411-e69d9f3f796c" data-file-name="components/FullReport.tsx">
+                  <h3 className="text-lg font-semibold text-green-700 mb-2" data-unique-id="9371d05c-a914-41cc-ac44-914d9e6b1436" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="e38df323-4a0b-4f27-b160-6cf98ddcc91f" data-file-name="components/FullReport.tsx">SO Strategies (Strengths-Opportunities)</span></h3>
+                  <p className="text-sm text-slate-600 mb-3" data-unique-id="d40addf2-fd4f-4e90-bd4a-906294e54af2" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="733f9a83-1d2d-4d0d-9479-2767ce3418bb" data-file-name="components/FullReport.tsx">Strategies that use internal strengths to take advantage of external opportunities</span></p>
+                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="e336281c-8370-4f21-a79d-2e0b89047e2c" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                    {soStrategies.map((strategy, index) => <li key={index} className="mb-2" data-is-mapped="true" data-unique-id="c7420798-f808-494c-aced-d177da2f31fe" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{strategy.content}</li>)}
                   </ol>
                 </div>}
               
-              {stStrategies.length > 0 && <div className="mb-6" data-unique-id="1583dc72-6198-4620-96c8-dafd45d7d30f" data-loc="1205:16-1205:38" data-file-name="components/FullReport.tsx">
-                  <h3 className="text-lg font-semibold text-blue-700 mb-2" data-unique-id="642732fd-e60f-4e1d-a729-debfa9c7fdf7" data-loc="1206:18-1206:75" data-file-name="components/FullReport.tsx">ST Strategies (Strengths-Threats)</h3>
-                  <p className="text-sm text-slate-600 mb-3" data-unique-id="962d2e55-6b7c-4a54-a66c-dd6feb65b5d3" data-loc="1207:18-1207:61" data-file-name="components/FullReport.tsx">Strategies that use internal strengths to minimize external threats</p>
-                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="113bc573-f112-4b5d-9889-701c63ae7129" data-loc="1208:18-1208:62" data-file-name="components/FullReport.tsx">
-                    {stStrategies.map((strategy, index) => <li key={index} className="mb-2" data-unique-id="map_621f9cc4-454e-4221-880b-d47a489ac7b8" data-loc="1210:22-1210:55" data-file-name="components/FullReport.tsx" data-is-mapped="true">{strategy.content}</li>)}
+              {stStrategies.length > 0 && <div className="mb-6" data-unique-id="3f5b6776-4951-481a-a132-f6d7420ab8e9" data-file-name="components/FullReport.tsx">
+                  <h3 className="text-lg font-semibold text-blue-700 mb-2" data-unique-id="8000a7c0-3e67-474a-bb74-e345d938dbbe" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="25088893-fc24-438d-921d-58f064c231f9" data-file-name="components/FullReport.tsx">ST Strategies (Strengths-Threats)</span></h3>
+                  <p className="text-sm text-slate-600 mb-3" data-unique-id="7e2befed-c7f6-4f81-a37e-29794df31920" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="a984c560-cfd4-4fc3-babd-26820ed2308e" data-file-name="components/FullReport.tsx">Strategies that use internal strengths to minimize external threats</span></p>
+                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="c7e59490-425a-4e19-abdb-ce6d8145fa8c" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                    {stStrategies.map((strategy, index) => <li key={index} className="mb-2" data-is-mapped="true" data-unique-id="8b55866d-400f-4780-89a9-c28512ba481f" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{strategy.content}</li>)}
                   </ol>
                 </div>}
               
-              {woStrategies.length > 0 && <div className="mb-6" data-unique-id="4558e36b-46f2-498f-9e12-5b016d4ba1d7" data-loc="1217:16-1217:38" data-file-name="components/FullReport.tsx">
-                  <h3 className="text-lg font-semibold text-amber-700 mb-2" data-unique-id="fd45b094-2964-4deb-9b36-80ab16eb3bef" data-loc="1218:18-1218:76" data-file-name="components/FullReport.tsx">WO Strategies (Weaknesses-Opportunities)</h3>
-                  <p className="text-sm text-slate-600 mb-3" data-unique-id="ca21db58-4db0-4094-bc48-9f8a80f0a44b" data-loc="1219:18-1219:61" data-file-name="components/FullReport.tsx">Strategies that improve internal weaknesses by taking advantage of external opportunities</p>
-                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="3bad57df-009d-4dd2-8272-9e5088747361" data-loc="1220:18-1220:62" data-file-name="components/FullReport.tsx">
-                    {woStrategies.map((strategy, index) => <li key={index} className="mb-2" data-unique-id="map_cb3b5a0f-acda-4b7d-bebc-575d5c5c2a6c" data-loc="1222:22-1222:55" data-file-name="components/FullReport.tsx" data-is-mapped="true">{strategy.content}</li>)}
+              {woStrategies.length > 0 && <div className="mb-6" data-unique-id="ef9f7faa-b669-40e3-8cb6-b2b0bdcc08c0" data-file-name="components/FullReport.tsx">
+                  <h3 className="text-lg font-semibold text-amber-700 mb-2" data-unique-id="152412de-e913-41f8-9400-709b2ee920e6" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="03f5b504-a65f-4870-a5d3-f85a2fdc779c" data-file-name="components/FullReport.tsx">WO Strategies (Weaknesses-Opportunities)</span></h3>
+                  <p className="text-sm text-slate-600 mb-3" data-unique-id="7863d8a4-a330-4c86-98df-f1174824afcb" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="9410e0dc-1364-4532-9c9d-4eb1f21c125d" data-file-name="components/FullReport.tsx">Strategies that improve internal weaknesses by taking advantage of external opportunities</span></p>
+                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="50c46ad8-95b0-4840-9612-ba740f93563d" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                    {woStrategies.map((strategy, index) => <li key={index} className="mb-2" data-is-mapped="true" data-unique-id="6e4c1ecc-7217-410a-86e9-30a2546767f5" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{strategy.content}</li>)}
                   </ol>
                 </div>}
               
-              {wtStrategies.length > 0 && <div className="mb-6" data-unique-id="93e92ea8-c16f-49f4-8f80-5e3008e291c5" data-loc="1229:16-1229:38" data-file-name="components/FullReport.tsx">
-                  <h3 className="text-lg font-semibold text-red-700 mb-2" data-unique-id="541bf1e5-1b03-4dd2-b8a3-1565178446ae" data-loc="1230:18-1230:74" data-file-name="components/FullReport.tsx">WT Strategies (Weaknesses-Threats)</h3>
-                  <p className="text-sm text-slate-600 mb-3" data-unique-id="49997e58-ea58-4b0c-a085-5b69bb6814f5" data-loc="1231:18-1231:61" data-file-name="components/FullReport.tsx">Strategies that minimize internal weaknesses and avoid external threats</p>
-                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="92736eb9-0c11-4707-b290-75dbff503541" data-loc="1232:18-1232:62" data-file-name="components/FullReport.tsx">
-                    {wtStrategies.map((strategy, index) => <li key={index} className="mb-2" data-unique-id="map_6a6d06f4-d649-43c5-87d2-4f9266e92e15" data-loc="1234:22-1234:55" data-file-name="components/FullReport.tsx" data-is-mapped="true">{strategy.content}</li>)}
+              {wtStrategies.length > 0 && <div className="mb-6" data-unique-id="e7a6983d-f914-4a58-a2a4-329ff5f4644f" data-file-name="components/FullReport.tsx">
+                  <h3 className="text-lg font-semibold text-red-700 mb-2" data-unique-id="372828b4-fee1-4a01-a440-2aa74690f21e" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="bf3084e8-8c2f-4afc-9b5b-7a7d7d8643cd" data-file-name="components/FullReport.tsx">WT Strategies (Weaknesses-Threats)</span></h3>
+                  <p className="text-sm text-slate-600 mb-3" data-unique-id="851c7c5d-358a-4d30-8139-2cc85ba3f969" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="d54d1525-cc2d-4d60-b6ac-10b71715b630" data-file-name="components/FullReport.tsx">Strategies that minimize internal weaknesses and avoid external threats</span></p>
+                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="e7996667-9bcd-4f55-8697-93ed4f880271" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                    {wtStrategies.map((strategy, index) => <li key={index} className="mb-2" data-is-mapped="true" data-unique-id="f794f948-db43-46ad-aa88-bf6fb4ad2e9d" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{strategy.content}</li>)}
                   </ol>
                 </div>}
               
-              {prioritizedStrategies.length > 0 && <div className="mt-8" data-unique-id="273a1cb0-f9f8-49e5-baee-e8f9b044d1e1" data-loc="1241:16-1241:38" data-file-name="components/FullReport.tsx">
-                  <h3 className="text-lg font-semibold text-slate-800 mb-2" data-unique-id="da652790-1ad1-4310-8edd-9b4d25750f68" data-loc="1242:18-1242:76" data-file-name="components/FullReport.tsx">Prioritized Strategic Recommendations</h3>
-                  <p className="text-sm text-slate-600 mb-3" data-unique-id="6124decc-0085-48ab-b8ae-fa666b43cb07" data-loc="1243:18-1243:61" data-file-name="components/FullReport.tsx">Based on your IE Matrix position, these strategies have been prioritized for implementation</p>
-                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="c71bd167-3cd0-45a2-8e98-c9c767d37c0c" data-loc="1244:18-1244:62" data-file-name="components/FullReport.tsx">
-                    {prioritizedStrategies.map((strategy, index) => <li key={index} className="mb-2" data-unique-id="map_a7600a41-946f-495e-ac27-a0865afe8af4" data-loc="1246:22-1246:55" data-file-name="components/FullReport.tsx" data-is-mapped="true">{strategy.content}</li>)}
+              {prioritizedStrategies.length > 0 && <div className="mt-8" data-unique-id="0c83bf16-1f69-4436-8f99-925467d61147" data-file-name="components/FullReport.tsx">
+                  <h3 className="text-lg font-semibold text-slate-800 mb-2" data-unique-id="7f2dcf26-5f71-44c1-baea-fd7ae67a930b" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="46d13019-da9a-4ec6-84e8-2055aa077695" data-file-name="components/FullReport.tsx">Prioritized Strategic Recommendations</span></h3>
+                  <p className="text-sm text-slate-600 mb-3" data-unique-id="4bdde0b1-690c-4aad-be79-f7a61e7d7cf6" data-file-name="components/FullReport.tsx"><span className="editable-text" data-unique-id="a722b2f8-0357-40ad-913e-00336524ce1b" data-file-name="components/FullReport.tsx">Based on your IE Matrix position, these strategies have been prioritized for implementation</span></p>
+                  <ol className="list-decimal pl-5 space-y-2" data-unique-id="7da80ab9-741e-436c-983f-0efa7ce2086d" data-file-name="components/FullReport.tsx" data-dynamic-text="true">
+                    {prioritizedStrategies.map((strategy, index) => <li key={index} className="mb-2" data-is-mapped="true" data-unique-id="e09f84b4-f3cf-4795-b380-8cf3f5f66ec2" data-file-name="components/FullReport.tsx" data-dynamic-text="true">{strategy.content}</li>)}
                   </ol>
                 </div>}
             </div>}

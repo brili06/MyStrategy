@@ -421,75 +421,75 @@ export default function MatrixAnalysisTool({
   };
 
   // Progress indicator
-  const renderProgressBar = () => <div className="mb-8" data-unique-id="3649ad06-fe97-4c11-87d9-d91af9a38833" data-loc="457:4-457:26" data-file-name="components/MatrixAnalysisTool.tsx">
-      <div className="flex items-center justify-between" data-unique-id="ddf822f8-08ab-438b-90df-0257c026daac" data-loc="458:6-458:57" data-file-name="components/MatrixAnalysisTool.tsx">
-        <div className={`flex flex-col items-center ${currentStep === "profile" ? "text-blue-600" : "text-slate-400"}`} data-unique-id="9323a86a-8a88-47f5-83da-148bced8876f" data-loc="459:8-459:120" data-file-name="components/MatrixAnalysisTool.tsx">
-          <div className={`w-10 h-10 rounded-full flex items-center justify-center ${currentStep === "profile" ? "bg-blue-100 text-blue-600" : currentStep === "swot" || currentStep === "matrix" ? "bg-green-100 text-green-600" : "bg-slate-100"}`} data-unique-id="4b9b5e78-e0ab-4a74-bafb-660fe6a05f8b" data-loc="460:10-463:14" data-file-name="components/MatrixAnalysisTool.tsx">
+  const renderProgressBar = () => <div className="mb-8" data-unique-id="457ca30c-e565-4fed-8024-2eddf69341c1" data-file-name="components/MatrixAnalysisTool.tsx">
+      <div className="flex items-center justify-between" data-unique-id="00c133c9-eb76-49a2-8cd7-b67864753c8c" data-file-name="components/MatrixAnalysisTool.tsx">
+        <div className={`flex flex-col items-center ${currentStep === "profile" ? "text-blue-600" : "text-slate-400"}`} data-unique-id="f9e91b9e-a0cd-4f00-87d4-92ad89976e1a" data-file-name="components/MatrixAnalysisTool.tsx">
+          <div className={`w-10 h-10 rounded-full flex items-center justify-center ${currentStep === "profile" ? "bg-blue-100 text-blue-600" : currentStep === "swot" || currentStep === "matrix" ? "bg-green-100 text-green-600" : "bg-slate-100"}`} data-unique-id="77c67408-f0f1-4a96-bdce-d3b10393b928" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="7af355bf-dad0-4fa4-b2f3-7c8200c17071" data-file-name="components/MatrixAnalysisTool.tsx">
             1
-          </div>
-          <span className="text-sm mt-1" data-unique-id="fe96add0-f1f6-4d1b-8468-3424c2340a31" data-loc="466:10-466:41" data-file-name="components/MatrixAnalysisTool.tsx">Company Profile</span>
+          </span></div>
+          <span className="text-sm mt-1" data-unique-id="69404f05-5366-47d4-b279-27c6eb3f1e77" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="0a1d2cd7-79db-4b81-9dd6-79a305e69dbc" data-file-name="components/MatrixAnalysisTool.tsx">Company Profile</span></span>
         </div>
         
-        <div className={`flex-1 h-1 mx-2 ${currentStep === "profile" ? "bg-slate-200" : "bg-green-300"}`} data-unique-id="d88008a9-4c73-4f92-900e-de6b1295a797" data-loc="469:8-471:12" data-file-name="components/MatrixAnalysisTool.tsx"></div>
+        <div className={`flex-1 h-1 mx-2 ${currentStep === "profile" ? "bg-slate-200" : "bg-green-300"}`} data-unique-id="c2834d30-dfe2-441e-9318-c17af5b3640a" data-file-name="components/MatrixAnalysisTool.tsx"></div>
         
-        <div className={`flex flex-col items-center ${currentStep === "swot" ? "text-blue-600" : currentStep === "profile" ? "text-slate-400" : "text-green-600"}`} data-unique-id="8b7893bb-bcec-4176-9a87-e19318b2cd0f" data-loc="473:8-473:164" data-file-name="components/MatrixAnalysisTool.tsx">
-          <div className={`w-10 h-10 rounded-full flex items-center justify-center ${currentStep === "swot" ? "bg-blue-100 text-blue-600" : currentStep === "matrix" ? "bg-green-100 text-green-600" : "bg-slate-100"}`} data-unique-id="0372a220-37c7-49e7-a9ae-4c2c4230536e" data-loc="474:10-477:14" data-file-name="components/MatrixAnalysisTool.tsx">
+        <div className={`flex flex-col items-center ${currentStep === "swot" ? "text-blue-600" : currentStep === "profile" ? "text-slate-400" : "text-green-600"}`} data-unique-id="e21c2631-ee10-44c4-8cb3-61f490f309f4" data-file-name="components/MatrixAnalysisTool.tsx">
+          <div className={`w-10 h-10 rounded-full flex items-center justify-center ${currentStep === "swot" ? "bg-blue-100 text-blue-600" : currentStep === "matrix" ? "bg-green-100 text-green-600" : "bg-slate-100"}`} data-unique-id="af45d35e-3a58-43cc-95c9-5355dd42b904" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="114c08e3-9bdf-4acd-b5e1-4351a839b857" data-file-name="components/MatrixAnalysisTool.tsx">
             2
-          </div>
-          <span className="text-sm mt-1" data-unique-id="a0ef5372-8939-4f74-b655-9e424e88f0e2" data-loc="480:10-480:41" data-file-name="components/MatrixAnalysisTool.tsx">SWOT Analysis</span>
+          </span></div>
+          <span className="text-sm mt-1" data-unique-id="1ade8286-6793-4b8f-b042-66a20fbdeb0f" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="1424676b-bc72-4f89-9f28-faa5d9701882" data-file-name="components/MatrixAnalysisTool.tsx">SWOT Analysis</span></span>
         </div>
         
-        <div className={`flex-1 h-1 mx-2 ${currentStep === "profile" || currentStep === "swot" ? "bg-slate-200" : "bg-green-300"}`} data-unique-id="c58e8adb-ad74-43a7-98d1-82035dc0a22d" data-loc="483:8-485:12" data-file-name="components/MatrixAnalysisTool.tsx"></div>
+        <div className={`flex-1 h-1 mx-2 ${currentStep === "profile" || currentStep === "swot" ? "bg-slate-200" : "bg-green-300"}`} data-unique-id="1eabcf37-d6cd-4905-bad0-582143db40f4" data-file-name="components/MatrixAnalysisTool.tsx"></div>
         
-        <div className={`flex flex-col items-center ${currentStep === "matrix" ? "text-blue-600" : "text-slate-400"}`} data-unique-id="c1f09749-5be9-4f22-a5be-0f5dc35fc02c" data-loc="487:8-487:119" data-file-name="components/MatrixAnalysisTool.tsx">
-          <div className={`w-10 h-10 rounded-full flex items-center justify-center ${currentStep === "matrix" ? "bg-blue-100 text-blue-600" : "bg-slate-100"}`} data-unique-id="5b83f3f5-a12c-4c7d-a039-2139407bbbbd" data-loc="488:10-490:14" data-file-name="components/MatrixAnalysisTool.tsx">
+        <div className={`flex flex-col items-center ${currentStep === "matrix" ? "text-blue-600" : "text-slate-400"}`} data-unique-id="f985753b-be6c-4a24-b775-b5b51e9ac0da" data-file-name="components/MatrixAnalysisTool.tsx">
+          <div className={`w-10 h-10 rounded-full flex items-center justify-center ${currentStep === "matrix" ? "bg-blue-100 text-blue-600" : "bg-slate-100"}`} data-unique-id="60b30a49-ebf0-4473-9010-3f5faae20fcf" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="884d255f-a1cf-497f-9435-30e8b334db5a" data-file-name="components/MatrixAnalysisTool.tsx">
             3
-          </div>
-          <span className="text-sm mt-1" data-unique-id="a4738fc7-7d6c-4785-83fe-144959e6a5d1" data-loc="493:10-493:41" data-file-name="components/MatrixAnalysisTool.tsx">Matrix Analysis</span>
+          </span></div>
+          <span className="text-sm mt-1" data-unique-id="1bfbcd7e-1c7e-4e5d-bea9-2fb8ae668b2c" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="d0390c00-9c22-4186-969a-5be3d7432c32" data-file-name="components/MatrixAnalysisTool.tsx">Matrix Analysis</span></span>
         </div>
       </div>
     </div>;
 
   // Render the matrix analysis tabs and content
   const renderMatrixAnalysis = () => <>
-      <div className="w-full" data-unique-id="c5be77e9-6587-4b7e-ad3f-0052bae1fbef" data-loc="502:6-502:30" data-file-name="components/MatrixAnalysisTool.tsx">
-        <div className="flex justify-between items-center mb-8" data-unique-id="2749a387-81cc-47f5-ad5b-a2359d1cc060" data-loc="503:8-503:64" data-file-name="components/MatrixAnalysisTool.tsx">
-          <div className="inline-flex h-12 items-center justify-center rounded-lg bg-slate-100 p-1 text-slate-500 w-[800px] grid grid-cols-4" data-unique-id="d4dc738f-ac27-435e-aa98-a4f62e4c00e5" data-loc="504:10-504:142" data-file-name="components/MatrixAnalysisTool.tsx">
-            <button onClick={() => setActiveTab("ife")} className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-2 h-10 text-sm font-medium text-lg ${activeTab === "ife" ? "bg-white text-slate-950 shadow-sm" : "hover:bg-slate-50"}`} data-unique-id="38d4614b-2da2-4ef6-8d03-7672b7b7b622" data-loc="505:12-512:13" data-file-name="components/MatrixAnalysisTool.tsx">
+      <div className="w-full" data-unique-id="b2c4264b-ee17-46a5-a099-4cfd0c402cf2" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
+        <div className="flex justify-between items-center mb-8" data-unique-id="4cbf368d-b36e-488e-baa6-439a6d4f09cb" data-file-name="components/MatrixAnalysisTool.tsx">
+          <div className="inline-flex h-12 items-center justify-center rounded-lg bg-slate-100 p-1 text-slate-500 w-[800px] grid grid-cols-4" data-unique-id="455c6584-25ec-4e71-97e4-56d0756c3f9e" data-file-name="components/MatrixAnalysisTool.tsx">
+            <button onClick={() => setActiveTab("ife")} className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-2 h-10 text-sm font-medium text-lg ${activeTab === "ife" ? "bg-white text-slate-950 shadow-sm" : "hover:bg-slate-50"}`} data-unique-id="acc1c8e9-5627-47c0-8526-de43f96209d6" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="0c516fbb-1ffa-46bc-8151-91ae06629412" data-file-name="components/MatrixAnalysisTool.tsx">
               IFE Matrix
-              <span className="ml-2 text-sm font-normal text-slate-500" data-unique-id="3423415e-4210-449a-894e-f7b443beda2b" data-loc="514:14-514:72" data-file-name="components/MatrixAnalysisTool.tsx">(Internal)</span>
+              </span><span className="ml-2 text-sm font-normal text-slate-500" data-unique-id="a1f3387d-79fd-4bdf-a36a-7e88c7e96e2f" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="6dcca302-7934-4ee2-8b31-cfa401ae586d" data-file-name="components/MatrixAnalysisTool.tsx">(Internal)</span></span>
             </button>
-            <button onClick={() => setActiveTab("efe")} disabled={ifeFactors.length === 0} className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-2 h-10 text-sm font-medium text-lg ${activeTab === "efe" ? "bg-white text-slate-950 shadow-sm" : ifeFactors.length === 0 ? "opacity-50 cursor-not-allowed" : "hover:bg-slate-50"}`} data-unique-id="431b586d-f460-4610-a53e-8095f21b8982" data-loc="516:12-526:13" data-file-name="components/MatrixAnalysisTool.tsx">
+            <button onClick={() => setActiveTab("efe")} disabled={ifeFactors.length === 0} className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-2 h-10 text-sm font-medium text-lg ${activeTab === "efe" ? "bg-white text-slate-950 shadow-sm" : ifeFactors.length === 0 ? "opacity-50 cursor-not-allowed" : "hover:bg-slate-50"}`} data-unique-id="c85db360-4702-48e0-bd01-a8a53bd9ef9b" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="960074a1-9262-4e74-b71a-4f417a814c65" data-file-name="components/MatrixAnalysisTool.tsx">
               EFE Matrix
-              <span className="ml-2 text-sm font-normal text-slate-500" data-unique-id="5d65a454-ebad-445b-aed6-9af66c91def2" data-loc="528:14-528:72" data-file-name="components/MatrixAnalysisTool.tsx">(External)</span>
+              </span><span className="ml-2 text-sm font-normal text-slate-500" data-unique-id="e2582f69-61cd-457f-b0ee-b2e237bff10f" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="4b0f2c4c-dad9-4956-89d6-d41b18122b44" data-file-name="components/MatrixAnalysisTool.tsx">(External)</span></span>
             </button>
-            <button onClick={() => setActiveTab("ie")} disabled={efeFactors.length === 0} className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-2 h-10 text-sm font-medium text-lg ${activeTab === "ie" ? "bg-white text-slate-950 shadow-sm" : efeFactors.length === 0 ? "opacity-50 cursor-not-allowed" : "hover:bg-slate-50"}`} data-unique-id="edf95ffb-2983-42c4-9856-99d6cfd5d346" data-loc="530:12-540:13" data-file-name="components/MatrixAnalysisTool.tsx">
+            <button onClick={() => setActiveTab("ie")} disabled={efeFactors.length === 0} className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-2 h-10 text-sm font-medium text-lg ${activeTab === "ie" ? "bg-white text-slate-950 shadow-sm" : efeFactors.length === 0 ? "opacity-50 cursor-not-allowed" : "hover:bg-slate-50"}`} data-unique-id="b20dbb06-342a-447b-8043-679bc64ee6d2" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="6cc0c26d-0a78-4a35-a0ea-6a9f2676834e" data-file-name="components/MatrixAnalysisTool.tsx">
               IE Matrix
-              <span className="ml-2 text-sm font-normal text-slate-500" data-unique-id="63ee8a47-ac74-4091-bb0d-41c776c3ba05" data-loc="542:14-542:72" data-file-name="components/MatrixAnalysisTool.tsx">(Combined)</span>
+              </span><span className="ml-2 text-sm font-normal text-slate-500" data-unique-id="482f1860-d264-477d-8702-e6f6d0dac0a2" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="bc409474-29c4-48e8-9fe1-886d489a3cc7" data-file-name="components/MatrixAnalysisTool.tsx">(Combined)</span></span>
             </button>
-            <button onClick={() => setActiveTab("strategies")} disabled={ifeScore === 0 || efeScore === 0} className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-2 h-10 text-sm font-medium text-lg ${activeTab === "strategies" ? "bg-white text-slate-950 shadow-sm" : ifeScore === 0 || efeScore === 0 ? "opacity-50 cursor-not-allowed" : "hover:bg-slate-50"}`} data-unique-id="68babc9d-74fb-4615-bcf0-8742105be045" data-loc="544:12-554:13" data-file-name="components/MatrixAnalysisTool.tsx">
+            <button onClick={() => setActiveTab("strategies")} disabled={ifeScore === 0 || efeScore === 0} className={`inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-2 h-10 text-sm font-medium text-lg ${activeTab === "strategies" ? "bg-white text-slate-950 shadow-sm" : ifeScore === 0 || efeScore === 0 ? "opacity-50 cursor-not-allowed" : "hover:bg-slate-50"}`} data-unique-id="3be4ac09-5d6e-4310-88f2-f4305fdb478d" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="966103c2-ed35-4aa2-9ca2-f072eb9d3eb7" data-file-name="components/MatrixAnalysisTool.tsx">
               AI Integration
-              <span className="ml-2 text-sm font-normal text-slate-500" data-unique-id="08f0a395-46bc-4215-9ce5-afa557070730" data-loc="556:14-556:72" data-file-name="components/MatrixAnalysisTool.tsx">(Strategies)</span>
+              </span><span className="ml-2 text-sm font-normal text-slate-500" data-unique-id="95cc070b-b25e-4128-97d1-e267c52cb09c" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="47eeec72-218a-4d5c-ba6d-3704ee702656" data-file-name="components/MatrixAnalysisTool.tsx">(Strategies)</span></span>
             </button>
           </div>
           
-          <div className="flex items-center gap-4" data-unique-id="1e951198-3271-46ed-ae33-a0facb6a28fe" data-loc="560:10-560:51" data-file-name="components/MatrixAnalysisTool.tsx">
-            <div className="flex items-center" data-unique-id="b9516f66-77d5-4fd2-b629-32f2cb739bee" data-loc="561:12-561:47" data-file-name="components/MatrixAnalysisTool.tsx">
-              <label htmlFor="language-select" className="mr-2 text-sm text-slate-600" data-unique-id="e13fd497-1107-4cbf-8108-ccdd8c55e725" data-loc="562:14-562:87" data-file-name="components/MatrixAnalysisTool.tsx">Language:</label>
+          <div className="flex items-center gap-4" data-unique-id="414052f8-8bbf-46f3-82f6-c063fdb3c1e8" data-file-name="components/MatrixAnalysisTool.tsx">
+            <div className="flex items-center" data-unique-id="2b721428-db36-4f72-9070-476f6249bcf6" data-file-name="components/MatrixAnalysisTool.tsx">
+              <label htmlFor="language-select" className="mr-2 text-sm text-slate-600" data-unique-id="d1462425-9085-4971-acca-bf2621c3810a" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="39085303-fedb-4d98-a61c-2a8330e40a56" data-file-name="components/MatrixAnalysisTool.tsx">Language:</span></label>
               <select id="language-select" value={selectedLanguage} onChange={e => {
               setSelectedLanguage(e.target.value);
               localStorage.setItem("selectedLanguage", e.target.value);
-            }} className="p-2 border border-slate-300 rounded-md text-sm" data-unique-id="65642884-9a22-474a-81dd-75ba21f026d9" data-loc="563:14-571:15" data-file-name="components/MatrixAnalysisTool.tsx">
-                {supportedLanguages.map(lang => <option key={lang.code} value={lang.code} data-unique-id="map_012734c1-86ff-4a92-9246-b338772ef2cf" data-loc="573:18-573:60" data-file-name="components/MatrixAnalysisTool.tsx" data-is-mapped="true">
+            }} className="p-2 border border-slate-300 rounded-md text-sm" data-unique-id="d56081ac-aaf3-4fe8-b5fc-e0cd062ea68a" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
+                {supportedLanguages.map(lang => <option key={lang.code} value={lang.code} data-is-mapped="true" data-unique-id="28935591-37c5-4302-b578-e87be0772f0a" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
                     {lang.name}
                   </option>)}
               </select>
             </div>
             
-            <button onClick={saveProject} className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors flex items-center gap-1" data-unique-id="efd9893b-eccb-4570-8742-81879429a3e6" data-loc="580:12-583:13" data-file-name="components/MatrixAnalysisTool.tsx">
-              <Save className="h-4 w-4" />
+            <button onClick={saveProject} className="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors flex items-center gap-1" data-unique-id="953dec40-086d-4e62-94e4-9926855090aa" data-file-name="components/MatrixAnalysisTool.tsx">
+              <Save className="h-4 w-4" /><span className="editable-text" data-unique-id="03bed953-def0-43d5-91d1-ddbc24cacee4" data-file-name="components/MatrixAnalysisTool.tsx">
               Save Project
-            </button>
+            </span></button>
           </div>
         </div>
         
@@ -502,8 +502,8 @@ export default function MatrixAnalysisTool({
       }} exit={{
         opacity: 0,
         y: -20
-      }} className="mb-4 p-3 bg-green-50 text-green-700 rounded-md flex items-center" data-unique-id="44f20bf6-1838-4c59-9587-f38bec33af48" data-loc="591:10-596:11" data-file-name="components/MatrixAnalysisTool.tsx">
-            <span data-unique-id="35e49ef3-8295-457f-b077-5afa97dc9f03" data-loc="597:12-597:18" data-file-name="components/MatrixAnalysisTool.tsx">Project saved successfully! File downloaded to your computer.</span>
+      }} className="mb-4 p-3 bg-green-50 text-green-700 rounded-md flex items-center" data-unique-id="edef082a-50ec-4c18-ac3c-4e0cc63aa232" data-file-name="components/MatrixAnalysisTool.tsx">
+            <span data-unique-id="267524b1-11ab-41b3-a551-e0c77683bef2" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="c1dbfa0f-a1d7-4d2b-a2e5-8dd7d7626c53" data-file-name="components/MatrixAnalysisTool.tsx">Project saved successfully! File downloaded to your computer.</span></span>
           </motion.div>}
         
         <AnimatePresence mode="wait">
@@ -518,9 +518,9 @@ export default function MatrixAnalysisTool({
           x: 20
         }} transition={{
           duration: 0.3
-        }} data-unique-id="0446592d-4a1c-419f-8c35-7ce2dd7e4b1b" data-loc="603:12-608:13" data-file-name="components/MatrixAnalysisTool.tsx">
+        }} data-unique-id="4f6dc59a-3cc5-445c-bd72-f30c0ab502f6" data-file-name="components/MatrixAnalysisTool.tsx">
               <MatrixTable factors={ifeFactors} setFactors={setIfeFactors} type="ife" />
-              <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8" data-unique-id="06dc597a-0eb3-4b63-b135-43fc9e5db593" data-loc="614:14-614:74" data-file-name="components/MatrixAnalysisTool.tsx">
+              <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8" data-unique-id="2c107cbb-1f54-459b-8ba7-b693277ab640" data-file-name="components/MatrixAnalysisTool.tsx">
                 <ScoreInterpretation score={ifeScore} type="ife" />
                 <ExportOptions factors={ifeFactors} score={ifeScore} type="ife" />
               </div>
@@ -537,9 +537,9 @@ export default function MatrixAnalysisTool({
           x: 20
         }} transition={{
           duration: 0.3
-        }} data-unique-id="120e999f-e18a-4467-83e0-d0d54cc50ddc" data-loc="622:12-627:13" data-file-name="components/MatrixAnalysisTool.tsx">
+        }} data-unique-id="8ccb15cf-86ba-49b6-bb2e-580c37c62155" data-file-name="components/MatrixAnalysisTool.tsx">
               <MatrixTable factors={efeFactors} setFactors={setEfeFactors} type="efe" />
-              <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8" data-unique-id="e41a2a87-97a7-4d7c-b2db-d24af6e20c7f" data-loc="633:14-633:74" data-file-name="components/MatrixAnalysisTool.tsx">
+              <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8" data-unique-id="977d8a2e-d12c-46cf-bc63-65e231141e84" data-file-name="components/MatrixAnalysisTool.tsx">
                 <ScoreInterpretation score={efeScore} type="efe" />
                 <ExportOptions factors={efeFactors} score={efeScore} type="efe" />
               </div>
@@ -556,7 +556,7 @@ export default function MatrixAnalysisTool({
           x: 20
         }} transition={{
           duration: 0.3
-        }} data-unique-id="bda11692-e16c-48f7-a735-81f812938460" data-loc="641:12-646:13" data-file-name="components/MatrixAnalysisTool.tsx">
+        }} data-unique-id="2dc74804-8607-4f69-a579-e1d8dd503b4b" data-file-name="components/MatrixAnalysisTool.tsx">
               <SwotMatrixStrategies swotItems={swotItems} ieQuadrant={getIEQuadrant()} ieStrategy={getIEStrategy()} selectedLanguage={selectedLanguage} />
             </motion.div>}
           
@@ -571,56 +571,56 @@ export default function MatrixAnalysisTool({
           x: 20
         }} transition={{
           duration: 0.3
-        }} data-unique-id="3fbcc046-c7c3-4682-96a8-4dd527325c34" data-loc="657:12-662:13" data-file-name="components/MatrixAnalysisTool.tsx">
-              <div className="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4" data-unique-id="a71e1b56-dc8a-47aa-8611-6547b8036412" data-loc="663:14-663:85" data-file-name="components/MatrixAnalysisTool.tsx">
-                <h3 className="text-lg font-medium text-blue-800" data-unique-id="2a2a8499-9d28-4c6b-b81e-9259ab0681b9" data-loc="664:16-664:66" data-file-name="components/MatrixAnalysisTool.tsx">Internal-External (IE) Matrix</h3>
-                <p className="text-blue-700 mt-1" data-unique-id="649ff4dc-9a6e-4e8f-802d-d3e321c669b7" data-loc="665:16-665:50" data-file-name="components/MatrixAnalysisTool.tsx">
+        }} data-unique-id="7aec70c7-6ce5-457d-966c-c990e28f5eb5" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
+              <div className="mb-6 bg-blue-50 border border-blue-200 rounded-lg p-4" data-unique-id="8ce9a36e-1610-4c4b-a037-092fb17c7828" data-file-name="components/MatrixAnalysisTool.tsx">
+                <h3 className="text-lg font-medium text-blue-800" data-unique-id="f7b747f9-94ea-49e9-95f8-000755733738" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="61e6a14c-c77c-4e81-8090-7821a6cf9643" data-file-name="components/MatrixAnalysisTool.tsx">Internal-External (IE) Matrix</span></h3>
+                <p className="text-blue-700 mt-1" data-unique-id="baa963bb-cc75-4872-9498-1cecea143378" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="5a4ff4ef-2288-4859-bb1b-d95de87227c1" data-file-name="components/MatrixAnalysisTool.tsx">
                   The IE Matrix plots your organization's position based on the total weighted scores from both 
                   the IFE Matrix (x-axis) and EFE Matrix (y-axis). This helps determine appropriate strategic approaches.
-                </p>
+                </span></p>
               </div>
               
-              {companyProfile && <div className="mb-6 bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="12d0bd9a-bd20-40a3-ab25-db8741c9664e" data-loc="672:16-672:96" data-file-name="components/MatrixAnalysisTool.tsx">
-                  <h4 className="text-lg font-medium text-slate-800 mb-3" data-unique-id="70d0f8b1-9611-4f4f-93c9-ab9b7faefaba" data-loc="673:18-673:74" data-file-name="components/MatrixAnalysisTool.tsx">Company Profile Summary</h4>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4" data-unique-id="50175365-a0cc-4c74-a480-14975bcdbd6d" data-loc="674:18-674:73" data-file-name="components/MatrixAnalysisTool.tsx">
-                    <div data-unique-id="c3519f80-0085-4407-b2a0-b5d0c2602f1c" data-loc="675:20-675:25" data-file-name="components/MatrixAnalysisTool.tsx">
-                      <p className="text-sm text-slate-500" data-unique-id="07c0d9f4-069a-4448-962d-b7d391c4f242" data-loc="676:22-676:60" data-file-name="components/MatrixAnalysisTool.tsx">Company Name</p>
-                      <p className="font-medium" data-unique-id="8c50b07b-6330-4e3d-baac-881617323da0" data-loc="677:22-677:49" data-file-name="components/MatrixAnalysisTool.tsx">{companyProfile.name}</p>
+              {companyProfile && <div className="mb-6 bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="b5719134-f8ce-41d3-b568-f27c2d846958" data-file-name="components/MatrixAnalysisTool.tsx">
+                  <h4 className="text-lg font-medium text-slate-800 mb-3" data-unique-id="4b8d292a-12fb-4d9e-8ba6-b71e1f92e10b" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="d508c1d8-1e2e-4c08-9162-0e5c34eeee4a" data-file-name="components/MatrixAnalysisTool.tsx">Company Profile Summary</span></h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4" data-unique-id="4dd51ab6-7fb7-4791-b1cf-af815bd02bc8" data-file-name="components/MatrixAnalysisTool.tsx">
+                    <div data-unique-id="9d6964d6-ffa0-431c-aeec-7fdec08a9e1e" data-file-name="components/MatrixAnalysisTool.tsx">
+                      <p className="text-sm text-slate-500" data-unique-id="c12a9de6-2955-488e-b088-eae06ccca60c" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="c9771783-70dc-4eff-948d-830b83d22d4e" data-file-name="components/MatrixAnalysisTool.tsx">Company Name</span></p>
+                      <p className="font-medium" data-unique-id="6e9cc1a9-62e4-4b3a-b553-55da9180d1c7" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">{companyProfile.name}</p>
                     </div>
-                    <div data-unique-id="8a597ba6-079f-47b6-b40c-74d536f36b87" data-loc="679:20-679:25" data-file-name="components/MatrixAnalysisTool.tsx">
-                      <p className="text-sm text-slate-500" data-unique-id="4fe52d52-bc3a-442b-8ef9-ca8516f45892" data-loc="680:22-680:60" data-file-name="components/MatrixAnalysisTool.tsx">Industry</p>
-                      <p className="font-medium" data-unique-id="af87dabb-3cbd-452c-b06a-ed46a17e2108" data-loc="681:22-681:49" data-file-name="components/MatrixAnalysisTool.tsx">{companyProfile.industry}</p>
+                    <div data-unique-id="371bd468-f9c5-4142-bbce-d85d89b1799a" data-file-name="components/MatrixAnalysisTool.tsx">
+                      <p className="text-sm text-slate-500" data-unique-id="3e25f4f5-e8c2-48dc-a208-daed3ec51c01" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="96d44679-e1e8-482a-aa59-9585a691268f" data-file-name="components/MatrixAnalysisTool.tsx">Industry</span></p>
+                      <p className="font-medium" data-unique-id="d04fe043-01aa-403e-be55-5711e4bba025" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">{companyProfile.industry}</p>
                     </div>
                   </div>
                 </div>}
               
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8" data-unique-id="20613e1e-4dd9-4adc-a706-676da509468c" data-loc="687:14-687:74" data-file-name="components/MatrixAnalysisTool.tsx">
-                <div className="bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="35a7f57c-c57d-4269-b996-966100544e2e" data-loc="688:16-688:91" data-file-name="components/MatrixAnalysisTool.tsx">
-                  <h4 className="text-lg font-medium text-slate-800 mb-3" data-unique-id="a3e0dfef-d513-4db6-9ce0-b354808de125" data-loc="689:18-689:74" data-file-name="components/MatrixAnalysisTool.tsx">IFE Score Summary</h4>
-                  <div className="flex items-center" data-unique-id="7324b829-caae-4bfb-adfd-8e25e2f4dca4" data-loc="690:18-690:53" data-file-name="components/MatrixAnalysisTool.tsx">
-                    <div className="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center" data-unique-id="34bad79a-4a3d-43d2-843e-980798aa5401" data-loc="691:20-691:106" data-file-name="components/MatrixAnalysisTool.tsx">
-                      <span className="text-xl font-bold" data-unique-id="0da5e387-a681-4709-8446-af95e3fc7f78" data-loc="692:22-692:58" data-file-name="components/MatrixAnalysisTool.tsx">{ifeScore.toFixed(2)}</span>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8" data-unique-id="0a7c65dc-31be-4ea7-b4bd-61d6e421d595" data-file-name="components/MatrixAnalysisTool.tsx">
+                <div className="bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="189d3a13-0fe6-4eaf-953b-d50798f4ffd5" data-file-name="components/MatrixAnalysisTool.tsx">
+                  <h4 className="text-lg font-medium text-slate-800 mb-3" data-unique-id="8baeacd1-aff3-434d-81ab-e2d2781293e2" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="f99da628-dba1-4afe-a877-25de161904aa" data-file-name="components/MatrixAnalysisTool.tsx">IFE Score Summary</span></h4>
+                  <div className="flex items-center" data-unique-id="c45a9813-8bf5-4cb1-b32f-8cdb5a7a980d" data-file-name="components/MatrixAnalysisTool.tsx">
+                    <div className="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center" data-unique-id="25c94169-34d6-4209-9eca-9227c392de41" data-file-name="components/MatrixAnalysisTool.tsx">
+                      <span className="text-xl font-bold" data-unique-id="35617640-7f69-445e-afbd-f309c3e0c6f9" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">{ifeScore.toFixed(2)}</span>
                     </div>
-                    <div className="ml-4" data-unique-id="4f019d4b-6906-4235-9d2c-fe69eda5db9b" data-loc="694:20-694:42" data-file-name="components/MatrixAnalysisTool.tsx">
-                      <p className="text-slate-600" data-unique-id="3fe5510f-717a-4c81-a773-322c91387a17" data-loc="695:22-695:52" data-file-name="components/MatrixAnalysisTool.tsx">
-                        {ifeScore < 2.0 ? <span className="text-orange-600 font-medium" data-unique-id="1c15649f-aaaa-449e-b790-a1205c6dc755" data-loc="697:26-697:72" data-file-name="components/MatrixAnalysisTool.tsx">Weak internal position</span> : ifeScore < 3.0 ? <span className="text-blue-600 font-medium" data-unique-id="c4f918e8-2418-4047-a03b-d698315790c0" data-loc="699:26-699:70" data-file-name="components/MatrixAnalysisTool.tsx">Average internal position</span> : <span className="text-green-600 font-medium" data-unique-id="91c2b6a9-c80d-4662-b920-9b45da7156cf" data-loc="701:26-701:71" data-file-name="components/MatrixAnalysisTool.tsx">Strong internal position</span>}
+                    <div className="ml-4" data-unique-id="94b80719-56f9-4534-9e94-14b568b5bc8c" data-file-name="components/MatrixAnalysisTool.tsx">
+                      <p className="text-slate-600" data-unique-id="6ea755ba-c25d-406b-a3b8-adb5d690e1f9" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
+                        {ifeScore < 2.0 ? <span className="text-orange-600 font-medium" data-unique-id="d32825e9-5d72-42e7-8355-43d6193d157c" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="dd9048c8-324a-431c-b3cc-744957c10665" data-file-name="components/MatrixAnalysisTool.tsx">Weak internal position</span></span> : ifeScore < 3.0 ? <span className="text-blue-600 font-medium" data-unique-id="c5afe56c-7512-4695-b7fe-96a7b2b5bb40" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="48e3294b-caf9-48a8-8330-0c2e03b0dde9" data-file-name="components/MatrixAnalysisTool.tsx">Average internal position</span></span> : <span className="text-green-600 font-medium" data-unique-id="7f7b1792-c537-4e03-bc25-a3661c05b9ac" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="486974a1-8aad-410d-8064-16c7be9ad463" data-file-name="components/MatrixAnalysisTool.tsx">Strong internal position</span></span>}
                       </p>
-                      <p className="text-sm text-slate-500 mt-1" data-unique-id="ad13fb8e-1819-4ef9-b4d3-c6400427f365" data-loc="704:22-704:65" data-file-name="components/MatrixAnalysisTool.tsx">Based on {ifeFactors.length} internal factors</p>
+                      <p className="text-sm text-slate-500 mt-1" data-unique-id="ac066083-1867-499a-b7ba-26ae92ae7a7f" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="d8ebdb7c-789e-42cd-83b6-1bdffcb75ac4" data-file-name="components/MatrixAnalysisTool.tsx">Based on </span>{ifeFactors.length}<span className="editable-text" data-unique-id="6d41e451-8cbc-40ca-aa76-c7b3e8c91601" data-file-name="components/MatrixAnalysisTool.tsx"> internal factors</span></p>
                     </div>
                   </div>
                 </div>
                 
-                <div className="bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="9023de2c-4f49-42aa-86fc-f4c20a2ef301" data-loc="709:16-709:91" data-file-name="components/MatrixAnalysisTool.tsx">
-                  <h4 className="text-lg font-medium text-slate-800 mb-3" data-unique-id="150a5a6c-af7b-42f9-989b-04087548849d" data-loc="710:18-710:74" data-file-name="components/MatrixAnalysisTool.tsx">EFE Score Summary</h4>
-                  <div className="flex items-center" data-unique-id="4dfd1796-4f7f-4d47-b18c-fd2b12f3b3b2" data-loc="711:18-711:53" data-file-name="components/MatrixAnalysisTool.tsx">
-                    <div className="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center" data-unique-id="7d14f5de-3f31-4c54-b704-e3cb903aea1a" data-loc="712:20-712:106" data-file-name="components/MatrixAnalysisTool.tsx">
-                      <span className="text-xl font-bold" data-unique-id="b9e73de6-23b2-444d-84f3-6703a5dd2ce1" data-loc="713:22-713:58" data-file-name="components/MatrixAnalysisTool.tsx">{efeScore.toFixed(2)}</span>
+                <div className="bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="64952beb-1537-46cb-b16d-168e80a87141" data-file-name="components/MatrixAnalysisTool.tsx">
+                  <h4 className="text-lg font-medium text-slate-800 mb-3" data-unique-id="efa0eb89-bdb1-4266-b32e-a3e6754065f2" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="53a3952a-4bd4-452b-b5da-7db9b1eacd80" data-file-name="components/MatrixAnalysisTool.tsx">EFE Score Summary</span></h4>
+                  <div className="flex items-center" data-unique-id="a6aabb14-91ec-4128-90d8-339e588f8369" data-file-name="components/MatrixAnalysisTool.tsx">
+                    <div className="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center" data-unique-id="425eb91c-79c7-4974-8589-f2897c88ca03" data-file-name="components/MatrixAnalysisTool.tsx">
+                      <span className="text-xl font-bold" data-unique-id="39920d2f-561d-452d-8032-70706e73a5ff" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">{efeScore.toFixed(2)}</span>
                     </div>
-                    <div className="ml-4" data-unique-id="c6bf3837-2337-4a51-8ff9-050ced113fa7" data-loc="715:20-715:42" data-file-name="components/MatrixAnalysisTool.tsx">
-                      <p className="text-slate-600" data-unique-id="e48e50d8-7c2a-4f14-8998-43db0c81e810" data-loc="716:22-716:52" data-file-name="components/MatrixAnalysisTool.tsx">
-                        {efeScore < 2.0 ? <span className="text-orange-600 font-medium" data-unique-id="f4e1455f-707f-440a-9f39-045840c4dc4f" data-loc="718:26-718:72" data-file-name="components/MatrixAnalysisTool.tsx">Low external response</span> : efeScore < 3.0 ? <span className="text-blue-600 font-medium" data-unique-id="787e3e56-1642-4fa9-b1eb-9bc87bbd7022" data-loc="720:26-720:70" data-file-name="components/MatrixAnalysisTool.tsx">Medium external response</span> : <span className="text-green-600 font-medium" data-unique-id="bec4642f-1d17-4f57-88a6-53593e414a65" data-loc="722:26-722:71" data-file-name="components/MatrixAnalysisTool.tsx">High external response</span>}
+                    <div className="ml-4" data-unique-id="7da2aacd-0511-4138-8fb4-e2db39209ace" data-file-name="components/MatrixAnalysisTool.tsx">
+                      <p className="text-slate-600" data-unique-id="0f29f9b4-cfc2-48b3-b47c-8e7538f0bab6" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
+                        {efeScore < 2.0 ? <span className="text-orange-600 font-medium" data-unique-id="8cb981b4-337f-45b3-9294-cff002aaee36" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="be5d1da6-f3ae-46f6-be71-dff2d8c24b44" data-file-name="components/MatrixAnalysisTool.tsx">Low external response</span></span> : efeScore < 3.0 ? <span className="text-blue-600 font-medium" data-unique-id="cd704f51-e615-473c-908a-d48c8f4702da" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="1e3a6d5c-b433-45e5-8fc7-3a6cf3604794" data-file-name="components/MatrixAnalysisTool.tsx">Medium external response</span></span> : <span className="text-green-600 font-medium" data-unique-id="359adb99-afa7-4344-962f-55511712398e" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="6a817335-3a94-419b-9585-6b21de3734e7" data-file-name="components/MatrixAnalysisTool.tsx">High external response</span></span>}
                       </p>
-                      <p className="text-sm text-slate-500 mt-1" data-unique-id="9ea56203-f81b-4f6e-9972-a661a2aa0657" data-loc="725:22-725:65" data-file-name="components/MatrixAnalysisTool.tsx">Based on {efeFactors.length} external factors</p>
+                      <p className="text-sm text-slate-500 mt-1" data-unique-id="7d2859af-6043-4225-841f-174dd607cc05" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="1944fbf7-2d66-4ae3-af49-10371c76e15b" data-file-name="components/MatrixAnalysisTool.tsx">Based on </span>{efeFactors.length}<span className="editable-text" data-unique-id="7db394d2-ea72-4897-a801-90771b2f0806" data-file-name="components/MatrixAnalysisTool.tsx"> external factors</span></p>
                     </div>
                   </div>
                 </div>
@@ -628,7 +628,7 @@ export default function MatrixAnalysisTool({
               
               <IEMatrix ifeScore={ifeScore} efeScore={efeScore} />
               
-              <div className="mt-8" data-unique-id="fadfaeab-19f4-4381-8899-148aa49ae5cb" data-loc="733:14-733:36" data-file-name="components/MatrixAnalysisTool.tsx">
+              <div className="mt-8" data-unique-id="67207e81-bccb-4c47-aa5d-dac7933b49ac" data-file-name="components/MatrixAnalysisTool.tsx">
                 <FullReport companyProfile={companyProfile} swotItems={swotItems} ifeFactors={ifeFactors} efeFactors={efeFactors} ifeScore={ifeScore} efeScore={efeScore} />
               </div>
             </motion.div>}
@@ -639,21 +639,21 @@ export default function MatrixAnalysisTool({
     </>;
 
   // Navigation buttons
-  const renderNavigation = () => <div className="mt-8 flex justify-between" data-unique-id="8d9cdcd4-b80a-4e62-b3d5-37c819177354" data-loc="754:4-754:47" data-file-name="components/MatrixAnalysisTool.tsx">
-      {currentStep !== "profile" && <button onClick={() => setCurrentStep(currentStep === "matrix" ? "swot" : "profile")} className="px-6 py-3 bg-slate-200 text-slate-700 rounded-md hover:bg-slate-300 transition-colors" data-unique-id="4d30a422-7b9e-49e8-9abe-b5f7bf77f920" data-loc="756:8-759:9" data-file-name="components/MatrixAnalysisTool.tsx">
+  const renderNavigation = () => <div className="mt-8 flex justify-between" data-unique-id="2a4bf3f3-19ea-463c-96dd-b40f6be8adf5" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
+      {currentStep !== "profile" && <button onClick={() => setCurrentStep(currentStep === "matrix" ? "swot" : "profile")} className="px-6 py-3 bg-slate-200 text-slate-700 rounded-md hover:bg-slate-300 transition-colors" data-unique-id="f73bac16-1d4b-4c9e-b16a-88ac0e10c514" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="43596abe-ba22-4dc8-be04-b550b51a0187" data-file-name="components/MatrixAnalysisTool.tsx">
           Back
-        </button>}
+        </span></button>}
       
-      {currentStep === "profile" && <div data-unique-id="a7fe5b53-1a31-47d7-956c-e7a8dbf09ecd" data-loc="765:8-765:13" data-file-name="components/MatrixAnalysisTool.tsx"></div> // Empty div for flex spacing
+      {currentStep === "profile" && <div data-unique-id="275d2148-2dff-4f6d-a3d3-20ed5fcf5bf8" data-file-name="components/MatrixAnalysisTool.tsx"></div> // Empty div for flex spacing
     }
       
-      {currentStep === "swot" && <button onClick={() => handleSwotComplete(swotItems)} className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors flex items-center" data-unique-id="7100ed66-9f49-4d64-9eda-1c92b1889b48" data-loc="769:8-772:9" data-file-name="components/MatrixAnalysisTool.tsx">
+      {currentStep === "swot" && <button onClick={() => handleSwotComplete(swotItems)} className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors flex items-center" data-unique-id="32a16781-f811-414b-8e37-a40b9bb1faa3" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="b8d6dde9-c614-4b28-8b57-39f00b5a1f70" data-file-name="components/MatrixAnalysisTool.tsx">
           Continue to Matrix Analysis
-          <ChevronRight className="ml-1 h-5 w-5" />
+          </span><ChevronRight className="ml-1 h-5 w-5" />
         </button>}
     </div>;
-  return <motion.div ref={containerRef} variants={containerVariants} initial="hidden" animate="visible" className="bg-white shadow-lg rounded-xl p-6 relative" data-unique-id="ccce2997-3f3e-471b-b495-8a648a27876e" data-loc="781:4-787:5" data-file-name="components/MatrixAnalysisTool.tsx">
-      <h2 className="text-2xl font-bold text-slate-800 mb-6" data-unique-id="1489e7de-dd42-4649-96a5-0e27815ffced" data-loc="788:6-788:61" data-file-name="components/MatrixAnalysisTool.tsx">Strategic Management Assistant</h2>
+  return <motion.div ref={containerRef} variants={containerVariants} initial="hidden" animate="visible" className="bg-white shadow-lg rounded-xl p-6 relative" data-unique-id="45b1846b-4549-4c39-ab5e-f55163f6804f" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
+      <h2 className="text-2xl font-bold text-slate-800 mb-6" data-unique-id="65c62b60-563d-48f3-a859-3a44de9c7b11" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="96e26a5a-1251-4f96-8bae-d11faf40a51d" data-file-name="components/MatrixAnalysisTool.tsx">Strategic Management Assistant</span></h2>
       
       {renderProgressBar()}
       
@@ -669,7 +669,7 @@ export default function MatrixAnalysisTool({
         x: 20
       }} transition={{
         duration: 0.3
-      }} data-unique-id="c180e9f4-6d99-4634-b626-238a45823168" data-loc="794:10-800:11" data-file-name="components/MatrixAnalysisTool.tsx">
+      }} data-unique-id="acc6a93b-8c24-4b88-8673-8c0b3c4430fc" data-file-name="components/MatrixAnalysisTool.tsx">
             <CompanyProfileForm onComplete={handleProfileComplete} initialProfile={companyProfile || undefined} />
           </motion.div>}
         
@@ -684,7 +684,7 @@ export default function MatrixAnalysisTool({
         x: 20
       }} transition={{
         duration: 0.3
-      }} data-unique-id="26155294-9ad6-4c46-9069-02dbaf5e3179" data-loc="809:10-815:11" data-file-name="components/MatrixAnalysisTool.tsx">
+      }} data-unique-id="88738390-c0c0-474f-ae38-1c62e7f52a1a" data-file-name="components/MatrixAnalysisTool.tsx">
             <SwotAnalysis onComplete={handleSwotComplete} initialItems={swotItems} selectedLanguage={selectedLanguage} />
           </motion.div>}
         
@@ -699,12 +699,12 @@ export default function MatrixAnalysisTool({
         x: 20
       }} transition={{
         duration: 0.3
-      }} data-unique-id="8c5887a2-8fa5-4e0d-bbaa-6b822556fffd" data-loc="825:10-831:11" data-file-name="components/MatrixAnalysisTool.tsx">
+      }} data-unique-id="2ccc17fd-0af4-49c2-86f8-56c73e1bfd30" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
             {renderMatrixAnalysis()}
-            <div className="mt-8 flex justify-between" data-unique-id="ba1dd531-be3f-42d9-997a-e2f2be4d01c7" data-loc="833:12-833:55" data-file-name="components/MatrixAnalysisTool.tsx">
-              <button onClick={() => setCurrentStep("swot")} className="px-6 py-3 bg-slate-200 text-slate-700 rounded-md hover:bg-slate-300 transition-colors" data-unique-id="a45d36b0-419c-4696-9d39-14852c22ca33" data-loc="834:14-837:15" data-file-name="components/MatrixAnalysisTool.tsx">
+            <div className="mt-8 flex justify-between" data-unique-id="71817ada-a108-44c6-ab75-bd069155c737" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
+              <button onClick={() => setCurrentStep("swot")} className="px-6 py-3 bg-slate-200 text-slate-700 rounded-md hover:bg-slate-300 transition-colors" data-unique-id="73ea4892-9da1-4817-88ff-a24ed5c1b80c" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="e5de4f30-26cd-48c0-9cbc-732c53c18852" data-file-name="components/MatrixAnalysisTool.tsx">
                 Back
-              </button>
+              </span></button>
                 
               {activeTab !== "strategies" && <button onClick={() => {
             // Enforce sequential navigation
@@ -715,9 +715,9 @@ export default function MatrixAnalysisTool({
             } else if (activeTab === "ie" && ifeScore > 0 && efeScore > 0) {
               setActiveTab("strategies");
             }
-          }} disabled={activeTab === "ife" && ifeFactors.length === 0 || activeTab === "efe" && efeFactors.length === 0 || activeTab === "ie" && (ifeScore === 0 || efeScore === 0)} className={`px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors flex items-center ${activeTab === "ife" && ifeFactors.length === 0 || activeTab === "efe" && efeFactors.length === 0 || activeTab === "ie" && (ifeScore === 0 || efeScore === 0) ? "opacity-50 cursor-not-allowed" : ""}`} data-unique-id="09cbc64c-2be0-46c8-a3ca-2570eb319125" data-loc="842:16-865:17" data-file-name="components/MatrixAnalysisTool.tsx">
+          }} disabled={activeTab === "ife" && ifeFactors.length === 0 || activeTab === "efe" && efeFactors.length === 0 || activeTab === "ie" && (ifeScore === 0 || efeScore === 0)} className={`px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors flex items-center ${activeTab === "ife" && ifeFactors.length === 0 || activeTab === "efe" && efeFactors.length === 0 || activeTab === "ie" && (ifeScore === 0 || efeScore === 0) ? "opacity-50 cursor-not-allowed" : ""}`} data-unique-id="335bc70e-96a6-4a72-9b3b-55d12c0380d5" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="4503f6fc-8452-419b-9acb-b877567ff486" data-file-name="components/MatrixAnalysisTool.tsx">
                   Next
-                  <ChevronRight className="ml-1 h-5 w-5" />
+                  </span><ChevronRight className="ml-1 h-5 w-5" />
                 </button>}
             </div>
           </motion.div>}
@@ -726,7 +726,7 @@ export default function MatrixAnalysisTool({
       {(currentStep === "profile" || currentStep === "swot") && renderNavigation()}
       
       {/* Floating "+" button for new analysis - fixed position */}
-      {showNewAnalysisButton && <div className="relative" data-unique-id="95a10ecb-549a-41bc-a7b6-98ff4bcc1015" data-loc="879:8-879:34" data-file-name="components/MatrixAnalysisTool.tsx">
+      {showNewAnalysisButton && <div className="relative" data-unique-id="7bfd513a-4191-4475-931c-16b8cd74c892" data-file-name="components/MatrixAnalysisTool.tsx" data-dynamic-text="true">
           {/* Contextual menu */}
           <AnimatePresence>
             {isMenuOpen && <motion.div ref={menuRef} initial={{
@@ -740,18 +740,18 @@ export default function MatrixAnalysisTool({
           y: 10
         }} transition={{
           duration: 0.2
-        }} className="fixed bottom-24 right-6 bg-white rounded-lg shadow-lg border border-slate-200 overflow-hidden z-50 w-48" data-unique-id="c16bef25-b3ab-4fc3-aa0a-b22699b16db4" data-loc="883:14-890:15" data-file-name="components/MatrixAnalysisTool.tsx">
-                <ul data-unique-id="1986cf03-3fc4-40af-a808-76e225d91904" data-loc="891:16-891:20" data-file-name="components/MatrixAnalysisTool.tsx">
-                  <li data-unique-id="a5e79670-4854-4e01-a311-7fc997e1b0cb" data-loc="892:18-892:22" data-file-name="components/MatrixAnalysisTool.tsx">
-                    <button onClick={openNewAnalysisInNewTab} className="w-full text-left px-4 py-3 flex items-center gap-2 hover:bg-slate-50 transition-colors" data-unique-id="39462b32-f27d-4b12-b856-ea4652d478a5" data-loc="893:20-896:21" data-file-name="components/MatrixAnalysisTool.tsx">
+        }} className="fixed bottom-24 right-6 bg-white rounded-lg shadow-lg border border-slate-200 overflow-hidden z-50 w-48" data-unique-id="309ec00b-5fa3-447b-9f36-7788ad2508c9" data-file-name="components/MatrixAnalysisTool.tsx">
+                <ul data-unique-id="d2473173-455c-450d-a75b-d9777f06c2d1" data-file-name="components/MatrixAnalysisTool.tsx">
+                  <li data-unique-id="73c92a6a-c999-48c1-82ea-fa0ba1513237" data-file-name="components/MatrixAnalysisTool.tsx">
+                    <button onClick={openNewAnalysisInNewTab} className="w-full text-left px-4 py-3 flex items-center gap-2 hover:bg-slate-50 transition-colors" data-unique-id="3b61db57-7cef-4558-96c9-5d08795f5c89" data-file-name="components/MatrixAnalysisTool.tsx">
                       <Plus className="h-4 w-4 text-blue-600" />
-                      <span data-unique-id="ee4735ef-9756-4c1f-aaaa-b75b70455c7e" data-loc="898:22-898:28" data-file-name="components/MatrixAnalysisTool.tsx">New Analysis</span>
+                      <span data-unique-id="534146ae-28b6-4d81-bec6-2b2abe104768" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="428b126e-3b01-4173-b535-02b91b06b9e4" data-file-name="components/MatrixAnalysisTool.tsx">New Analysis</span></span>
                     </button>
                   </li>
-                  <li className="border-t border-slate-100" data-unique-id="8f86ba07-9d42-499d-80a9-85e7d21c6b96" data-loc="901:18-901:60" data-file-name="components/MatrixAnalysisTool.tsx">
-                    <button onClick={openProjectInNewTab} className="w-full text-left px-4 py-3 flex items-center gap-2 hover:bg-slate-50 transition-colors" data-unique-id="f55821e8-456f-4e10-85f7-361d798469e7" data-loc="902:20-905:21" data-file-name="components/MatrixAnalysisTool.tsx">
+                  <li className="border-t border-slate-100" data-unique-id="3848f57d-22f7-4ce9-ab68-e607a88ecffe" data-file-name="components/MatrixAnalysisTool.tsx">
+                    <button onClick={openProjectInNewTab} className="w-full text-left px-4 py-3 flex items-center gap-2 hover:bg-slate-50 transition-colors" data-unique-id="e1e233dd-349e-4d8a-a496-c6f6a32af8f0" data-file-name="components/MatrixAnalysisTool.tsx">
                       <FileUp className="h-4 w-4 text-green-600" />
-                      <span data-unique-id="c67fbb7a-bc24-4eef-a62f-bfa9c7fa4501" data-loc="907:22-907:28" data-file-name="components/MatrixAnalysisTool.tsx">Open Project</span>
+                      <span data-unique-id="8cececb2-aab2-476e-b1c7-49388ea93d88" data-file-name="components/MatrixAnalysisTool.tsx"><span className="editable-text" data-unique-id="d4a7acd4-351a-4bfd-8e02-87898657f082" data-file-name="components/MatrixAnalysisTool.tsx">Open Project</span></span>
                     </button>
                   </li>
                 </ul>
@@ -770,7 +770,7 @@ export default function MatrixAnalysisTool({
         scale: 0.8
       }} whileHover={{
         scale: 1.1
-      }} onClick={() => setIsMenuOpen(!isMenuOpen)} className="fixed bottom-6 right-6 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors z-50" data-unique-id="46e7ff8a-6b22-440e-8a0c-6ef4497c4b3a" data-loc="916:10-924:11" data-file-name="components/MatrixAnalysisTool.tsx">
+      }} onClick={() => setIsMenuOpen(!isMenuOpen)} className="fixed bottom-6 right-6 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 transition-colors z-50" data-unique-id="a8a78e9c-1dfb-4d9b-909b-7cace318214b" data-file-name="components/MatrixAnalysisTool.tsx">
             <Plus className="h-6 w-6" />
           </motion.button>
         </div>}

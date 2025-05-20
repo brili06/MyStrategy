@@ -539,33 +539,33 @@ export default function ExportOptions({
   }} transition={{
     duration: 0.5,
     delay: 0.2
-  }} className="bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="9bb2d424-4d61-479c-9741-aecf1ed91dde" data-loc="720:4-725:5" data-file-name="components/ExportOptions.tsx">
-      <h3 className="text-xl font-semibold text-slate-800 mb-4" data-unique-id="887e0191-fa65-4e7a-9fec-e55ea98e5156" data-loc="726:6-726:64" data-file-name="components/ExportOptions.tsx">Export Options</h3>
-      <p className="text-slate-500 mb-6" data-unique-id="f2f56802-455d-44d0-a56d-426627d25a02" data-loc="727:6-727:41" data-file-name="components/ExportOptions.tsx">Save or print your {type.toUpperCase()} matrix analysis</p>
+  }} className="bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="49fbfd33-aff9-4baa-946b-b6966a73d6a7" data-file-name="components/ExportOptions.tsx" data-dynamic-text="true">
+      <h3 className="text-xl font-semibold text-slate-800 mb-4" data-unique-id="ac922c39-b954-4032-bc56-0d29c918c0b8" data-file-name="components/ExportOptions.tsx"><span className="editable-text" data-unique-id="a6ea5947-53bb-480f-92f5-26be9ea17e34" data-file-name="components/ExportOptions.tsx">Export Options</span></h3>
+      <p className="text-slate-500 mb-6" data-unique-id="3793545b-8e7c-4845-ad5d-e9291cc1713c" data-file-name="components/ExportOptions.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="5fde5fb8-ac6b-42e5-9d59-bf74b2064ebc" data-file-name="components/ExportOptions.tsx">Save or print your </span>{type.toUpperCase()}<span className="editable-text" data-unique-id="8e09e1ef-89df-46e2-b1da-865b17385a9e" data-file-name="components/ExportOptions.tsx"> matrix analysis</span></p>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4" data-unique-id="7ac66d76-906c-4fa7-9703-83a1622d1ec4" data-loc="729:6-729:61" data-file-name="components/ExportOptions.tsx">
-        <button onClick={exportToPDF} disabled={isExporting} className="flex flex-col items-center justify-center p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors" data-unique-id="a92a4b3e-e6e7-4324-b337-ada2ad8b3e2b" data-loc="730:8-734:9" data-file-name="components/ExportOptions.tsx">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4" data-unique-id="05fe63ca-c7f4-4d56-afe6-7bc265d521f1" data-file-name="components/ExportOptions.tsx">
+        <button onClick={exportToPDF} disabled={isExporting} className="flex flex-col items-center justify-center p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors" data-unique-id="326aba05-fedd-4974-91be-2b833aa57a84" data-file-name="components/ExportOptions.tsx">
           <FileText className="h-8 w-8 text-blue-600 mb-2" />
-          <span className="font-medium" data-unique-id="b2bda6a8-e6e5-4435-9ab8-d6c165e3b0a0" data-loc="736:10-736:40" data-file-name="components/ExportOptions.tsx">Export as PDF</span>
-          <span className="text-xs text-slate-500 mt-1" data-unique-id="fc0fd74b-369d-456b-a2ac-0cc214cfa26a" data-loc="737:10-737:56" data-file-name="components/ExportOptions.tsx">Document Format</span>
+          <span className="font-medium" data-unique-id="da6c1998-f368-4571-9678-7252f65282a9" data-file-name="components/ExportOptions.tsx"><span className="editable-text" data-unique-id="a962d6c7-b8a6-4094-a3de-58f0a473aeaa" data-file-name="components/ExportOptions.tsx">Export as PDF</span></span>
+          <span className="text-xs text-slate-500 mt-1" data-unique-id="f7d66737-a272-447e-ba3c-7a5c724a977b" data-file-name="components/ExportOptions.tsx"><span className="editable-text" data-unique-id="b0c5eeaf-5890-433c-a4af-b44fcf152355" data-file-name="components/ExportOptions.tsx">Document Format</span></span>
         </button>
         
-        <button onClick={exportToExcel} disabled={isExporting} className="flex flex-col items-center justify-center p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors" data-unique-id="2206fe22-c9a2-49ef-87f1-fa5c5a1a9d66" data-loc="740:8-744:9" data-file-name="components/ExportOptions.tsx">
+        <button onClick={exportToExcel} disabled={isExporting} className="flex flex-col items-center justify-center p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors" data-unique-id="812d96b2-6f14-4b26-b8d6-96b6bb12f271" data-file-name="components/ExportOptions.tsx">
           <FileSpreadsheet className="h-8 w-8 text-green-600 mb-2" />
-          <span className="font-medium" data-unique-id="147f2396-5579-460e-a779-e0d9ed490559" data-loc="746:10-746:40" data-file-name="components/ExportOptions.tsx">Export as Excel</span>
-          <span className="text-xs text-slate-500 mt-1" data-unique-id="20834b17-67ed-4197-93a3-bc233fb53296" data-loc="747:10-747:56" data-file-name="components/ExportOptions.tsx">Spreadsheet Format</span>
+          <span className="font-medium" data-unique-id="2330e600-8934-42a9-b1fa-38a09cfd4285" data-file-name="components/ExportOptions.tsx"><span className="editable-text" data-unique-id="5a5e83b1-7e87-4953-831b-14a474f64b8b" data-file-name="components/ExportOptions.tsx">Export as Excel</span></span>
+          <span className="text-xs text-slate-500 mt-1" data-unique-id="0c84efec-7a48-4c4d-8fd7-edb70f08abc5" data-file-name="components/ExportOptions.tsx"><span className="editable-text" data-unique-id="56ef7f81-a700-41e6-9835-93dd1c063e65" data-file-name="components/ExportOptions.tsx">Spreadsheet Format</span></span>
         </button>
         
-        <button onClick={printReport} disabled={isExporting} className="flex flex-col items-center justify-center p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors" data-unique-id="138e5e03-3f7d-43d3-97cc-0ff5f4ed459e" data-loc="750:8-754:9" data-file-name="components/ExportOptions.tsx">
+        <button onClick={printReport} disabled={isExporting} className="flex flex-col items-center justify-center p-4 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors" data-unique-id="bc1e92d6-d0d9-470a-8fde-31125332ffc5" data-file-name="components/ExportOptions.tsx">
           <Printer className="h-8 w-8 text-slate-600 mb-2" />
-          <span className="font-medium" data-unique-id="68a7f766-5453-4a69-8f8d-85a793860ac7" data-loc="756:10-756:40" data-file-name="components/ExportOptions.tsx">Print Report</span>
-          <span className="text-xs text-slate-500 mt-1" data-unique-id="b2c7609e-6408-47db-9c8a-d5886965d8ee" data-loc="757:10-757:56" data-file-name="components/ExportOptions.tsx">Physical Copy</span>
+          <span className="font-medium" data-unique-id="cd669b3a-8b86-4365-a04d-12e8843d7da6" data-file-name="components/ExportOptions.tsx"><span className="editable-text" data-unique-id="b307a166-672d-4fdc-87b6-d1472c04bdd8" data-file-name="components/ExportOptions.tsx">Print Report</span></span>
+          <span className="text-xs text-slate-500 mt-1" data-unique-id="75af4d04-aab2-4dd1-aeea-b065a162683d" data-file-name="components/ExportOptions.tsx"><span className="editable-text" data-unique-id="fee7596e-9deb-426b-8180-aaec60aa5e19" data-file-name="components/ExportOptions.tsx">Physical Copy</span></span>
         </button>
       </div>
       
-      {isExporting && <div className="mt-4 flex items-center justify-center py-2 bg-blue-50 text-blue-700 rounded-lg" data-unique-id="1eb9ecbd-6dfd-4d22-9f87-cee0943c4dba" data-loc="762:8-762:104" data-file-name="components/ExportOptions.tsx">
+      {isExporting && <div className="mt-4 flex items-center justify-center py-2 bg-blue-50 text-blue-700 rounded-lg" data-unique-id="fbe8568a-041e-494b-9a07-85140cfdf0f2" data-file-name="components/ExportOptions.tsx">
           <Download className="animate-pulse h-5 w-5 mr-2" />
-          <span data-unique-id="39f1963b-f3b6-4749-b063-9c7b536a73d7" data-loc="764:10-764:16" data-file-name="components/ExportOptions.tsx">Processing export...</span>
+          <span data-unique-id="f2ae2dde-0a82-4aee-9a37-13d0117e4902" data-file-name="components/ExportOptions.tsx"><span className="editable-text" data-unique-id="513acaf3-bf15-4de6-ba7b-46fcd0b84406" data-file-name="components/ExportOptions.tsx">Processing export...</span></span>
         </div>}
     </motion.div>;
 }

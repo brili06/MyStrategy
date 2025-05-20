@@ -175,14 +175,14 @@ export default function SwotAnalysis({
         return "🛡️";
     }
   };
-  const renderSwotSection = (title: string, items: SwotItem[], category: FactorCategory, colorClass: string) => <div className="mb-8" data-unique-id="537032b2-7a0c-46a2-9067-2e69abcb9a78" data-loc="188:4-188:26" data-file-name="components/SwotAnalysis.tsx">
-      <div className={`p-4 rounded-t-lg ${colorClass}`} data-unique-id="c8e5b544-c1c3-4690-a7a8-bc49cdcdc91a" data-loc="189:6-189:56" data-file-name="components/SwotAnalysis.tsx">
-        <h3 className="text-lg font-semibold flex items-center" data-unique-id="59778a71-13b4-478e-85e3-a6ebbd9a94cd" data-loc="190:8-190:64" data-file-name="components/SwotAnalysis.tsx">
+  const renderSwotSection = (title: string, items: SwotItem[], category: FactorCategory, colorClass: string) => <div className="mb-8" data-unique-id="222c42c6-381a-40bd-90ca-5481d6e1c1bf" data-file-name="components/SwotAnalysis.tsx">
+      <div className={`p-4 rounded-t-lg ${colorClass}`} data-unique-id="4cdec290-6c54-4af5-b805-cd8c0771eb40" data-file-name="components/SwotAnalysis.tsx">
+        <h3 className="text-lg font-semibold flex items-center" data-unique-id="8cd1d576-918f-4831-832a-54b83af48d1f" data-file-name="components/SwotAnalysis.tsx" data-dynamic-text="true">
           {getCategoryIcon(category)} {title}
         </h3>
       </div>
       
-      <div className="border border-t-0 rounded-b-lg p-4" data-unique-id="5b118b20-e1e8-445d-87a8-f6081f4186e7" data-loc="195:6-195:58" data-file-name="components/SwotAnalysis.tsx">
+      <div className="border border-t-0 rounded-b-lg p-4" data-unique-id="49bd512f-422a-434a-a74e-fea62bf54dc2" data-file-name="components/SwotAnalysis.tsx">
         <AnimatePresence>
           {items.map(item => <motion.div key={item.id} initial={{
           opacity: 0,
@@ -195,25 +195,25 @@ export default function SwotAnalysis({
           height: 0
         }} transition={{
           duration: 0.2
-        }} className="mb-3 last:mb-0" data-unique-id="map_ed787ae0-f6f4-406e-8247-f8602cde290a" data-loc="198:12-205:13" data-file-name="components/SwotAnalysis.tsx" data-is-mapped="true">
-              <div className="flex items-start gap-2" data-unique-id="map_bf1b3c07-f019-443c-b619-be7c9daa72ad" data-loc="206:14-206:54" data-file-name="components/SwotAnalysis.tsx" data-is-mapped="true">
-                <div className="flex-1" data-unique-id="map_415c7cef-0eea-4886-9859-d7f744c97798" data-loc="207:16-207:40" data-file-name="components/SwotAnalysis.tsx" data-is-mapped="true">
-                  <input type="text" value={item.description} onChange={e => updateItem(item.id, "description", e.target.value, category)} placeholder={`Enter ${category}`} className="w-full p-2 border border-slate-300 rounded-md mb-2" data-unique-id="map_bbb192d0-f664-4d49-8852-29fefe7eabc1" data-loc="208:18-214:20" data-file-name="components/SwotAnalysis.tsx" data-is-mapped="true" />
-                  <div className="flex items-center" data-unique-id="map_4834f752-2309-47c6-8642-b51165330011" data-loc="215:18-215:53" data-file-name="components/SwotAnalysis.tsx" data-is-mapped="true">
+        }} className="mb-3 last:mb-0" data-is-mapped="true" data-unique-id="6eff335c-e4cc-415c-9abd-aa1bb4af4555" data-file-name="components/SwotAnalysis.tsx">
+              <div className="flex items-start gap-2" data-is-mapped="true" data-unique-id="0cce3813-cbdf-4a52-978e-581f7493ec72" data-file-name="components/SwotAnalysis.tsx">
+                <div className="flex-1" data-is-mapped="true" data-unique-id="7c6d65ae-ec41-4670-a4c1-d984400e0f28" data-file-name="components/SwotAnalysis.tsx">
+                  <input type="text" value={item.description} onChange={e => updateItem(item.id, "description", e.target.value, category)} placeholder={`Enter ${category}`} className="w-full p-2 border border-slate-300 rounded-md mb-2" data-is-mapped="true" data-unique-id="b1d82970-4a18-4c0d-bab3-c5cb1e0ae57a" data-file-name="components/SwotAnalysis.tsx" />
+                  <div className="flex items-center" data-is-mapped="true" data-unique-id="bc4c21b6-11ee-4a58-8643-e0912232aba8" data-file-name="components/SwotAnalysis.tsx">
                     <Tag className="h-4 w-4 text-slate-400 mr-1" />
-                    <input type="text" value={item.significance || ""} onChange={e => updateItem(item.id, "significance", e.target.value, category)} placeholder="Strategic significance (optional)" className="w-full p-1 text-sm border-b border-dashed border-slate-300 focus:outline-none focus:border-slate-500" data-unique-id="map_3912401e-558c-4444-8704-323fbb1f0296" data-loc="217:20-223:22" data-file-name="components/SwotAnalysis.tsx" data-is-mapped="true" />
+                    <input type="text" value={item.significance || ""} onChange={e => updateItem(item.id, "significance", e.target.value, category)} placeholder="Strategic significance (optional)" className="w-full p-1 text-sm border-b border-dashed border-slate-300 focus:outline-none focus:border-slate-500" data-is-mapped="true" data-unique-id="f5b9357f-e89c-4d71-bb6c-b88b4b8cff82" data-file-name="components/SwotAnalysis.tsx" />
                   </div>
                 </div>
-                <button onClick={() => deleteItem(item.id, category)} className="p-2 text-red-600 hover:bg-red-50 rounded-full" data-unique-id="map_0a39c16c-85b6-4943-8a96-224e5b3bd97e" data-loc="226:16-229:17" data-file-name="components/SwotAnalysis.tsx" data-is-mapped="true">
+                <button onClick={() => deleteItem(item.id, category)} className="p-2 text-red-600 hover:bg-red-50 rounded-full" data-is-mapped="true" data-unique-id="a3148fcc-510e-49ad-b22b-7f53eca1559e" data-file-name="components/SwotAnalysis.tsx">
                   <Trash2 className="h-5 w-5" />
                 </button>
               </div>
             </motion.div>)}
         </AnimatePresence>
         
-        <button onClick={() => addItem(category)} className={`mt-3 flex items-center px-3 py-2 text-sm rounded-md hover:bg-opacity-80 ${category === "strength" ? "bg-green-100 text-green-700" : category === "weakness" ? "bg-red-100 text-red-700" : category === "opportunity" ? "bg-blue-100 text-blue-700" : "bg-orange-100 text-orange-700"}`} data-unique-id="b157f30c-de5f-4b60-9b17-2a1da1c88e15" data-loc="237:8-245:9" data-file-name="components/SwotAnalysis.tsx">
-          <Plus className="h-4 w-4 mr-1" />
-          Add {title.slice(0, -1)}
+        <button onClick={() => addItem(category)} className={`mt-3 flex items-center px-3 py-2 text-sm rounded-md hover:bg-opacity-80 ${category === "strength" ? "bg-green-100 text-green-700" : category === "weakness" ? "bg-red-100 text-red-700" : category === "opportunity" ? "bg-blue-100 text-blue-700" : "bg-orange-100 text-orange-700"}`} data-unique-id="20e9e0e3-e377-4833-9cc7-ba5d741f6fcf" data-file-name="components/SwotAnalysis.tsx" data-dynamic-text="true">
+          <Plus className="h-4 w-4 mr-1" /><span className="editable-text" data-unique-id="5805a767-94ef-4200-a0db-bc4d5545f495" data-file-name="components/SwotAnalysis.tsx">
+          Add </span>{title.slice(0, -1)}
         </button>
       </div>
     </div>;
@@ -225,11 +225,11 @@ export default function SwotAnalysis({
     y: 0
   }} transition={{
     duration: 0.5
-  }} className="bg-white shadow-lg rounded-xl p-6" data-unique-id="0774a86f-019f-4c1b-9363-20a0694ac7cf" data-loc="254:4-259:5" data-file-name="components/SwotAnalysis.tsx">
-      <h2 className="text-2xl font-bold text-slate-800 mb-2" data-unique-id="505d0cb8-a7e3-4a8a-8def-5bcbe1161cb6" data-loc="260:6-260:61" data-file-name="components/SwotAnalysis.tsx">SWOT Analysis</h2>
-      <p className="text-slate-500 mb-6" data-unique-id="ef253c5a-e4a2-47d0-886b-835076c34e28" data-loc="261:6-261:41" data-file-name="components/SwotAnalysis.tsx">
+  }} className="bg-white shadow-lg rounded-xl p-6" data-unique-id="f4897795-0cfb-4d2f-b118-06345480a4d0" data-file-name="components/SwotAnalysis.tsx" data-dynamic-text="true">
+      <h2 className="text-2xl font-bold text-slate-800 mb-2" data-unique-id="6f08bb8d-4f3f-432d-a35d-aad031a7b41e" data-file-name="components/SwotAnalysis.tsx"><span className="editable-text" data-unique-id="69378712-6866-43a1-a0e8-8ff6adfaec8a" data-file-name="components/SwotAnalysis.tsx">SWOT Analysis</span></h2>
+      <p className="text-slate-500 mb-6" data-unique-id="887c020d-9763-492f-81b4-e9080eb3291b" data-file-name="components/SwotAnalysis.tsx"><span className="editable-text" data-unique-id="6bcc9b52-7aee-4e04-afae-d9c8d13bc5e5" data-file-name="components/SwotAnalysis.tsx">
         Identify your organization's Strengths, Weaknesses, Opportunities, and Threats
-      </p>
+      </span></p>
 
       {error && <motion.div initial={{
       opacity: 0,
@@ -237,26 +237,26 @@ export default function SwotAnalysis({
     }} animate={{
       opacity: 1,
       y: 0
-    }} className="mb-4 p-3 bg-red-50 text-red-600 rounded-md flex items-center" data-unique-id="346466ab-6381-49fa-8335-109b1ec83156" data-loc="266:8-270:9" data-file-name="components/SwotAnalysis.tsx">
+    }} className="mb-4 p-3 bg-red-50 text-red-600 rounded-md flex items-center" data-unique-id="abe5d3a5-ec0f-471e-b7e1-c90d79d2a30a" data-file-name="components/SwotAnalysis.tsx">
           <AlertCircle className="h-5 w-5 mr-2" />
-          <span data-unique-id="013acd9a-959e-43e8-9da1-ef500bc6a0c3" data-loc="272:10-272:16" data-file-name="components/SwotAnalysis.tsx">{error}</span>
+          <span data-unique-id="d8f84b66-57d6-49b7-b201-63c3fb3ed731" data-file-name="components/SwotAnalysis.tsx" data-dynamic-text="true">{error}</span>
         </motion.div>}
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" data-unique-id="15bc6984-4bf5-45e6-8b31-bfc5c146af2c" data-loc="276:6-276:61" data-file-name="components/SwotAnalysis.tsx">
-        <div data-unique-id="0b0931cb-3d5a-48f0-9ef2-2687e46de42f" data-loc="277:8-277:13" data-file-name="components/SwotAnalysis.tsx">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" data-unique-id="4c14e7d8-3cf4-4f82-99aa-f2133076c762" data-file-name="components/SwotAnalysis.tsx">
+        <div data-unique-id="a16a5090-2aa1-44a6-be90-49646d999ad4" data-file-name="components/SwotAnalysis.tsx" data-dynamic-text="true">
           {renderSwotSection("Strengths", strengths, "strength", "bg-green-50 border-green-200")}
           
           {renderSwotSection("Weaknesses", weaknesses, "weakness", "bg-red-50 border-red-200")}
         </div>
         
-        <div data-unique-id="4f26b861-cec7-46b3-a082-3ec803440756" data-loc="293:8-293:13" data-file-name="components/SwotAnalysis.tsx">
+        <div data-unique-id="998c6951-5b6f-4fb6-a350-4e3812ce0d1d" data-file-name="components/SwotAnalysis.tsx" data-dynamic-text="true">
           {renderSwotSection("Opportunities", opportunities, "opportunity", "bg-blue-50 border-blue-200")}
           
           {renderSwotSection("Threats", threats, "threat", "bg-orange-50 border-orange-200")}
         </div>
       </div>
 
-      <div className="mt-8 flex justify-end" data-unique-id="a0e2adc1-5ba8-40d4-b115-915286d8b6d1" data-loc="310:6-310:45" data-file-name="components/SwotAnalysis.tsx">
+      <div className="mt-8 flex justify-end" data-unique-id="290b969d-3c54-41bd-bbdc-1eb6c8042ca6" data-file-name="components/SwotAnalysis.tsx" data-dynamic-text="true">
         {/* Button removed as requested */}
       </div>
     </motion.div>;

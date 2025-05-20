@@ -782,35 +782,35 @@ export default function SwotMatrixStrategies({
       y: 0
     }} transition={{
       duration: 0.3
-    }} className="mb-3 bg-white rounded-lg border border-slate-200 p-4 shadow-sm" data-unique-id="map_4b3cf94a-938a-428a-bb82-37febf927e1e" data-loc="840:6-846:7" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
-        {strategy.isEditing ? <div data-unique-id="map_98cbd1b8-decb-4cba-9b84-d656c1dc8c21" data-loc="848:10-848:15" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
-            <textarea value={strategy.editContent} onChange={e => updateEditContent(strategy.id, e.target.value, type)} className="w-full p-2 border border-slate-300 rounded-md mb-2" rows={3} data-unique-id="map_414ebc67-23cf-41e3-9e26-8b105744a525" data-loc="849:12-854:14" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true" />
-            <div className="flex justify-end gap-2" data-unique-id="map_ae2cfb90-24de-4d71-b519-ae90b8168541" data-loc="855:12-855:52" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
-              <button onClick={() => cancelEdit(strategy.id, type)} className="px-3 py-1 text-sm bg-slate-100 text-slate-700 rounded-md hover:bg-slate-200 flex items-center gap-1" data-unique-id="map_83ded18b-a47f-4c5e-9e0e-b413cc66d791" data-loc="856:14-859:15" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
-                <X className="h-4 w-4" /> Cancel
-              </button>
-              <button onClick={() => saveEdit(strategy.id, type)} className="px-3 py-1 text-sm bg-blue-600 text-white rounded-md hover:bg-blue-700 flex items-center gap-1" data-unique-id="map_d6c90394-dd67-4865-a969-f001e08b64c4" data-loc="862:14-865:15" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
-                <Save className="h-4 w-4" /> Save
-              </button>
+    }} className="mb-3 bg-white rounded-lg border border-slate-200 p-4 shadow-sm" data-is-mapped="true" data-unique-id="c7b05ecd-bd7d-44e0-831c-dbdf0d89db32" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
+        {strategy.isEditing ? <div data-is-mapped="true" data-unique-id="8a111a55-a5b8-4f4a-b370-d0a17542633b" data-file-name="components/SwotMatrixStrategies.tsx">
+            <textarea value={strategy.editContent} onChange={e => updateEditContent(strategy.id, e.target.value, type)} className="w-full p-2 border border-slate-300 rounded-md mb-2" rows={3} data-is-mapped="true" data-unique-id="0845a2d8-be47-4e16-a3e0-e6081d50f930" data-file-name="components/SwotMatrixStrategies.tsx" />
+            <div className="flex justify-end gap-2" data-is-mapped="true" data-unique-id="2b36dd64-1372-4e0e-bf97-633d1fee6b56" data-file-name="components/SwotMatrixStrategies.tsx">
+              <button onClick={() => cancelEdit(strategy.id, type)} className="px-3 py-1 text-sm bg-slate-100 text-slate-700 rounded-md hover:bg-slate-200 flex items-center gap-1" data-is-mapped="true" data-unique-id="36aa6268-ffb5-407f-9ddd-de0e548047c7" data-file-name="components/SwotMatrixStrategies.tsx">
+                <X className="h-4 w-4" /><span className="editable-text" data-unique-id="064a8658-eeec-43b1-9165-b38eb7c9c68f" data-file-name="components/SwotMatrixStrategies.tsx"> Cancel
+              </span></button>
+              <button onClick={() => saveEdit(strategy.id, type)} className="px-3 py-1 text-sm bg-blue-600 text-white rounded-md hover:bg-blue-700 flex items-center gap-1" data-is-mapped="true" data-unique-id="b0905c88-0372-4cb6-b7af-2602865d9c78" data-file-name="components/SwotMatrixStrategies.tsx">
+                <Save className="h-4 w-4" /><span className="editable-text" data-unique-id="fc3c5ad4-0873-4749-86b0-3797422b6877" data-file-name="components/SwotMatrixStrategies.tsx"> Save
+              </span></button>
             </div>
-          </div> : <div data-unique-id="map_4b4f2fdd-5d8a-4331-97c4-a07233bb5c8d" data-loc="871:10-871:15" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
-            <p className="text-slate-700" data-unique-id="map_4a25a009-430b-4b43-9fb1-5775ceb07002" data-loc="872:12-872:42" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">{strategy.content}</p>
-            <button onClick={() => toggleEdit(strategy.id, type)} className="mt-2 text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1" data-unique-id="map_b53f76d4-49f8-44c5-9119-b4b9bb821160" data-loc="873:12-876:13" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
-              <Edit3 className="h-3 w-3" /> Edit
-            </button>
+          </div> : <div data-is-mapped="true" data-unique-id="ad66741d-675b-42b6-b81f-d184b36767d6" data-file-name="components/SwotMatrixStrategies.tsx">
+            <p className="text-slate-700" data-is-mapped="true" data-unique-id="b7a49e6d-39b2-41bf-be07-43b2c8b42fc1" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">{strategy.content}</p>
+            <button onClick={() => toggleEdit(strategy.id, type)} className="mt-2 text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1" data-is-mapped="true" data-unique-id="226f6870-1c97-4509-91da-74e6124c25b0" data-file-name="components/SwotMatrixStrategies.tsx">
+              <Edit3 className="h-3 w-3" /><span className="editable-text" data-unique-id="8d0fcabe-f20f-4e51-a1f6-697df8f97b5d" data-file-name="components/SwotMatrixStrategies.tsx"> Edit
+            </span></button>
           </div>}
       </motion.div>);
   };
 
   // Render strategy quadrant
   const renderStrategyQuadrant = (title: string, description: string, type: StrategyType, strategies: StrategyItem[], colorClass: string) => {
-    return <div className="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden" data-unique-id="d17f02d0-5d74-41a3-b0b9-bcfcafd07d8e" data-loc="894:6-894:93" data-file-name="components/SwotMatrixStrategies.tsx">
-        <div className={`p-4 ${colorClass}`} data-unique-id="f07efd9a-d12d-4a82-abd9-f5574bf6f48e" data-loc="895:8-895:45" data-file-name="components/SwotMatrixStrategies.tsx">
-          <h3 className="text-lg font-semibold" data-unique-id="9686d5ce-8940-4e39-8be8-bf45d82d9baa" data-loc="896:10-896:48" data-file-name="components/SwotMatrixStrategies.tsx">{title}</h3>
-          <p className="text-sm mt-1" data-unique-id="a73c0aa5-6be7-497f-9db4-56b71390f6a6" data-loc="897:10-897:38" data-file-name="components/SwotMatrixStrategies.tsx">{description}</p>
+    return <div className="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden" data-unique-id="4af0c7b3-8f9b-4497-a58b-260f71b40716" data-file-name="components/SwotMatrixStrategies.tsx">
+        <div className={`p-4 ${colorClass}`} data-unique-id="a0a36ed2-130b-4caa-be27-00c0a6422491" data-file-name="components/SwotMatrixStrategies.tsx">
+          <h3 className="text-lg font-semibold" data-unique-id="9fa35cc4-deee-4aa5-ba3e-c0a2fbed578e" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">{title}</h3>
+          <p className="text-sm mt-1" data-unique-id="66ed3249-9155-4938-b6ee-b5311b87361b" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">{description}</p>
         </div>
         
-        <div className="p-4" data-unique-id="cecdcf92-35df-48b7-8b7f-85e091a25aa3" data-loc="900:8-900:29" data-file-name="components/SwotMatrixStrategies.tsx">
+        <div className="p-4" data-unique-id="2eee9a89-0769-4477-8394-5834c427bf08" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
           {strategies.length > 0 ? <>
               {recentlyGeneratedType === type && <motion.div initial={{
             opacity: 0,
@@ -820,18 +820,18 @@ export default function SwotMatrixStrategies({
             y: 0
           }} transition={{
             duration: 0.3
-          }} className="mb-3 p-2 bg-green-50 border border-green-200 rounded-md text-green-700 text-sm flex items-center gap-2" data-unique-id="ee9d8f72-aeb2-42a9-80b8-8c56504dfbce" data-loc="904:16-909:17" data-file-name="components/SwotMatrixStrategies.tsx">
+          }} className="mb-3 p-2 bg-green-50 border border-green-200 rounded-md text-green-700 text-sm flex items-center gap-2" data-unique-id="0243b991-243c-41d3-8470-3958276b70a5" data-file-name="components/SwotMatrixStrategies.tsx">
                   <Lightbulb className="h-4 w-4" />
-                  <span data-unique-id="db8aeaa0-da0e-41cb-914a-a06276092f35" data-loc="911:18-911:24" data-file-name="components/SwotMatrixStrategies.tsx">New strategies generated</span>
+                  <span data-unique-id="973728c9-ed74-460e-a71e-9f7be985d0db" data-file-name="components/SwotMatrixStrategies.tsx"><span className="editable-text" data-unique-id="24a512a7-29f7-4b70-9dca-290279bf0119" data-file-name="components/SwotMatrixStrategies.tsx">New strategies generated</span></span>
                 </motion.div>}
-              <div className="mb-4" data-unique-id="9eae01ae-7e29-4b7c-9894-a6c11cc87b8e" data-loc="914:14-914:36" data-file-name="components/SwotMatrixStrategies.tsx">{renderStrategyItems(strategies, type)}</div>
-            </> : <div className="text-center py-6 text-slate-500" data-unique-id="639d3788-2cf1-4519-9222-d70a9c16a359" data-loc="917:12-917:61" data-file-name="components/SwotMatrixStrategies.tsx">
+              <div className="mb-4" data-unique-id="c062f8d8-9899-4250-aa3e-ccbc869a33eb" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">{renderStrategyItems(strategies, type)}</div>
+            </> : <div className="text-center py-6 text-slate-500" data-unique-id="a0f32904-10a2-4f72-84e2-086c17be4849" data-file-name="components/SwotMatrixStrategies.tsx">
               <Lightbulb className="h-8 w-8 mx-auto mb-2 opacity-50" />
-              <p data-unique-id="9515746d-c69d-4fb3-8399-48118c14778a" data-loc="919:14-919:17" data-file-name="components/SwotMatrixStrategies.tsx">No strategies generated yet</p>
+              <p data-unique-id="041621fd-84d9-491d-b8b0-60b4c84919f8" data-file-name="components/SwotMatrixStrategies.tsx"><span className="editable-text" data-unique-id="a41e4606-2292-4483-bba4-e674f9aa76c1" data-file-name="components/SwotMatrixStrategies.tsx">No strategies generated yet</span></p>
             </div>}
           
-          <div className="mt-4 flex flex-wrap gap-2" data-unique-id="f225d288-e956-4336-8a26-7e23487b1313" data-loc="923:10-923:53" data-file-name="components/SwotMatrixStrategies.tsx">
-            <button onClick={() => generateStrategies(type)} className={`px-4 py-2 text-sm rounded-md flex items-center gap-2 ${isGenerating === type ? "bg-slate-100 text-slate-700" : "bg-slate-700 text-white hover:bg-slate-800"}`} disabled={isGenerating !== null || isGeneratingAll} data-unique-id="6b3b2822-241c-476c-8605-41989f9f29ca" data-loc="924:12-932:13" data-file-name="components/SwotMatrixStrategies.tsx">
+          <div className="mt-4 flex flex-wrap gap-2" data-unique-id="77db9a04-1ff8-41e4-b4cf-2e81d4b5cff2" data-file-name="components/SwotMatrixStrategies.tsx">
+            <button onClick={() => generateStrategies(type)} className={`px-4 py-2 text-sm rounded-md flex items-center gap-2 ${isGenerating === type ? "bg-slate-100 text-slate-700" : "bg-slate-700 text-white hover:bg-slate-800"}`} disabled={isGenerating !== null || isGeneratingAll} data-unique-id="d82cb056-2418-4615-827f-479d31752d0a" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
               {isGenerating === type ? <>
                   <RefreshCw className="h-4 w-4 animate-spin" />
                   Generating...
@@ -848,10 +848,10 @@ export default function SwotMatrixStrategies({
               setShowPromptInput(true);
               setIsGenerating(type);
             }
-          }} className="px-3 py-2 text-sm rounded-md flex items-center gap-1 bg-slate-100 text-slate-700 hover:bg-slate-200" disabled={isGenerating !== null || isGeneratingAll} data-unique-id="d81c1bb4-64be-4f95-a5ec-0ba1b7ea9c1a" data-loc="946:12-957:13" data-file-name="components/SwotMatrixStrategies.tsx">
-              <Send className="h-3.5 w-3.5" />
+          }} className="px-3 py-2 text-sm rounded-md flex items-center gap-1 bg-slate-100 text-slate-700 hover:bg-slate-200" disabled={isGenerating !== null || isGeneratingAll} data-unique-id="244a9d01-7a76-45b8-b0ab-e916417b45e5" data-file-name="components/SwotMatrixStrategies.tsx">
+              <Send className="h-3.5 w-3.5" /><span className="editable-text" data-unique-id="221ad5b0-d382-4ae1-a15c-c91ce76cbbd2" data-file-name="components/SwotMatrixStrategies.tsx">
               Custom Prompt
-            </button>
+            </span></button>
           </div>
           
           {showPromptInput && isGenerating === type && <motion.div initial={{
@@ -865,10 +865,10 @@ export default function SwotMatrixStrategies({
           height: 0
         }} transition={{
           duration: 0.3
-        }} className="mt-4" data-unique-id="243f6529-f74b-4f56-96ef-0a5c020b3deb" data-loc="964:12-970:13" data-file-name="components/SwotMatrixStrategies.tsx">
-              <div className="flex gap-2" data-unique-id="4011cfc6-5782-46af-b665-b53d00c3587c" data-loc="971:14-971:42" data-file-name="components/SwotMatrixStrategies.tsx">
-                <input type="text" value={customPrompt} onChange={e => setCustomPrompt(e.target.value)} placeholder="Add custom instructions..." className="flex-1 p-2 border border-slate-300 rounded-md" data-unique-id="9bd240aa-a590-4f8e-90b9-70c618f6b55c" data-loc="972:16-978:18" data-file-name="components/SwotMatrixStrategies.tsx" />
-                <button onClick={() => generateStrategies(type, customPrompt)} className="px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 flex items-center gap-1" disabled={isGenerating !== null} data-unique-id="ee44dfde-316a-4cde-8ccb-3057b0945838" data-loc="979:16-983:17" data-file-name="components/SwotMatrixStrategies.tsx">
+        }} className="mt-4" data-unique-id="1c588401-020b-44ab-9663-fdd9d26d7d96" data-file-name="components/SwotMatrixStrategies.tsx">
+              <div className="flex gap-2" data-unique-id="bf231d4e-2fd4-4bbd-a387-1b35bb9bfc5c" data-file-name="components/SwotMatrixStrategies.tsx">
+                <input type="text" value={customPrompt} onChange={e => setCustomPrompt(e.target.value)} placeholder="Add custom instructions..." className="flex-1 p-2 border border-slate-300 rounded-md" data-unique-id="60ed8de8-b9fc-4cf6-86e3-372f5869b99f" data-file-name="components/SwotMatrixStrategies.tsx" />
+                <button onClick={() => generateStrategies(type, customPrompt)} className="px-3 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 flex items-center gap-1" disabled={isGenerating !== null} data-unique-id="b126d607-0e12-487f-82f9-03cfdfad19c7" data-file-name="components/SwotMatrixStrategies.tsx">
                   <Send className="h-4 w-4" />
                 </button>
               </div>
@@ -884,17 +884,17 @@ export default function SwotMatrixStrategies({
     y: 0
   }} transition={{
     duration: 0.5
-  }} className="bg-white shadow-lg rounded-xl p-6" data-unique-id="d64af22d-572f-4c0e-b6b3-230c0e8be5ef" data-loc="995:4-1000:5" data-file-name="components/SwotMatrixStrategies.tsx">
+  }} className="bg-white shadow-lg rounded-xl p-6" data-unique-id="6b3bcd57-f857-4903-8620-d823214ebb3c" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
       
-      <div className="mb-6 bg-indigo-50 border border-indigo-200 rounded-lg p-4" data-unique-id="f617ae5d-d362-4fb0-a0fe-e58b2907b9a0" data-loc="1002:6-1002:81" data-file-name="components/SwotMatrixStrategies.tsx">
-        <h3 className="text-lg font-medium text-indigo-800 flex items-center gap-2" data-unique-id="9874086d-4fa7-4421-ad4e-c04e9844eeb1" data-loc="1003:8-1003:84" data-file-name="components/SwotMatrixStrategies.tsx">
-          <Lightbulb className="h-5 w-5" />
+      <div className="mb-6 bg-indigo-50 border border-indigo-200 rounded-lg p-4" data-unique-id="6acd7a85-8f89-438a-989f-5d4b4a104ca0" data-file-name="components/SwotMatrixStrategies.tsx">
+        <h3 className="text-lg font-medium text-indigo-800 flex items-center gap-2" data-unique-id="95cf8040-8d56-4d37-b6d3-e78b7a30231d" data-file-name="components/SwotMatrixStrategies.tsx">
+          <Lightbulb className="h-5 w-5" /><span className="editable-text" data-unique-id="a8565eed-9bfa-458b-a638-850c97202ea9" data-file-name="components/SwotMatrixStrategies.tsx">
           AI-Powered Strategy Generation
-        </h3>
-        <p className="text-indigo-700 mt-1" data-unique-id="f8c6b924-235e-4b74-beae-98a083fd46c6" data-loc="1007:8-1007:44" data-file-name="components/SwotMatrixStrategies.tsx">
+        </span></h3>
+        <p className="text-indigo-700 mt-1" data-unique-id="63725e5e-771d-4dc0-951e-0ad1d9e6fc2c" data-file-name="components/SwotMatrixStrategies.tsx"><span className="editable-text" data-unique-id="9929a413-fa8f-456a-8673-b1c3ceb0ccf0" data-file-name="components/SwotMatrixStrategies.tsx">
           Generate strategic recommendations using AI models based on your SWOT analysis and IE Matrix position.
           The system will analyze your inputs and suggest tailored strategies for your organization.
-        </p>
+        </span></p>
       </div>
       
       {statusMessage && <motion.div initial={{
@@ -903,18 +903,18 @@ export default function SwotMatrixStrategies({
     }} animate={{
       opacity: 1,
       y: 0
-    }} className={`mb-6 p-4 rounded-lg flex items-start gap-3 ${statusMessage.type === 'error' ? 'bg-red-50 text-red-700 border border-red-200' : statusMessage.type === 'success' ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-blue-50 text-blue-700 border border-blue-200'}`} data-unique-id="a8a91de9-099a-4a20-a195-c9c91582aacc" data-loc="1014:8-1022:9" data-file-name="components/SwotMatrixStrategies.tsx">
+    }} className={`mb-6 p-4 rounded-lg flex items-start gap-3 ${statusMessage.type === 'error' ? 'bg-red-50 text-red-700 border border-red-200' : statusMessage.type === 'success' ? 'bg-green-50 text-green-700 border border-green-200' : 'bg-blue-50 text-blue-700 border border-blue-200'}`} data-unique-id="cc9dc4df-946c-4181-af33-e68d4898f0b1" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
           {statusMessage.type === 'error' && <AlertCircle className="h-5 w-5 mt-0.5 flex-shrink-0" />}
           {statusMessage.type === 'success' && <Lightbulb className="h-5 w-5 mt-0.5 flex-shrink-0" />}
           {statusMessage.type === 'info' && <RefreshCw className="h-5 w-5 mt-0.5 flex-shrink-0" />}
-          <div data-unique-id="2e5f3302-bf69-4a98-a726-c6b45b6edb9f" data-loc="1026:10-1026:15" data-file-name="components/SwotMatrixStrategies.tsx">
-            <p className="font-medium" data-unique-id="078ca522-d41d-46e6-b954-dd575a48f671" data-loc="1027:12-1027:39" data-file-name="components/SwotMatrixStrategies.tsx">{statusMessage.type === 'error' ? 'Error' : statusMessage.type === 'success' ? 'Success' : 'Information'}</p>
-            <p data-unique-id="9772a04b-7d8d-405d-b11a-44871b96e364" data-loc="1028:12-1028:15" data-file-name="components/SwotMatrixStrategies.tsx">{statusMessage.message}</p>
+          <div data-unique-id="ae6787f0-f3bb-4caa-ac2a-e281c2ba53f4" data-file-name="components/SwotMatrixStrategies.tsx">
+            <p className="font-medium" data-unique-id="0035713c-739f-4ecd-8d25-9b5e1437426b" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">{statusMessage.type === 'error' ? 'Error' : statusMessage.type === 'success' ? 'Success' : 'Information'}</p>
+            <p data-unique-id="90bcb3dd-f0af-4d97-a0b2-b63e93dd4be4" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">{statusMessage.message}</p>
           </div>
         </motion.div>}
 
-      <div className="mb-6" data-unique-id="fb7ab4ab-f65c-48fc-9ec9-020458d7a591" data-loc="1033:6-1033:28" data-file-name="components/SwotMatrixStrategies.tsx">
-        <button onClick={generateAllStrategies} disabled={isGeneratingAll || isGenerating !== null || isGeneratingPriorities} className={`w-full py-3 rounded-lg flex items-center justify-center gap-2 ${isGeneratingAll ? "bg-slate-100 text-slate-700" : "bg-blue-600 text-white hover:bg-blue-700"}`} data-unique-id="d91468dd-a154-4d5d-97d2-770a872244cc" data-loc="1034:8-1042:9" data-file-name="components/SwotMatrixStrategies.tsx">
+      <div className="mb-6" data-unique-id="b690501b-2e28-445f-b6e1-1bc504c56a5f" data-file-name="components/SwotMatrixStrategies.tsx">
+        <button onClick={generateAllStrategies} disabled={isGeneratingAll || isGenerating !== null || isGeneratingPriorities} className={`w-full py-3 rounded-lg flex items-center justify-center gap-2 ${isGeneratingAll ? "bg-slate-100 text-slate-700" : "bg-blue-600 text-white hover:bg-blue-700"}`} data-unique-id="affee0f8-7758-45e3-a1cd-effa5efb7c56" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
           {isGeneratingAll ? <>
               <RefreshCw className="h-5 w-5 animate-spin" />
               Generating All Strategies...
@@ -923,12 +923,12 @@ export default function SwotMatrixStrategies({
               Generate All SWOT Strategies
             </>}
         </button>
-        <p className="text-xs text-slate-500 text-center mt-2" data-unique-id="bd4d7154-0f79-454c-82e0-7fb5e8ee905e" data-loc="1055:8-1055:63" data-file-name="components/SwotMatrixStrategies.tsx">
+        <p className="text-xs text-slate-500 text-center mt-2" data-unique-id="a562412d-a3f4-4191-b56a-f7bf565bce7e" data-file-name="components/SwotMatrixStrategies.tsx"><span className="editable-text" data-unique-id="1661740e-e267-4115-ab4d-a4caebe4ae82" data-file-name="components/SwotMatrixStrategies.tsx">
           This will generate strategies for all four quadrants of the SWOT Matrix
-        </p>
+        </span></p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8" data-unique-id="ed98e495-2ca2-4ac7-a978-c4ec293d8c30" data-loc="1060:6-1060:66" data-file-name="components/SwotMatrixStrategies.tsx">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8" data-unique-id="f3aa6a78-3d51-433d-abaa-1318798e61bb" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
         {renderStrategyQuadrant("SO Strategies", "Use strengths to take advantage of opportunities", "SO", soStrategies, "bg-green-50 text-green-800")}
         
         {renderStrategyQuadrant("ST Strategies", "Use strengths to minimize threats", "ST", stStrategies, "bg-blue-50 text-blue-800")}
@@ -939,31 +939,31 @@ export default function SwotMatrixStrategies({
       </div>
 
       {/* IE Matrix Integration */}
-      {ieQuadrant && ieStrategy && <div className="mt-8 bg-white border border-slate-200 rounded-xl shadow-sm p-6" data-unique-id="6d9592fa-ae5c-4469-a9c3-c495e0136738" data-loc="1096:8-1096:88" data-file-name="components/SwotMatrixStrategies.tsx">
-          <h3 className="text-xl font-semibold text-slate-800 mb-2" data-unique-id="1cfb476d-da01-4a1a-a2d4-d0031b3b4eb9" data-loc="1097:10-1097:68" data-file-name="components/SwotMatrixStrategies.tsx">
+      {ieQuadrant && ieStrategy && <div className="mt-8 bg-white border border-slate-200 rounded-xl shadow-sm p-6" data-unique-id="a2692ac1-8836-4d2e-ad23-d71ba4708f19" data-file-name="components/SwotMatrixStrategies.tsx">
+          <h3 className="text-xl font-semibold text-slate-800 mb-2" data-unique-id="bf4f5cd7-ac5b-451a-b99a-f736c1a42848" data-file-name="components/SwotMatrixStrategies.tsx"><span className="editable-text" data-unique-id="73c5b05f-01d2-45fc-a191-f3f2cddf3e0a" data-file-name="components/SwotMatrixStrategies.tsx">
             Strategic Recommendations Based on IE Matrix
-          </h3>
-          <div className="bg-slate-50 p-4 rounded-lg mb-4" data-unique-id="86fcd2cf-fbde-4c60-8ea9-d9ca2d4a1ed0" data-loc="1100:10-1100:59" data-file-name="components/SwotMatrixStrategies.tsx">
-            <div className="flex items-center gap-3" data-unique-id="de2891b7-1a86-4596-94bf-286daf0f0625" data-loc="1101:12-1101:53" data-file-name="components/SwotMatrixStrategies.tsx">
-              <div className="w-12 h-12 rounded-full bg-slate-200 flex items-center justify-center text-slate-700 font-bold" data-unique-id="ef81b1fa-338d-4d57-8210-13f0e7b14c20" data-loc="1102:14-1102:125" data-file-name="components/SwotMatrixStrategies.tsx">
+          </span></h3>
+          <div className="bg-slate-50 p-4 rounded-lg mb-4" data-unique-id="98c51c8e-d96e-432f-ad02-ebc636f4ca27" data-file-name="components/SwotMatrixStrategies.tsx">
+            <div className="flex items-center gap-3" data-unique-id="1d73a156-bd76-4e85-ab26-1e1236102561" data-file-name="components/SwotMatrixStrategies.tsx">
+              <div className="w-12 h-12 rounded-full bg-slate-200 flex items-center justify-center text-slate-700 font-bold" data-unique-id="4b53a921-90b6-4006-abfb-95ea07b1a6fa" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
                 {ieQuadrant}
               </div>
-              <div data-unique-id="8970923a-739c-47ec-b2c9-b47fa9f0a59a" data-loc="1105:14-1105:19" data-file-name="components/SwotMatrixStrategies.tsx">
-                <p className="text-slate-600" data-unique-id="7fcaffb0-6b61-4a20-9dbb-c1f4c60920a6" data-loc="1106:16-1106:46" data-file-name="components/SwotMatrixStrategies.tsx">
-                  Your position in the IE Matrix (Cell {ieQuadrant}) suggests a{" "}
-                  <span className="font-semibold" data-unique-id="eef8a99c-b741-4202-8c0c-9e470f3910df" data-loc="1108:18-1108:50" data-file-name="components/SwotMatrixStrategies.tsx">{ieStrategy}</span> approach.
-                </p>
-                <p className="text-sm text-slate-500 mt-1" data-unique-id="3f277040-9134-4833-9396-bea9211f009f" data-loc="1110:16-1110:59" data-file-name="components/SwotMatrixStrategies.tsx">
+              <div data-unique-id="b91de8da-bc67-408c-99dd-c1054c224eaf" data-file-name="components/SwotMatrixStrategies.tsx">
+                <p className="text-slate-600" data-unique-id="79829d7e-352a-497a-8c98-fd89b05a48ed" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true"><span className="editable-text" data-unique-id="cf2d2181-2379-4ad6-91cc-7992dba5d8f6" data-file-name="components/SwotMatrixStrategies.tsx">
+                  Your position in the IE Matrix (Cell </span>{ieQuadrant}<span className="editable-text" data-unique-id="8299eb21-6055-429d-b80c-5add98119c51" data-file-name="components/SwotMatrixStrategies.tsx">) suggests a</span>{" "}
+                  <span className="font-semibold" data-unique-id="fd5155be-a3cb-4313-84a3-f35e2475b112" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">{ieStrategy}</span><span className="editable-text" data-unique-id="7d03c154-d779-45cf-af34-0f3510bd134e" data-file-name="components/SwotMatrixStrategies.tsx"> approach.
+                </span></p>
+                <p className="text-sm text-slate-500 mt-1" data-unique-id="9ed8330e-a941-4cce-97c9-d104d7180e1b" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
                   {ieStrategy === "Grow and Build" ? "Focus on SO and WO strategies that leverage opportunities" : ieStrategy === "Hold and Maintain" ? "Balance SO and ST strategies to sustain market position" : "Prioritize ST and WT strategies to minimize risk"}
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="mb-6" data-unique-id="f0258ed2-c4f2-4462-9ceb-195134588b97" data-loc="1121:10-1121:32" data-file-name="components/SwotMatrixStrategies.tsx">
-            <div className="flex justify-between items-center mb-4" data-unique-id="41aef4f4-f815-4e0d-9e3a-852f67d0627a" data-loc="1122:12-1122:68" data-file-name="components/SwotMatrixStrategies.tsx">
-              <h4 className="text-lg font-medium text-slate-800" data-unique-id="18d3bd7d-8fc1-4c64-8d97-da3515817b3c" data-loc="1123:14-1123:65" data-file-name="components/SwotMatrixStrategies.tsx">Prioritized Strategies</h4>
-              <button onClick={generatePrioritizedStrategies} className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 flex items-center gap-2" disabled={isGeneratingPriorities || isGeneratingAll || soStrategies.length === 0 && stStrategies.length === 0 && woStrategies.length === 0 && wtStrategies.length === 0} data-unique-id="f632de1c-d953-4085-a305-383ad64cda77" data-loc="1124:14-1132:15" data-file-name="components/SwotMatrixStrategies.tsx">
+          <div className="mb-6" data-unique-id="1eff0820-a182-4023-93c5-ed29e34215f1" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
+            <div className="flex justify-between items-center mb-4" data-unique-id="f42888bd-ccae-4421-8226-2d18a240d4ba" data-file-name="components/SwotMatrixStrategies.tsx">
+              <h4 className="text-lg font-medium text-slate-800" data-unique-id="249f82df-ae66-4a93-a074-1b76ebd9fec4" data-file-name="components/SwotMatrixStrategies.tsx"><span className="editable-text" data-unique-id="bebf44b7-2d85-4e4a-8362-37e625b1a795" data-file-name="components/SwotMatrixStrategies.tsx">Prioritized Strategies</span></h4>
+              <button onClick={generatePrioritizedStrategies} className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 flex items-center gap-2" disabled={isGeneratingPriorities || isGeneratingAll || soStrategies.length === 0 && stStrategies.length === 0 && woStrategies.length === 0 && wtStrategies.length === 0} data-unique-id="eae7bccf-cd03-43d4-a787-62d9bb3885b7" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
                 {isGeneratingPriorities ? <>
                     <RefreshCw className="h-4 w-4 animate-spin" />
                     Analyzing...
@@ -974,7 +974,7 @@ export default function SwotMatrixStrategies({
               </button>
             </div>
 
-            {prioritizedStrategies.length > 0 ? <div className="space-y-4" data-unique-id="65fdf398-d230-41f3-b2ba-8cf28c0f9e43" data-loc="1148:14-1148:41" data-file-name="components/SwotMatrixStrategies.tsx">
+            {prioritizedStrategies.length > 0 ? <div className="space-y-4" data-unique-id="a9a0a103-544f-4501-9a36-cda501a22f8e" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
                 {prioritizedStrategies.map((strategy, index) => <motion.div key={strategy.id} initial={{
             opacity: 0,
             y: 10
@@ -984,20 +984,20 @@ export default function SwotMatrixStrategies({
           }} transition={{
             duration: 0.3,
             delay: index * 0.1
-          }} className="bg-white border border-slate-200 rounded-lg p-4 shadow-sm" data-unique-id="map_16a9f758-4d87-4541-b5df-7c99bdf6bb7b" data-loc="1150:18-1156:19" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
-                    <div className="flex gap-3" data-unique-id="map_56b3d66f-dfbc-4ed5-a776-84f8265bb67c" data-loc="1157:20-1157:48" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
-                      <div className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-medium text-sm flex-shrink-0" data-unique-id="map_5bc84c37-dd1d-4824-b880-bdc2d3e1db1d" data-loc="1158:22-1158:153" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">
+          }} className="bg-white border border-slate-200 rounded-lg p-4 shadow-sm" data-is-mapped="true" data-unique-id="8264782c-fab4-4456-b7ff-d41e762d7172" data-file-name="components/SwotMatrixStrategies.tsx">
+                    <div className="flex gap-3" data-is-mapped="true" data-unique-id="ab7c7419-96af-4614-b661-81ecf643e15b" data-file-name="components/SwotMatrixStrategies.tsx">
+                      <div className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-medium text-sm flex-shrink-0" data-is-mapped="true" data-unique-id="6f894bb3-ff2e-4a14-9a55-049f7799b354" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">
                         {index + 1}
                       </div>
-                      <p className="text-slate-700" data-unique-id="map_e7168a14-01eb-4007-80cd-3799a5c63430" data-loc="1161:22-1161:52" data-file-name="components/SwotMatrixStrategies.tsx" data-is-mapped="true">{strategy.content}</p>
+                      <p className="text-slate-700" data-is-mapped="true" data-unique-id="0c217cc3-c40b-4d38-9a90-426c80ab256c" data-file-name="components/SwotMatrixStrategies.tsx" data-dynamic-text="true">{strategy.content}</p>
                     </div>
                   </motion.div>)}
-              </div> : <div className="text-center py-8 bg-slate-50 rounded-lg border border-slate-200" data-unique-id="c961231c-5b21-4bb4-b6de-051e06a5c0fc" data-loc="1167:14-1167:95" data-file-name="components/SwotMatrixStrategies.tsx">
+              </div> : <div className="text-center py-8 bg-slate-50 rounded-lg border border-slate-200" data-unique-id="8d589bb9-ae0f-49d8-9369-0117f6e31f0a" data-file-name="components/SwotMatrixStrategies.tsx">
                 <Lightbulb className="h-10 w-10 mx-auto mb-3 text-slate-400" />
-                <p className="text-slate-600" data-unique-id="657a88fb-5e4d-44be-8c75-a1be200bbfe0" data-loc="1169:16-1169:46" data-file-name="components/SwotMatrixStrategies.tsx">
+                <p className="text-slate-600" data-unique-id="c6e0bc41-45ce-4f26-aa19-db551e9878d1" data-file-name="components/SwotMatrixStrategies.tsx"><span className="editable-text" data-unique-id="3d07230c-ba3c-4169-a8a4-af3036d279a0" data-file-name="components/SwotMatrixStrategies.tsx">
                   Generate strategies in the quadrants above, then click "Generate Recommendations"
                   to get prioritized strategies based on your IE Matrix position.
-                </p>
+                </span></p>
               </div>}
           </div>
         </div>}

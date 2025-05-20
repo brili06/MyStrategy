@@ -84,66 +84,66 @@ export default function CompanyProfileForm({
     y: 0
   }} transition={{
     duration: 0.5
-  }} className="bg-white shadow-lg rounded-xl p-6" data-unique-id="43be00c4-adb6-499e-ad28-f1ac20697d95" data-loc="81:4-86:5" data-file-name="components/CompanyProfileForm.tsx">
-      <h2 className="text-2xl font-bold text-slate-800 mb-6" data-unique-id="9fcca3dd-55fd-4962-bc90-0c30fe12411a" data-loc="87:6-87:61" data-file-name="components/CompanyProfileForm.tsx">Company Profile</h2>
-      <p className="text-slate-500 mb-6" data-unique-id="e3d32ee0-db0a-4a50-bae1-1cd365521ad7" data-loc="88:6-88:41" data-file-name="components/CompanyProfileForm.tsx">
+  }} className="bg-white shadow-lg rounded-xl p-6" data-unique-id="607f8c8a-1076-4abb-8624-0a07982755ca" data-file-name="components/CompanyProfileForm.tsx">
+      <h2 className="text-2xl font-bold text-slate-800 mb-6" data-unique-id="bbea92b1-be0c-4bd4-b440-d95517491b8b" data-file-name="components/CompanyProfileForm.tsx"><span className="editable-text" data-unique-id="f25afc84-4292-4e9b-8818-9f1504b8e8ea" data-file-name="components/CompanyProfileForm.tsx">Company Profile</span></h2>
+      <p className="text-slate-500 mb-6" data-unique-id="5d4b7be3-ba42-4571-85fd-0dac39040c3b" data-file-name="components/CompanyProfileForm.tsx"><span className="editable-text" data-unique-id="287c48e5-7c7f-4f89-ac08-7f54029855a4" data-file-name="components/CompanyProfileForm.tsx">
         Please provide basic information about your company before proceeding with the strategic analysis.
-      </p>
+      </span></p>
 
-      <form onSubmit={handleSubmit(onSubmit as any)} className="space-y-6" data-unique-id="bda913aa-87d0-425c-be9a-f84fcc3c51f8" data-loc="92:6-92:75" data-file-name="components/CompanyProfileForm.tsx">
-        <div className="space-y-4" data-unique-id="dc84e446-4d3b-458f-aab6-3aeb4a3c2fbc" data-loc="93:8-93:35" data-file-name="components/CompanyProfileForm.tsx">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-unique-id="2fffa55a-0bbb-4296-81ca-4e9f7723fe99" data-loc="94:10-94:65" data-file-name="components/CompanyProfileForm.tsx">
-            <div data-unique-id="e6245dbe-a8cf-4029-b3a8-e3b858e558e2" data-loc="95:12-95:17" data-file-name="components/CompanyProfileForm.tsx">
-              <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="3c879f21-eaa3-42c5-af8f-73583d2dc380" data-loc="96:14-96:91" data-file-name="components/CompanyProfileForm.tsx">
-                <Building2 className="h-4 w-4 mr-2 text-blue-600" />
+      <form onSubmit={handleSubmit(onSubmit as any)} className="space-y-6" data-unique-id="a26348ab-3879-4594-836d-ee349f8452c0" data-file-name="components/CompanyProfileForm.tsx">
+        <div className="space-y-4" data-unique-id="269afe32-67ce-4eb6-8ac5-b00a979059c6" data-file-name="components/CompanyProfileForm.tsx">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-unique-id="6f7836b6-0115-4b56-8147-cbb2675cd778" data-file-name="components/CompanyProfileForm.tsx">
+            <div data-unique-id="a5c832d2-50ee-4095-9b80-3b3362c05d10" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">
+              <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="de8bf6e4-5960-4658-b6cc-be41ca814dd0" data-file-name="components/CompanyProfileForm.tsx">
+                <Building2 className="h-4 w-4 mr-2 text-blue-600" /><span className="editable-text" data-unique-id="c777fd0f-23ba-41c4-9140-7bae168e190e" data-file-name="components/CompanyProfileForm.tsx">
                 Company Name
-              </label>
-              <input {...register("name")} type="text" className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="e.g. Acme Corporation" data-unique-id="d5a671e6-082c-4a0a-aed4-4eddbaf16288" data-loc="100:14-105:16" data-file-name="components/CompanyProfileForm.tsx" />
-              {errors.name && <p className="mt-1 text-sm text-red-600" data-unique-id="e0e801c7-0b1b-4747-bf10-227737ecb24f" data-loc="107:16-107:57" data-file-name="components/CompanyProfileForm.tsx">{errors.name.message}</p>}
+              </span></label>
+              <input {...register("name")} type="text" className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="e.g. Acme Corporation" data-unique-id="2e673181-02c1-4762-b894-0e7851af9b9a" data-file-name="components/CompanyProfileForm.tsx" />
+              {errors.name && <p className="mt-1 text-sm text-red-600" data-unique-id="947adaba-6088-4cee-9876-fc172c1b2e17" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">{errors.name.message}</p>}
             </div>
 
-            <div data-unique-id="0085602c-6ba1-46b4-bd29-c85d322ba8bf" data-loc="111:12-111:17" data-file-name="components/CompanyProfileForm.tsx">
-              <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="e7c31cd1-b2ef-4de5-85c5-6cb9da5478a9" data-loc="112:14-112:91" data-file-name="components/CompanyProfileForm.tsx">
-                <Briefcase className="h-4 w-4 mr-2 text-blue-600" />
+            <div data-unique-id="2a6e9ed2-51c8-4a79-98e1-41ee12e06d8e" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">
+              <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="86f80379-b1bc-4ad4-9185-ac2aef7d89cb" data-file-name="components/CompanyProfileForm.tsx">
+                <Briefcase className="h-4 w-4 mr-2 text-blue-600" /><span className="editable-text" data-unique-id="3f4f3ff3-cac2-4ccc-bbd1-a3a5cbcbeadd" data-file-name="components/CompanyProfileForm.tsx">
                 Industry Sector
-              </label>
-              <input {...register("industry")} type="text" className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="e.g. Technology, Healthcare, Finance" data-unique-id="685fc49c-b9f8-437a-a80c-e6c2fd08bc33" data-loc="116:14-121:16" data-file-name="components/CompanyProfileForm.tsx" />
-              {errors.industry && <p className="mt-1 text-sm text-red-600" data-unique-id="da817e99-fbe2-489c-a051-34c9f64629a7" data-loc="123:16-123:57" data-file-name="components/CompanyProfileForm.tsx">{errors.industry.message}</p>}
+              </span></label>
+              <input {...register("industry")} type="text" className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="e.g. Technology, Healthcare, Finance" data-unique-id="e289f445-905f-4b53-aeff-28db5c9eecc1" data-file-name="components/CompanyProfileForm.tsx" />
+              {errors.industry && <p className="mt-1 text-sm text-red-600" data-unique-id="bc61ba8e-3b59-4e7b-a560-c7cf34bd9352" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">{errors.industry.message}</p>}
             </div>
           </div>
 
-          <div data-unique-id="13c1eb02-daf1-4c8b-b4b9-1be75469da17" data-loc="128:10-128:15" data-file-name="components/CompanyProfileForm.tsx">
-            <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="67870eb1-cc51-4a9c-922b-dcd4c1b0a767" data-loc="129:12-129:89" data-file-name="components/CompanyProfileForm.tsx">
-              <FileText className="h-4 w-4 mr-2 text-blue-600" />
+          <div data-unique-id="645ee7d2-8be0-4204-9127-f3a76370c709" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">
+            <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="ab13fcd7-2285-4b03-95c4-00acbab8c4d9" data-file-name="components/CompanyProfileForm.tsx">
+              <FileText className="h-4 w-4 mr-2 text-blue-600" /><span className="editable-text" data-unique-id="5fe364ac-2060-4139-9d13-951596ce9655" data-file-name="components/CompanyProfileForm.tsx">
               Brief Description
-            </label>
-            <textarea {...register("description")} rows={3} className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Describe your company's products or services" data-unique-id="51a5ece8-c98f-477a-9c17-bda2f2dc5432" data-loc="133:12-138:13" data-file-name="components/CompanyProfileForm.tsx"></textarea>
-            {errors.description && <p className="mt-1 text-sm text-red-600" data-unique-id="d3e54990-a0b2-4da9-9705-ed30bde1a109" data-loc="140:14-140:55" data-file-name="components/CompanyProfileForm.tsx">{errors.description.message}</p>}
+            </span></label>
+            <textarea {...register("description")} rows={3} className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Describe your company's products or services" data-unique-id="30de22dd-a60b-4e2a-b321-e69527e3d82c" data-file-name="components/CompanyProfileForm.tsx"></textarea>
+            {errors.description && <p className="mt-1 text-sm text-red-600" data-unique-id="5d27722e-d76b-4dca-a4f0-9a7e4116e525" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">{errors.description.message}</p>}
           </div>
 
-          <div data-unique-id="7f6a0ef6-e885-4cac-9462-8852dc750c0f" data-loc="144:10-144:15" data-file-name="components/CompanyProfileForm.tsx">
-            <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="d8fed9d4-d8f3-4276-805b-73465f53230d" data-loc="145:12-145:89" data-file-name="components/CompanyProfileForm.tsx">
-              <Eye className="h-4 w-4 mr-2 text-blue-600" />
+          <div data-unique-id="4e66d4cb-cc31-4ea0-9f08-8f60a4cd2874" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">
+            <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="8071fbf0-8b1f-47b4-ad8e-c9513669c3f1" data-file-name="components/CompanyProfileForm.tsx">
+              <Eye className="h-4 w-4 mr-2 text-blue-600" /><span className="editable-text" data-unique-id="89bd9655-cef9-44cf-acb6-309829cbbc8c" data-file-name="components/CompanyProfileForm.tsx">
               Vision Statement
-            </label>
-            <textarea {...register("vision")} rows={2} className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your company's vision for the future" data-unique-id="7afc828f-eb99-42b5-bc87-dd30f22efaa4" data-loc="149:12-154:13" data-file-name="components/CompanyProfileForm.tsx"></textarea>
-            {errors.vision && <p className="mt-1 text-sm text-red-600" data-unique-id="c8cb03d9-57fd-445c-b832-2f6f015675dc" data-loc="156:14-156:55" data-file-name="components/CompanyProfileForm.tsx">{errors.vision.message}</p>}
+            </span></label>
+            <textarea {...register("vision")} rows={2} className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your company's vision for the future" data-unique-id="7ad8e28c-08dc-445d-88f2-1048d3d8d49b" data-file-name="components/CompanyProfileForm.tsx"></textarea>
+            {errors.vision && <p className="mt-1 text-sm text-red-600" data-unique-id="3b52fc85-c3ef-40ce-a5bd-26140fffdc14" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">{errors.vision.message}</p>}
           </div>
 
-          <div data-unique-id="8d52d768-84d8-4795-8a53-f14c0341bee5" data-loc="160:10-160:15" data-file-name="components/CompanyProfileForm.tsx">
-            <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="53f78b9f-bc2d-4520-adde-3e2c6e4cecc3" data-loc="161:12-161:89" data-file-name="components/CompanyProfileForm.tsx">
-              <Target className="h-4 w-4 mr-2 text-blue-600" />
+          <div data-unique-id="12e387b9-6f4a-49c5-b161-f2aeba019064" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">
+            <label className="flex items-center text-sm font-medium text-slate-700 mb-1" data-unique-id="adb24f25-0af0-4eef-852d-c28eb100b603" data-file-name="components/CompanyProfileForm.tsx">
+              <Target className="h-4 w-4 mr-2 text-blue-600" /><span className="editable-text" data-unique-id="09810510-d53b-4f20-97b9-816f66f96e84" data-file-name="components/CompanyProfileForm.tsx">
               Mission Statement
-            </label>
-            <textarea {...register("mission")} rows={2} className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your company's purpose and goals" data-unique-id="0786c025-c24d-493c-8641-c51803b50626" data-loc="165:12-170:13" data-file-name="components/CompanyProfileForm.tsx"></textarea>
-            {errors.mission && <p className="mt-1 text-sm text-red-600" data-unique-id="11959119-968e-4154-a1f4-eff33dfc1df1" data-loc="172:14-172:55" data-file-name="components/CompanyProfileForm.tsx">{errors.mission.message}</p>}
+            </span></label>
+            <textarea {...register("mission")} rows={2} className="w-full p-3 border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your company's purpose and goals" data-unique-id="32b38f71-f65c-4f01-b7a2-6d369d21fcc6" data-file-name="components/CompanyProfileForm.tsx"></textarea>
+            {errors.mission && <p className="mt-1 text-sm text-red-600" data-unique-id="6f10f7b6-16cf-4ab8-a0d7-e941628f092f" data-file-name="components/CompanyProfileForm.tsx" data-dynamic-text="true">{errors.mission.message}</p>}
           </div>
         </div>
 
-        <div className="pt-4" data-unique-id="109f5f90-c691-4f21-91b2-001cb4d154e8" data-loc="177:8-177:30" data-file-name="components/CompanyProfileForm.tsx">
-          <button type="submit" className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors" data-unique-id="8aec8f43-578b-4790-b38d-78f5d479dfbc" data-loc="178:10-181:11" data-file-name="components/CompanyProfileForm.tsx">
+        <div className="pt-4" data-unique-id="86a8d001-a19f-4b52-bb1c-da044c5a1d1f" data-file-name="components/CompanyProfileForm.tsx">
+          <button type="submit" className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors" data-unique-id="7b017836-c68e-49bb-bef5-a09699767290" data-file-name="components/CompanyProfileForm.tsx"><span className="editable-text" data-unique-id="69119157-c4fb-4135-a38a-007c78f35933" data-file-name="components/CompanyProfileForm.tsx">
             Save & Continue
-          </button>
+          </span></button>
         </div>
       </form>
     </motion.div>;

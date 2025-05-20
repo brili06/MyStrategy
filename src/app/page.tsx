@@ -85,22 +85,22 @@ export default function HomePage() {
     setProjectData(data);
     setShowLanding(false);
   };
-  return <div className="min-h-screen bg-[#f8fafc]" data-unique-id="4bc803d9-2368-4cac-a39f-0ecc4a48ae4a" data-loc="95:4-95:47" data-file-name="app/page.tsx">
-      <header className="bg-white shadow-sm border-b border-slate-200 py-6" data-unique-id="37c64766-698d-4e60-b3e3-aacf378dbdff" data-loc="96:6-96:76" data-file-name="app/page.tsx">
-        <div className="container mx-auto px-6" data-unique-id="11df79ed-6329-45d5-9ca9-8815740a749a" data-loc="97:8-97:48" data-file-name="app/page.tsx">
-          <h1 className="text-3xl font-bold text-slate-800" data-unique-id="33ba7f8f-d0a1-45a6-a3a7-8afa2efef3b1" data-loc="98:10-98:60" data-file-name="app/page.tsx">Strategic Management Assistant</h1>
-          <p className="text-slate-500 mt-2" data-unique-id="ae27a52d-b242-439c-8cc0-0fdab0d7a07b" data-loc="99:10-99:45" data-file-name="app/page.tsx">From Company Profiling to IE Matrix Generation</p>
+  return <div className="min-h-screen bg-[#f8fafc]" data-unique-id="3375cf66-aef9-4c43-95a6-5ebc87af135b" data-file-name="app/page.tsx">
+      <header className="bg-white shadow-sm border-b border-slate-200 py-6" data-unique-id="59bfaa88-1cc3-48cc-8b7b-525e76c68b9d" data-file-name="app/page.tsx">
+        <div className="container mx-auto px-6" data-unique-id="0a387dd1-ce6d-470e-8385-d8d0b03cdd08" data-file-name="app/page.tsx">
+          <h1 className="text-3xl font-bold text-slate-800" data-unique-id="c0142381-e3b2-49a2-a53e-084e545255da" data-file-name="app/page.tsx"><span className="editable-text" data-unique-id="4e6255cd-a1d3-41e0-86b8-07287cc79abb" data-file-name="app/page.tsx">Strategic Management Assistant</span></h1>
+          <p className="text-slate-500 mt-2" data-unique-id="b4b36e9d-c1d8-4ed9-ac21-5ddf80ed7b2b" data-file-name="app/page.tsx"><span className="editable-text" data-unique-id="54d382ec-a553-4baf-8834-0f1ae5591189" data-file-name="app/page.tsx">From Company Profiling to IE Matrix Generation</span></p>
         </div>
       </header>
       
-      <main className="container mx-auto px-6 py-8" data-unique-id="c4e0aff8-a8fa-4084-adad-263481766820" data-loc="103:6-103:52" data-file-name="app/page.tsx">
+      <main className="container mx-auto px-6 py-8" data-unique-id="9878516d-d625-443a-be0f-c0af73c53d1a" data-file-name="app/page.tsx" data-dynamic-text="true">
         {showLanding ? <LandingPage onNewAnalysis={handleNewAnalysis} onOpenProject={handleOpenProject} /> : <MatrixAnalysisTool initialData={projectData} />}
       </main>
       
-      <footer className="bg-white border-t border-slate-200 py-6 mt-12" data-unique-id="ac4e529b-1859-4d67-8baa-6bd88eff6ffb" data-loc="114:6-114:72" data-file-name="app/page.tsx">
-        <div className="container mx-auto px-6 text-center text-slate-500" data-unique-id="e5abf817-a2c8-44ae-9192-4b08cedba2f5" data-loc="115:8-115:75" data-file-name="app/page.tsx">
+      <footer className="bg-white border-t border-slate-200 py-6 mt-12" data-unique-id="9bda3c60-958e-4679-a31e-dbd878d29da8" data-file-name="app/page.tsx">
+        <div className="container mx-auto px-6 text-center text-slate-500" data-unique-id="6c9a267e-62c4-4fe2-9782-1adc5307018a" data-file-name="app/page.tsx"><span className="editable-text" data-unique-id="6491278d-1b6d-4ab6-9818-8e11927d38ed" data-file-name="app/page.tsx">
           &copy; 2025 – This system is owned by Brilian Setia | All rights reserved.
-        </div>
+        </span></div>
       </footer>
     </div>;
 }

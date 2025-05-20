@@ -61,23 +61,23 @@ export default function ScoreInterpretation({
     y: 0
   }} transition={{
     duration: 0.5
-  }} className="bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="c6119123-6b3f-4b66-97ef-dc7ee4c3f2cd" data-loc="57:4-62:5" data-file-name="components/ScoreInterpretation.tsx">
-      <h3 className="text-xl font-semibold text-slate-800 mb-4" data-unique-id="dcbb4096-5c75-4c90-9b71-f2340fe7c2e5" data-loc="63:6-63:64" data-file-name="components/ScoreInterpretation.tsx">Score Analysis</h3>
+  }} className="bg-white border border-slate-200 rounded-xl shadow-sm p-5" data-unique-id="748b6c26-56be-400d-98ea-10c21e7d5f05" data-file-name="components/ScoreInterpretation.tsx">
+      <h3 className="text-xl font-semibold text-slate-800 mb-4" data-unique-id="a77fa92d-5f7f-4fbf-9a22-c1ba9382dbc4" data-file-name="components/ScoreInterpretation.tsx"><span className="editable-text" data-unique-id="b73eb5c0-db6f-4dc5-9314-65ef77a60957" data-file-name="components/ScoreInterpretation.tsx">Score Analysis</span></h3>
       
-      <div className="flex items-center space-x-2 mb-6" data-unique-id="57f01b92-faad-4982-a623-81e6fe2a2d10" data-loc="65:6-65:56" data-file-name="components/ScoreInterpretation.tsx">
-        <div className="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center" data-unique-id="efb5b040-a01a-4ab6-a497-824e42112408" data-loc="66:8-66:94" data-file-name="components/ScoreInterpretation.tsx">
-          <span className="text-xl font-bold" data-unique-id="1ee24e11-0b23-4d20-940e-273536602568" data-loc="67:10-67:46" data-file-name="components/ScoreInterpretation.tsx">{score.toFixed(2)}</span>
+      <div className="flex items-center space-x-2 mb-6" data-unique-id="1640bf52-1041-4518-b596-c86a94ec17d7" data-file-name="components/ScoreInterpretation.tsx">
+        <div className="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center" data-unique-id="d34e1655-7f39-4600-9093-cc7694a0ea41" data-file-name="components/ScoreInterpretation.tsx">
+          <span className="text-xl font-bold" data-unique-id="d177b1ff-d24b-434c-b9eb-96589763decc" data-file-name="components/ScoreInterpretation.tsx" data-dynamic-text="true">{score.toFixed(2)}</span>
         </div>
-        <div className="flex-1" data-unique-id="72b6c1ef-176a-4b95-851d-5ba5d1cb9d36" data-loc="69:8-69:32" data-file-name="components/ScoreInterpretation.tsx">
-          <h4 className={`text-lg font-medium flex items-center gap-2 ${color}`} data-unique-id="9e7e648b-4257-4613-9279-82e2161362d9" data-loc="70:10-70:81" data-file-name="components/ScoreInterpretation.tsx">
+        <div className="flex-1" data-unique-id="1fe16851-c1c4-415b-95d7-5e081a74fc42" data-file-name="components/ScoreInterpretation.tsx">
+          <h4 className={`text-lg font-medium flex items-center gap-2 ${color}`} data-unique-id="27bec937-0a73-43c7-9f77-a36d28f90e09" data-file-name="components/ScoreInterpretation.tsx" data-dynamic-text="true">
             {icon}
-            <span data-unique-id="70a8f116-9e61-44f7-9aec-c6509dc749af" data-loc="72:12-72:18" data-file-name="components/ScoreInterpretation.tsx">{type === "ife" ? "Internal Factor" : "External Factor"} Score</span>
+            <span data-unique-id="f9f2fa7c-68be-49bb-86ba-a27a48c3e5f9" data-file-name="components/ScoreInterpretation.tsx" data-dynamic-text="true">{type === "ife" ? "Internal Factor" : "External Factor"}<span className="editable-text" data-unique-id="07d7bcb3-a880-4fb7-bd93-9961a2ddc5b6" data-file-name="components/ScoreInterpretation.tsx"> Score</span></span>
           </h4>
-          <p className="text-slate-600 mt-1" data-unique-id="c73f9aa9-fe50-4c73-a003-09d155d5ed7a" data-loc="74:10-74:45" data-file-name="components/ScoreInterpretation.tsx">{interpretation}</p>
+          <p className="text-slate-600 mt-1" data-unique-id="c5443f7b-236d-4b7a-88e4-8d12690e00a7" data-file-name="components/ScoreInterpretation.tsx" data-dynamic-text="true">{interpretation}</p>
         </div>
       </div>
       
-      <div className="h-52 mt-6" data-unique-id="f00f4391-66ad-4d57-9def-bd1e71432d0c" data-loc="78:6-78:33" data-file-name="components/ScoreInterpretation.tsx">
+      <div className="h-52 mt-6" data-unique-id="f0ba41eb-734a-4388-bb9a-78c359ef2424" data-file-name="components/ScoreInterpretation.tsx">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={chartData} margin={{
           top: 5,
@@ -96,34 +96,34 @@ export default function ScoreInterpretation({
             borderRadius: "0.5rem"
           }} />
             <Bar dataKey="score" maxBarSize={80}>
-              {chartData.map((entry, index) => <Cell key={`cell-${index}`} fill={getBarColor(entry.score)} />)}
+              {chartData.map((entry, index) => <Cell key={`cell-${index}`} fill={getBarColor(entry.score)} data-unique-id="3e266422-70ee-400e-a182-060c6900113a" data-file-name="components/ScoreInterpretation.tsx" data-dynamic-text="true" />)}
             </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>
       
-      <div className="mt-4 bg-slate-50 p-3 rounded-lg" data-unique-id="6ddc4e8d-fba1-487f-bef0-6a88c7c9d6f6" data-loc="106:6-106:55" data-file-name="components/ScoreInterpretation.tsx">
-        <div className="text-xs text-slate-500 mb-2" data-unique-id="b23043e8-73ec-480d-bf15-7292a8675959" data-loc="107:8-107:53" data-file-name="components/ScoreInterpretation.tsx">Score Range Interpretation:</div>
-        <div className="grid grid-cols-5 gap-2" data-unique-id="044166db-05c2-4dab-9d30-4e8f10c86bce" data-loc="108:8-108:48" data-file-name="components/ScoreInterpretation.tsx">
-          <div className="flex flex-col items-center" data-unique-id="9678f40e-c948-4756-b52d-63c2027ac4ef" data-loc="109:10-109:54" data-file-name="components/ScoreInterpretation.tsx">
-            <div className="w-full h-2 bg-orange-500 rounded-full" data-unique-id="92d84bd1-ccb8-4389-81c8-b10c5dde5348" data-loc="110:12-110:67" data-file-name="components/ScoreInterpretation.tsx"></div>
-            <div className="text-xs mt-1 text-center" data-unique-id="601151c1-2427-4086-ba6d-a7c9422d01d2" data-loc="111:12-111:54" data-file-name="components/ScoreInterpretation.tsx">1.0-1.99<br data-unique-id="d0b991b3-1bc0-420d-a5c3-7c58f38cd8de" data-loc="111:62-111:67" data-file-name="components/ScoreInterpretation.tsx" />Weak</div>
+      <div className="mt-4 bg-slate-50 p-3 rounded-lg" data-unique-id="2638b817-e9de-4993-aa16-d52617dfc5c8" data-file-name="components/ScoreInterpretation.tsx">
+        <div className="text-xs text-slate-500 mb-2" data-unique-id="307cf25b-38bb-457d-9f8a-de7774a6d3fb" data-file-name="components/ScoreInterpretation.tsx"><span className="editable-text" data-unique-id="c84f0e24-2428-49c6-94c3-0c68251ebf54" data-file-name="components/ScoreInterpretation.tsx">Score Range Interpretation:</span></div>
+        <div className="grid grid-cols-5 gap-2" data-unique-id="0a2392e5-02d9-43be-96ab-be2cfa7651d9" data-file-name="components/ScoreInterpretation.tsx">
+          <div className="flex flex-col items-center" data-unique-id="65a3a01f-b935-444c-96ba-2459c116997a" data-file-name="components/ScoreInterpretation.tsx">
+            <div className="w-full h-2 bg-orange-500 rounded-full" data-unique-id="796c7172-87ed-473b-bdb0-92c01dff6e64" data-file-name="components/ScoreInterpretation.tsx"></div>
+            <div className="text-xs mt-1 text-center" data-unique-id="168a93ee-4990-42c5-8a1f-8d93fa1e68ae" data-file-name="components/ScoreInterpretation.tsx"><span className="editable-text" data-unique-id="7db162c3-cb40-4131-a22f-a02f08efb4d7" data-file-name="components/ScoreInterpretation.tsx">1.0-1.99</span><br data-unique-id="84389552-d0ae-439b-bc57-fc37038fc68a" data-file-name="components/ScoreInterpretation.tsx" /><span className="editable-text" data-unique-id="109d8793-7228-4082-9277-4f132fa192e0" data-file-name="components/ScoreInterpretation.tsx">Weak</span></div>
           </div>
-          <div className="flex flex-col items-center" data-unique-id="60497f43-c322-4399-ae83-d002ba142697" data-loc="113:10-113:54" data-file-name="components/ScoreInterpretation.tsx">
-            <div className="w-full h-2 bg-yellow-500 rounded-full" data-unique-id="1cfb78c0-042f-4d0f-972b-ee9569cd20a0" data-loc="114:12-114:67" data-file-name="components/ScoreInterpretation.tsx"></div>
-            <div className="text-xs mt-1 text-center" data-unique-id="0e1c6f55-b0b3-44b2-88f1-632097cedc23" data-loc="115:12-115:54" data-file-name="components/ScoreInterpretation.tsx">2.0-2.49<br data-unique-id="60c97c9a-2826-42c8-85c7-4e5b8fae980b" data-loc="115:62-115:67" data-file-name="components/ScoreInterpretation.tsx" />Below Avg.</div>
+          <div className="flex flex-col items-center" data-unique-id="1c7a0477-4c78-435c-8d8a-03919dcaeab3" data-file-name="components/ScoreInterpretation.tsx">
+            <div className="w-full h-2 bg-yellow-500 rounded-full" data-unique-id="0eefd150-121c-42c8-a6c8-d0b08e373b78" data-file-name="components/ScoreInterpretation.tsx"></div>
+            <div className="text-xs mt-1 text-center" data-unique-id="c18caeb0-7c77-46aa-9e0f-97d49248c206" data-file-name="components/ScoreInterpretation.tsx"><span className="editable-text" data-unique-id="0282ec1a-7b8d-4e03-91f9-8b2748a7832f" data-file-name="components/ScoreInterpretation.tsx">2.0-2.49</span><br data-unique-id="8cf43a21-ef35-4f62-9721-467b88170e58" data-file-name="components/ScoreInterpretation.tsx" /><span className="editable-text" data-unique-id="5ac1d80d-41e2-4bb3-8d5a-0ca9f1b65411" data-file-name="components/ScoreInterpretation.tsx">Below Avg.</span></div>
           </div>
-          <div className="flex flex-col items-center" data-unique-id="e79d9a9f-1395-4401-a2b1-212dcd95a738" data-loc="117:10-117:54" data-file-name="components/ScoreInterpretation.tsx">
-            <div className="w-full h-2 bg-blue-500 rounded-full" data-unique-id="0a532a7f-20f0-4b51-93b5-4641cd3e08fa" data-loc="118:12-118:65" data-file-name="components/ScoreInterpretation.tsx"></div>
-            <div className="text-xs mt-1 text-center" data-unique-id="a2d7f1c8-f355-45eb-91d1-1b35475a1470" data-loc="119:12-119:54" data-file-name="components/ScoreInterpretation.tsx">2.5-2.99<br data-unique-id="ed2cf47e-ff9d-48d7-83d1-6ed94b44db01" data-loc="119:62-119:67" data-file-name="components/ScoreInterpretation.tsx" />Average</div>
+          <div className="flex flex-col items-center" data-unique-id="87d591df-4246-476f-99af-f6cbe76a21b9" data-file-name="components/ScoreInterpretation.tsx">
+            <div className="w-full h-2 bg-blue-500 rounded-full" data-unique-id="77322ed8-9f1f-4412-8b17-a9518044828f" data-file-name="components/ScoreInterpretation.tsx"></div>
+            <div className="text-xs mt-1 text-center" data-unique-id="0b9edd21-1cb0-4bc8-8f1b-394acdec110c" data-file-name="components/ScoreInterpretation.tsx"><span className="editable-text" data-unique-id="55acf52b-f3a3-4d74-868a-003a2aee9535" data-file-name="components/ScoreInterpretation.tsx">2.5-2.99</span><br data-unique-id="ca474ae9-7ef7-4c24-b1fd-b404e867ff92" data-file-name="components/ScoreInterpretation.tsx" /><span className="editable-text" data-unique-id="185e94cd-56e0-466e-b848-262aba569408" data-file-name="components/ScoreInterpretation.tsx">Average</span></div>
           </div>
-          <div className="flex flex-col items-center" data-unique-id="7fd4b4a8-2065-497b-99b6-78dc62cd6d23" data-loc="121:10-121:54" data-file-name="components/ScoreInterpretation.tsx">
-            <div className="w-full h-2 bg-green-400 rounded-full" data-unique-id="e17b1101-9dfb-495d-b35a-f439cc6fac48" data-loc="122:12-122:66" data-file-name="components/ScoreInterpretation.tsx"></div>
-            <div className="text-xs mt-1 text-center" data-unique-id="e3be97b6-0f9e-44e6-a73a-f4dc25387117" data-loc="123:12-123:54" data-file-name="components/ScoreInterpretation.tsx">3.0-3.49<br data-unique-id="c426ea49-9178-4c09-b9be-2e026287c77d" data-loc="123:62-123:67" data-file-name="components/ScoreInterpretation.tsx" />Above Avg.</div>
+          <div className="flex flex-col items-center" data-unique-id="83569653-4922-446a-8317-ff047b7c3f59" data-file-name="components/ScoreInterpretation.tsx">
+            <div className="w-full h-2 bg-green-400 rounded-full" data-unique-id="0e348618-347b-4e4c-88b3-97647cc7e56b" data-file-name="components/ScoreInterpretation.tsx"></div>
+            <div className="text-xs mt-1 text-center" data-unique-id="e36e97fe-26fa-493a-88cc-221b07815222" data-file-name="components/ScoreInterpretation.tsx"><span className="editable-text" data-unique-id="1599b7ad-8cd8-4dba-81c3-c99ebbab4208" data-file-name="components/ScoreInterpretation.tsx">3.0-3.49</span><br data-unique-id="7d5c7503-5d10-407b-bf07-04b96f865155" data-file-name="components/ScoreInterpretation.tsx" /><span className="editable-text" data-unique-id="4e8343cb-5c94-41fd-8b34-eceb5865da45" data-file-name="components/ScoreInterpretation.tsx">Above Avg.</span></div>
           </div>
-          <div className="flex flex-col items-center" data-unique-id="25e2363b-99ca-4ce8-9996-5960a051cdad" data-loc="125:10-125:54" data-file-name="components/ScoreInterpretation.tsx">
-            <div className="w-full h-2 bg-green-600 rounded-full" data-unique-id="7430363d-bafa-4cda-909c-936ed4ea6f8b" data-loc="126:12-126:66" data-file-name="components/ScoreInterpretation.tsx"></div>
-            <div className="text-xs mt-1 text-center" data-unique-id="d154228e-e0fc-48ce-9073-e1959ae02455" data-loc="127:12-127:54" data-file-name="components/ScoreInterpretation.tsx">3.5-4.0<br data-unique-id="59351778-8347-4d8f-acb4-684e0855f05b" data-loc="127:61-127:66" data-file-name="components/ScoreInterpretation.tsx" />Strong</div>
+          <div className="flex flex-col items-center" data-unique-id="dfbb4851-fddc-4bae-819e-abb15971fb86" data-file-name="components/ScoreInterpretation.tsx">
+            <div className="w-full h-2 bg-green-600 rounded-full" data-unique-id="fe406f78-39bb-406f-984c-730a2fba7d5b" data-file-name="components/ScoreInterpretation.tsx"></div>
+            <div className="text-xs mt-1 text-center" data-unique-id="e1296cdd-9677-4311-adad-09f345ba09fb" data-file-name="components/ScoreInterpretation.tsx"><span className="editable-text" data-unique-id="c09aed1c-4fbd-4a19-bd61-3ca01f62ea4c" data-file-name="components/ScoreInterpretation.tsx">3.5-4.0</span><br data-unique-id="b97a12a1-2b5d-49c0-828b-bd69d1cefbdc" data-file-name="components/ScoreInterpretation.tsx" /><span className="editable-text" data-unique-id="5251557b-c4e1-4e1d-a379-83ef7bc559f9" data-file-name="components/ScoreInterpretation.tsx">Strong</span></div>
           </div>
         </div>
       </div>
