@@ -362,7 +362,27 @@ export default function SwotMatrixStrategies({
       });
       try {
         // Call the AI service through the util.ts proxy
-        const result = await generateText(prompt, selectedModel);
+        // Panggil API Route internal Anda yang baru
+const response = await fetch('/api/generate', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  // Kirim prompt dan nama model yang ingin digunakan
+  body: JSON.stringify({ 
+    prompt: prompt, 
+    model: "gemini-1.5-pro" // Kita gunakan Gemini 1.5 Pro
+  }),
+});
+
+if (!response.ok) {
+  // Jika terjadi error di backend, tampilkan pesannya
+  const errorData = await response.json();
+  throw new Error(errorData.error || 'Panggilan ke API gagal');
+}
+
+// Ambil hasil teks dari respons JSON
+const result = await response.json();
         if (!result || !result.text) {
           throw new Error("Received empty response from AI service");
         }
@@ -567,7 +587,27 @@ export default function SwotMatrixStrategies({
       });
       try {
         // Call the AI service through the util.ts proxy
-        const result = await generateText(prompt, selectedModel);
+        // Panggil API Route internal Anda yang baru
+const response = await fetch('/api/generate', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  // Kirim prompt dan nama model yang diinginkan
+  body: JSON.stringify({ 
+    prompt: prompt, 
+    model: "gemini-1.5-pro" // Kita gunakan Gemini 1.5 Pro
+  }),
+});
+
+if (!response.ok) {
+  // Jika terjadi error di backend, tampilkan pesannya
+  const errorData = await response.json();
+  throw new Error(errorData.error || 'Panggilan ke API gagal');
+}
+
+// Ambil hasil teks dari respons JSON
+const result = await response.json();
         if (!result || !result.text) {
           throw new Error("Received empty response from AI service");
         }
